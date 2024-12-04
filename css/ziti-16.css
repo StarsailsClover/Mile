@@ -1,0 +1,167 @@
+
+@font-face {
+    font-family: Radnika-Medium;
+    src: url(../font/Radnika-Medium.ttf) format('truetype'),url(../font/Radnika-Medium.eot),url(../font/Radnika-Medium.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Radnika-Bold;
+    src: url(../font/Radnika-Bold.ttf) format('truetype'),url(../font/Radnika-Bold.eot),url(../font/Radnika-Bold.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: iconfont;
+    src: url(../t/c/font_1701371_s56tnb1nqag.woff2) format('woff2'),url(../t/c/font_1701371_s56tnb1nqag.woff) format('woff'),url(../t/c/font_1701371_s56tnb1nqag.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: iconfont;
+    src: url(../t/c/font_1701371_s56tnb1nqag.woff2) format('woff2'),url(../t/c/font_1701371_s56tnb1nqag.woff) format('woff'),url(../t/c/font_1701371_s56tnb1nqag.ttf) format('truetype')
+}
+
+.iconfont {
+    font-family: iconfont!important;
+    font-size: 20px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-you:before {
+    content: "\e60c"
+}
+
+.icon-you1:before {
+    content: "\e77d"
+}
+
+.icon-vk:before {
+    content: "\e863"
+}
+
+.icon-tiktok:before {
+    content: "\ecdc"
+}
+
+.icon-troubleshooting:before {
+    content: "\e606"
+}
+
+.icon-position:before {
+    content: "\e648"
+}
+
+.icon-hotline:before {
+    content: "\e605"
+}
+
+.icon-email:before {
+    content: "\e62a"
+}
+
+.icon-tel:before {
+    content: "\e60b"
+}
+
+.icon-folder:before {
+    content: "\e6ac"
+}
+
+.icon-verify:before {
+    content: "\e7a2"
+}
+
+.icon-service:before {
+    content: "\e70d"
+}
+
+.icon-faq:before {
+    content: "\e60a"
+}
+
+.icon-play:before {
+    content: "\e737"
+}
+
+.icon-download:before {
+    content: "\e689"
+}
+
+.icon-factory:before {
+    content: "\e802"
+}
+
+.icon-design:before {
+    content: "\e644"
+}
+
+.icon-tech:before {
+    content: "\e715"
+}
+
+.icon-x:before {
+    content: "\e6a4"
+}
+
+.icon-user:before {
+    content: "\e60e"
+}
+
+.icon-arrow-b:before {
+    content: "\e791"
+}
+
+.icon-arrow-t:before {
+    content: "\e692"
+}
+
+.icon-arrow-l:before {
+    content: "\e792"
+}
+
+.icon-arrow-r:before {
+    content: "\e794"
+}
+
+.icon-menu:before {
+    content: "\e790"
+}
+
+.icon-tuite:before {
+    content: "\e652"
+}
+
+.icon-youtube:before {
+    content: "\e711"
+}
+
+.icon-instagram:before {
+    content: "\e736"
+}
+
+.icon-facebook:before {
+    content: "\e601"
+}
+
+.icon-shop:before {
+    content: "\e604"
+}
+
+.icon-home:before {
+    content: "\e672"
+}
+
+.footer-copy-right b{
+    font-family: HarmonyOS_Sans_SC_Regular;
+    font-size:12px;
+}
+
+.address-list{
+    font-family: 'HarmonyOS_Sans_SC_Regular';
+}

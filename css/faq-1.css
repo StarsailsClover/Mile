@@ -1,0 +1,251 @@
+.faq{
+    background:black;
+    padding:0 0 4rem;
+    font-family:'S-Medium';
+    color:white;
+    text-align:center;
+}
+.faq_title{
+    position:relative;
+}
+.faq_title div{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:2.5rem;
+    font-family:'S-Medium';
+    line-height:1;
+}
+.faq_title div span{
+    width:65%;
+    margin:1rem auto 0;
+    font-size:1.2rem;
+    line-height:1.2;
+    display:block;
+    font-family:'S-Regular'
+}
+.faq_content{
+    width:75rem;
+    display:flex;
+    margin:3rem auto 0;
+    justify-content:space-between;
+}
+.fc_left{
+    border-radius:1rem;
+    width:24%;
+    background:#f5f5f7;
+    padding:3rem 1.5rem;
+    height:17.5rem;
+}
+.fc_right{
+    width:74%;
+    border-radius:1rem;
+    background:#f5f5f7;
+    min-height:40rem;
+    padding:3rem;
+    color:#333;
+    margin-left:15px;
+}
+.fcl_item{
+    font-size:1.5rem;
+    text-align:center;
+    cursor:pointer;
+    border-radius:0.5rem;
+    padding:1rem 0;
+}
+.fc_left .fcl_item:nth-child(1){
+    color:#000;
+}
+.fr_item{
+    font-size:1.5rem;
+    padding:1rem 0;
+}
+.fr_title{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size:1.3rem;
+    cursor:pointer;
+}
+.fri_right{
+    position:relative;
+    height:1rem;
+    display:flex;
+    align-items:center;
+}
+.fri_line{
+    width:1rem;
+    height:1rem;
+    background:rgba(0,0,0,0);
+}
+.fri_line::after{
+    content:'';
+    width:1rem;
+    height:1px;
+    background:white;
+    transition:all 0.3s;
+    position:absolute;
+    top:0.5rem;
+    left:0;
+}
+.fri_line::before{
+    content:'';
+    position:absolute;
+    height:1px;
+    width:1rem;
+    background:white;
+    top:0.5rem;
+    left:0;
+    transition:all 0.3s;
+    transform:rotate(90deg);
+}
+.fri_active.fri_line::after{
+    transform:rotate(45deg)
+}
+.fri_active.fri_line::before{
+    transform:rotate(135deg);
+}
+.fr_text{
+    color:#777;
+    line-height:1.8;
+    font-size:1rem;
+    text-align:left;
+    height:0;
+    transition:all 0.5s;
+    overflow:hidden;
+    /* padding-left:1rem; */
+}
+.fr_img{
+    width:90%;
+    margin-top:1rem;
+}
+.fr_text span{
+    display:block;
+    padding-left:1rem;
+}
+.fr_text span:nth-child(1),.fr_text p:nth-child(1){
+    margin-top:1rem;
+}
+.fr_text span::before{
+    margin-left:-1rem;
+    display:inline-block;
+    width:1rem;
+}
+.fr_text2{
+    color:#777;
+    line-height:1.5;
+    font-size:0.875rem;
+    text-align:left;
+    transition:all 0.5s;
+    overflow:hidden;
+}
+.fr_items{
+    display:none;
+}
+.fr_items:nth-child(1){
+    display:block;
+}
+.frt_border_active{
+    position: fixed;
+    top: 0rem;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 999;
+    height: 100vh;
+}
+.frt_border_active .fr_img{
+    width: 80%;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+.fr_subtitle{
+    font-size:1.5rem;
+    margin-bottom:1rem;
+    color:red;
+    text-align:left;
+}
+
+
+@media (max-width:750px){
+    .faq_title img{
+        height:9rem;
+        width:auto;
+        margin-left:-100%;
+    }
+    .fr_subtitle{
+        font-size:1rem;
+    }
+    .frt_border_active .fr_img{
+        width:100%;
+    }
+    .faq_title div{
+        font-size:1.5rem;
+        width:90%;
+    }
+    .faq_title div span{
+        margin:0.5rem auto 0;
+        font-size:0.75rem;
+        width:100%;
+    }
+    .faq_content{
+        width:90%;
+        margin:2rem auto 0;
+        display:block;
+        background: #f5f5f7;
+        border-radius: 10px;
+        padding-top: 30px;
+    }
+    .fc_left{
+        border-radius:0.5rem;
+        width:100%;
+        padding:0.5rem 0;
+        display:flex;
+        height:auto;
+        /* margin-bottom:1rem; */
+        justify-content:space-around;
+    }
+    .fcl_item{
+        font-size:1rem;
+        padding:0.5rem;
+        text-align:center;
+    }
+    .fc_right{
+        width: calc(100%);
+        border-radius:0.5rem;
+        min-height:auto;
+        padding: 0rem 1rem;
+        color:#333;
+        margin-left:0px;
+    }
+    .fr_title{
+        font-size:0.875rem;
+        text-align:left;
+    }
+    .fr_title div:nth-child(1){
+        width:90%;
+    }
+    .fri_line{
+        width:1rem !important;
+    }
+    .fr_text{
+        font-size:0.75rem;
+    }
+    .filtered{
+        display: flex;
+    }
+    .type_1 p{
+        display: flex;
+    }
+    .fr_items div p{
+        display: flex;
+    }
+    .type_1 p, .type_2 p, .type_3 p, .type_4 p, .type_5 p, .type_6 p, .type_7 p, .type_8 p, .type_9 p, .type_10 p, .type_A p, .type_B p, .type_C p, .type_D p, .type_E p, .type_F p, .type_I p, .type_G p, .type_H p{
+    	display:flex;
+    	font-family: "HarmonyOS_Sans_SC_Regular";
+    }
+}

@@ -1,0 +1,2718 @@
+﻿<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="api-www/global-elements/global-header/v1/assets/globalheader.css">
+    <link rel="stylesheet" type="text/css" href="ac/globalfooter/8/zh_CN/styles/ac-globalfooter.built.css">
+    
+    <link rel="stylesheet" type="text/css" href="ac/localnav/8/styles/ac-localnav.built-19.css?1674">
+    <link rel="ac:pricing-endpoint" href="index.htm">
+    <link rel="ac:edupricing-endpoint" href="index.htm">
+    <link rel="ac:tradein-endpoint" href="index.htm">
+
+
+	<meta name="Description" content="Ultra Pro Mini">
+	<meta name="keywords" content="">
+	
+	<link rel="stylesheet" href="wss/fonts/1.css">
+	<link rel="stylesheet" href="v/zhuanti/c/built/styles/main.built-19.css?t=3739" type="text/css">
+	<link rel="stylesheet" href="v/zhuanti/c/built/styles/overview.built-19.css?t=8508" type="text/css">
+	<script src="v/zhuanti/c/built/scripts/head.built.js" type="text/javascript" charset="utf-8"></script>
+
+	<link rel="stylesheet" href="wss/fonts/2.css" type="text/css">
+	<link rel="stylesheet" href="global-cn/styles/sfpro-cn.css">
+	<!--[if IE]>
+	<link rel="stylesheet" href="/wss/fonts/1.css" type="text/css">
+	<link rel="stylesheet" href="/global-cn/styles/sfpro-cn-ie.css" />
+	<![endif]-->
+
+	<link rel="stylesheet" href="zhuanti/styles/overview.compare.images.css">
+	<link rel="stylesheet" href="zhuanti/styles/overview.built.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="shortcut icon" href="xxx/favicon.ico" type="image/x-icon">
+</head>
+<body class="page-overview ac-gn-current-watch ac-localnav-overlap globalheader-dark" data-component-list="FocusManager">
+
+    <style>
+		body #ac-globalnav,
+		html #globalnav {
+			top: var(--global-nav-ad-bar-height);
+		}
+		body {
+			border-top: 1px solid transparent;
+			margin-top: -1px;
+			position: relative;
+		}
+		html.oldie body {
+			overflow-x: visible;
+		}
+
+		[data-ac-gn-flyout-open="true"] {
+			--r-gn-topbar-override: var(--r-ac-gn-background-opened);
+			--r-gn-topbar-override-dark: var(--r-ac-gn-background-opened-dark);
+		}
+
+		#ac-localeswitcher {
+			z-index: 10001 !important;
+		}
+
+		.adv-wrapper {
+			--globalmessage-segment-background: rgb(251, 251, 253);
+			--globalmessage-segment-scrim-background: rgba(0, 0, 0, .04);
+			--globalmessage-segment-text-color: rgba(0, 0, 0, .8);
+			--globalmessage-segment-border-color: rgba(0, 0, 0, .16);
+			position: absolute;
+			top: calc(-1 * var(--r-adv-height, 40px));
+			z-index: 10000 !important;
+			background: var(--globalmessage-segment-background);
+			color: var(--globalmessage-segment-text-color);
+			line-height: 1;
+			width: 100%;
+			right: 0;
+			height: var(--r-adv-height, 40px);
+			z-index: 9999;
+		}
+
+		.adv-wrapper:after {
+			position: absolute;
+			top: 0;
+			background: var(--globalmessage-segment-scrim-background);
+			z-index: 1;
+			width: 100%;
+			height: var(--r-adv-height, 40px);
+			content: "";
+		}
+
+		.adv-wrapper-dark {
+			background: var(--r-gn-topbar-override-dark, var(--r-topbar-background-color-dark, var(--r-globalnav-segmentbar-background-color-dark, rgb(22, 22, 23))));
+		}
+
+		.globalheader-dark .adv-wrapper {
+			--globalmessage-segment-background: rgb(22, 22, 23);
+			--globalmessage-segment-scrim-background: rgba(255, 255, 255, .08);
+			--globalmessage-segment-text-color: rgba(255, 255, 255, .92);
+			--globalmessage-segment-border-color: rgba(255, 255, 255, .24);
+		}
+
+		.theme-dark .adv-wrapper {
+			background: var(--r-gn-topbar-override-dark, var(--r-topbar-background-color-dark, var(--r-globalnav-segmentbar-background-color-dark, rgb(22, 22, 23))));
+		}
+
+		.adv-wrapper-dark:after {
+			background: transparent;
+		}
+
+		.globalheader-dark .adv-wrapper:after {
+			background: var(--globalmessage-segment-scrim-background);
+		}
+
+		.theme-dark .adv-wrapper:after {
+			background: var(--globalmessage-segment-scrim-background);
+		}
+
+		.globalmessage-segment-visible .adv-wrapper {
+			position: absolute;
+			top: calc(-1 * var(--r-adv-height, 40px));
+		}
+
+		.globalmessage-segment-visible .macpro-gg .adv-wrapper {
+			top: 0px;
+		}
+
+		.adv-wrapper .adv-wrapper-text {
+			color: rgba(0, 0, 0, 0.8);
+			display: block;
+			line-height: var(--r-adv-height, 40px);
+			overflow: hidden;
+			text-decoration: none;
+			text-overflow: ellipsis;
+			text-align: right;
+			max-width: 980px;
+			margin: 0 auto;
+		}
+
+		.adv-wrapper-dark .adv-wrapper-text {
+			color: rgba(255, 255, 255, 0.92);
+		}
+
+		.globalheader-dark .adv-wrapper .adv-wrapper-text {
+			color: rgba(255, 255, 255, 0.92);
+		}
+
+		.theme-dark .adv-wrapper .adv-wrapper-text {
+			color: rgba(255, 255, 255, 0.92);
+		}
+
+		.globalmessage-segment-visible .adv-wrapper {
+			width: 20%
+		}
+
+		@media only screen and (max-width: 1023px) {
+			.adv-wrapper {
+				min-width: 20%
+			}
+
+			.adv-wrapper .adv-wrapper-text {
+				margin-left: auto;
+				width: auto;
+				padding: 0 22px;
+				position: relative;
+				left: 0;
+				padding-left: calc(max(22px, env(safe-area-inset-left)));
+				padding-right: calc(max(22px, env(safe-area-inset-right)));
+			}
+
+			.globalmessage-segment-visible .adv-wrapper .adv-wrapper-text {
+				width: auto;
+				position: relative;
+				padding: 0 12px;
+				left: -6%;
+				margin: 0;
+			}
+
+			.globalmessage-segment-visible #sonic-automotive.profiles.platter.full-nav.ac-gn-current-iphone .adv-wrapper .adv-wrapper-text,
+			.globalmessage-segment-visible #ducati.profiles.platter.full-nav.ac-gn-current-iphone .adv-wrapper .adv-wrapper-text,
+			.globalmessage-segment-visible #mayo-clinic.profiles.platter.ac-gn-current-iphone.full-nav .adv-wrapper .adv-wrapper-text {
+				left: -27%;
+			}
+		}
+
+		@media only screen and (max-width: 767px) {
+			.adv-wrapper .adv-wrapper-text {
+				line-height: var(--r-adv-height, 40px);
+				margin-left: auto;
+				width: auto;
+				padding: 0 16px;
+				position: relative;
+				left: 0;
+			}
+
+			.globalmessage-segment-visible .adv-wrapper .adv-wrapper-text {
+				width: auto;
+				position: relative;
+				left: 0;
+				margin: 0;
+			}
+
+			.globalmessage-segment-visible #sonic-automotive.profiles.platter.full-nav.ac-gn-current-iphone .adv-wrapper .adv-wrapper-text,
+			.globalmessage-segment-visible #ducati.profiles.platter.full-nav.ac-gn-current-iphone .adv-wrapper .adv-wrapper-text,
+			.globalmessage-segment-visible #mayo-clinic.profiles.platter.ac-gn-current-iphone.full-nav .adv-wrapper .adv-wrapper-text {
+				left: -25%;
+			}
+
+			:root {
+				--r-adv-height: 44px;
+			}
+		}
+
+		.adv-wrapper .adv-wrapper-text {
+			color: rgba(0, 0, 0, 0.8);
+			font-size: 12px;
+			font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+		}
+
+		.adv-wrapper-dark .adv-wrapper-text {
+			color: rgba(255, 255, 255, 0.92);
+		}
+
+		.globalheader-dark .adv-wrapper {
+			color: rgba(255, 255, 255, 0.92);
+		}
+
+		/* Always show in IE8, whether zoom because IE8 doesnt have responsive. */
+		/* hack for IE8 without shop button */
+		/*js no-touch no-svg ie8 no-progressive no-transforms no-tablet no-handheld no-oldTablet no-maskBoxImage no-maskedParallaxAnimation no-webgl no-video no-inlineVideo no-canvas cssFilter no-cssTransition2d no-cssTransition3d ie*/
+
+		html.ie8,
+		html.oldie,
+		html.oldIE {
+			margin-top: 0px !important;
+		}
+
+		html.ie8 .adv-wrapper,
+		html.oldie .adv-wrapper,
+		html.oldIE .adv-wrapper {
+			position: relative;
+			top: 0px;
+			min-width: 1024px;
+		}
+
+		html.ie8 .adv-wrapper .adv-wrapper-text,
+		html.oldie .adv-wrapper .adv-wrapper-text,
+		html.oldIE .adv-wrapper .adv-wrapper-text {
+			line-height: 40px;
+		}
+
+		html.ie8 #globalnav,
+		html.oldie #globalnav,
+		html.oldIE #globalnav {
+			top: 40px;
+		}
+
+		html.ie8 .ac-familybrowser,
+		html.oldie .ac-familybrowser,
+		html.oldIE .ac-familybrowser {
+			top: 84px;
+		}
+
+		html.ie8 .ac-nav-overlap .chapternav,
+		html.oldie .ac-nav-overlap .chapternav,
+		html.oldIE .ac-nav-overlap .chapternav {
+			margin-top: 84px;
+		}
+
+		/* hack for IE8 with shop button*/
+		html.ie8.globalmessage-segment-visible #globalmessage-segment,
+		html.oldie.globalmessage-segment-visible #globalmessage-segment,
+		html.oldIE.globalmessage-segment-visible #globalmessage-segment {
+			position: relative;
+			top: 0;
+		}
+
+		html.ie8.globalmessage-segment-visible .adv-wrapper,
+		html.oldie.globalmessage-segment-visible .adv-wrapper,
+		html.oldIE.globalmessage-segment-visible .adv-wrapper {
+			position: absolute;
+			min-width: auto;
+		}
+
+		/* fix adv aglin*/
+		@media only screen and (max-width: 833px) {
+			.adv-wrapper .adv-wrapper-text {
+				padding-left: calc(max(16px, env(safe-area-inset-left)));
+				padding-right: calc(max(16px, env(safe-area-inset-right)));
+			}
+		}
+
+		.globalmessage-segment-visible .adv-wrapper {
+			width: unset;
+		}
+
+		.globalmessage-segment-visible .adv-wrapper .adv-wrapper-text {
+			position: relative;
+			padding: 0;
+			left: unset;
+			right: max(calc(((100vw - 1024px) / 2) + 22px), 22px);
+		}
+
+		@media only screen and (max-width: 833px) {
+			.globalmessage-segment-visible .adv-wrapper .adv-wrapper-text {
+				right: max(calc(((100vw - 1024px) / 2) + 16px), 16px);
+			}
+		}
+	</style>
+
+
+
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/common-2.css?v1=0.5">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style-24.css?v1=2288">
+    <link rel="stylesheet" type="text/css" href="css/responsive-24.css?v1=1310">
+    <link rel="stylesheet" type="text/css" href="css/ziti-24.css?v1=4821">
+    <script src="js/jquery-2.2.4.min-24.js?t=1535"></script>
+    <script src="js/jquery.textillate-24.js?t=4734"></script>
+    <script src="js/jquery.lettering-24.js?t=1761"></script>
+    <script src="js/waypoints.min-24.js?t=3823"></script>
+    <script src="js/plugin-24.js?t=8690"></script>
+    <script src="js/ppage-20.js?t=1101"></script>
+    <script src="js/index-23.js?t=9264"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?2469bf4b50522c7fac61a1c7d9db4b83";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+    
+    <header class="header" style="position:static;">
+	<div class="header-wrap inner">
+	    <div class="menubtn">
+			<span></span>
+		</div>
+		<h1 class="logo">
+			<a href="index.htm">
+				<img src="xximgs/hhlogo2_red.png" style="height:50px;" alt="">
+			</a>
+		</h1>
+		<ul class="navs">
+		                    <li>
+                    <a href="product.html" target="_self">产品中心</a>
+                                        <div class="product-menu" style="">
+    					<div class="product-menu-tab inner">
+    						<div class="product-menu-btn">
+                                                                        <div class="product-menu-item active" ivalue="Ultra Series">
+            								<span><a href="#" target="_blank">Ultra系列</a></span>
+            							</div>
+                                        
+                                                                        <div class="product-menu-item " ivalue="W Series">
+            								<span><a href="#" target="_blank">W系列</a></span>
+            							</div>
+                                        
+                                                                        <div class="product-menu-item " ivalue="GT Series">
+            								<span><a href="#" target="_blank">GT系列</a></span>
+            							</div>
+                                        
+                                                                        <div class="product-menu-item " ivalue="A Series">
+            								<span><a href="#" target="_blank">A系列</a></span>
+            							</div>
+                                        
+                                                                        <div class="product-menu-item " ivalue="MA Series">
+            								<span><a href="#" target="_blank">MA系列</a></span>
+            							</div>
+                                        
+                                                                        <div class="product-menu-item " ivalue="Others">
+            								<span><a href="#" target="_blank">其他</a></span>
+            							</div>
+                                        
+                                                            </div>
+                            
+							<div class="product-menu-content">
+							                                        <div class="product-menu-items" ivalue="Ultra Series">
+                                        <div class="product-menu-info">
+                                                                                                <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail.html?id=18" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="gw/file/watch/173044840005715.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Ultra 3</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                        
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-1.html?id=1" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="Img/product/Ultra-Pro-Mini.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Ultra Pro Mini</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </dd>
+                                                    </dl>
+                                                                                                                                                                                                    <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-2.html?id=13" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="gw/file/watch/172931795885062.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Ultra Ai 3</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                        
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-3.html?id=11" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="v/cp/ultra/Ultra%209%20Plus/1.jpg" alt="">
+                                                                    </figure>
+                                                                    <strong>Ultra 9 Plus</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </dd>
+                                                    </dl>
+                                                                                                                                                                                                    <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-4.html?id=2" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="Img/product/Ultra-3-Mini.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Ultra 3 Mini</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                        
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-5.html?id=3" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="Img/product/Ultra-3-Pro.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Ultra 3 Pro</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </dd>
+                                                    </dl>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                            
+                                        </div>
+                                    </div>
+                                                                        <div class="product-menu-items" ivalue="W Series">
+                                        <div class="product-menu-info">
+                                                                                                                                                                                                                                                                                                                                                                        <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-6.html?id=22" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="uploads/allimg/20240912/a6b995e358242212413cb417d945f7b6.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Watch S10</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                        
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-7.html?id=23" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="gw/file/watch/172930810956270.png" alt="">
+                                                                    </figure>
+                                                                    <strong>观看S10 Pro</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </dd>
+                                                    </dl>
+                                                                                                                                                                                                    <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-8.html?id=24" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="gw/file/watch/172931803940985.png" alt="">
+                                                                    </figure>
+                                                                    <strong>手表S10 Mini</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                        
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-9.html?id=15" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="gw/file/watch/172931787410907.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Watch X Mini</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </dd>
+                                                    </dl>
+                                                                                                                                                                                                    <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-10.html?id=16" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="Img/product/Watch-X-Pro.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Watch X Pro</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                        
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-11.html?id=19" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="Img/product/WATCH-X.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Watch X</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </dd>
+                                                    </dl>
+                                                                                                                                                                                                                                                                                                                                
+                                            
+                                        </div>
+                                    </div>
+                                                                        <div class="product-menu-items" ivalue="GT Series">
+                                        <div class="product-menu-info">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-12.html?id=20" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="v/cp/GT/GTS%204%20Pro%28MA24%29/PNG/5.png" alt="">
+                                                                    </figure>
+                                                                    <strong>GTS 4 Pro</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                        
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-13.html?id=21" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="v/cp/GT/GTR%204%20Pro%28MA25%29/PNG/5.png" alt="">
+                                                                    </figure>
+                                                                    <strong>GTR 4 Pro</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </dd>
+                                                    </dl>
+                                                                                                                                                                                                                                        
+                                            
+                                        </div>
+                                    </div>
+                                                                        <div class="product-menu-items" ivalue="A Series">
+                                        <div class="product-menu-info">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                            
+                                        </div>
+                                    </div>
+                                                                        <div class="product-menu-items" ivalue="MA Series">
+                                        <div class="product-menu-info">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-15.html?id=25" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="gw/file/watch/172950237907583.png" alt="">
+                                                                    </figure>
+                                                                    <strong>观看Ultra</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                                                            
+                                            
+                                        </dd></dl></div>
+                                    </div>
+                                                                        <div class="product-menu-items" ivalue="Others">
+                                        <div class="product-menu-info">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                            
+                                        </div>
+                                    </div>
+                                    								</div>	
+								
+                        </div>   
+                    </div>
+                                    </li>
+                            <li>
+                    <a href="news.html" target="_self">活动</a>
+                                    </li>
+                            <li>
+                    <a href="Brand.html" target="_self">品牌</a>
+                                    </li>
+                            <li>
+                    <a href="Support.html" target="_self">支持</a>
+                                    </li>
+            		    
+		    
+		   
+		</ul>
+		<div class="navs-bg">
+		</div>
+		<div class="header-right">
+			<span class="search-btn iconfont"></span>
+		</div>
+		
+	</div>
+	<div class="search-box">
+		<div class="header-search inner">
+			<h1 class="logo">
+				<a href="index.htm">
+					<img src="uploads/allimg/20240612/51fcf178e7eb3fd94ebbe12a7e5fb1ef.png" style="height:30px;filter: drop-shadow(1px 1px 1px #003);" alt="">
+				</a>
+			</h1>
+			<div class="search">
+				<div class="search-defaul">
+					<span class="iconfont"></span>
+					<input class="text" type="text" placeholder="搜索关键词" id="commIptKeys">
+					<p>按Enter搜索</p>
+				</div>
+				<div class="hot-search">
+					<p>热门搜索</p>
+					<ul class="hot-search-list">
+
+						<li>
+							<a href="#">a</a>
+						</li>
+
+						<li>
+							<a href="#">b</a>
+						</li>
+
+						<li>
+							<a href="#">c</a>
+						</li>
+
+						<li>
+							<a href="">d</a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+			<div class="search-close iconfont"></div>
+		</div>
+	</div>
+	<div class="mobile-menu">
+		<ul class="mobile-menu-list">
+			<li>
+				<div class="mobile-defaul">
+					<span><a href="product.html">产品中心</a></span>
+					<i></i>
+				</div>
+				<ol class="mobile-down">
+					<li><a href="#">Ultra系列</a></li>
+					<li><a href="#">W系列</a></li>
+					<li><a href="#">GT系列</a></li>
+					<li><a href="#">A系列</a></li>
+					<li><a href="#">MA系列</a></li>
+					<li><a href="#">其他</a></li>
+				</ol>
+			</li>
+			<li>
+				<div class="mobile-defaul">
+					<span><a href="news.html">活动</a></span>
+					<i></i>
+				</div>
+			</li>
+			<li>
+				<div class="mobile-defaul"><span><a href="Brand.html">品牌</a></span><i></i></div>
+			</li>
+			<li>
+				<div class="mobile-defaul"><a href="Support.html" target="_self">支持</a></div>
+			</li>
+		</ul>
+		<div class="footer-tel">
+			<span class="iconfont"></span>
+			<div class="footer-tel-info">
+				<b>电话：0755-26403109</b>
+				<p>业务联系人：<br>microwear@njytech.com.cn</p>
+			</div>
+		</div>
+		<div class="footer-share" style="margin-left:-10px;">
+			<div class="followus clearfix col-xl-12 col-lg-12" style="width: calc(100% - 40px);line-height: 22px;overflow: hidden;">
+				<div class="row xxlinks" style="color:#444444;display:flex;">
+					<div class="list col-xl-8 col-lg-8" style="display:flex;flex-direction:row;justify-content:space-around;align-items:center;width: calc(100vw - 160px);margin-left: 30px;">
+						<a href="https://www.instagram.com/microwearoffice/" class="iconfont icon-instagram" target="_blank" rel="nofollow"></a>
+						<a href="https://www.youtube.com/channel/UCsIoYsdHbwU_1z9fzgzSNKw" class="iconfont icon-youtube" target="_blank" rel="nofollow"></a>
+						<a href="https://www.tiktok.com/@microwearoffice" class="iconfont icon-tiktok" target="_blank" rel="nofollow"></a>
+						<a href="https://www.facebook.com/microwearO?mibextid=ZbWKwL" class="iconfont icon-facebook" target="_blank" rel="nofollow"></a>
+						<a href="https://x.com/MicrowearO" class="iconfont icon-tuite" target="_blank" rel="nofollow"></a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copy-infos">
+			<p>版权所有©2024 microwear</p>
+			<p>
+				<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备20203631号-1</a>
+			</p>
+
+		</div>
+	</div>
+</header>
+    
+
+	
+
+<script src="metrics/ac-analytics/2.20.0/scripts/ac-analytics.js" type="text/javascript" charset="utf-8"></script>
+<script src="metrics/ac-analytics/2.20.0/scripts/auto-init.js" type="text/javascript" charset="utf-8"></script>
+
+	<input type="checkbox" id="ac-ln-menustate" class="ac-ln-menustate">
+	<nav id="ac-localnav" class="no-js ac-localnav-noborder ac-localnav-dark" lang="zh-CN" dir="ltr" data-sticky="" data-analytics-activitymap-region-id="local nav" role="navigation" aria-label="本地">
+		<div class="ac-ln-wrapper xxblack">
+			<div class="ac-ln-background" style="display:none;"></div>
+			<div class="ac-ln-content inner">
+				<div class="ac-ln-title xxbai">
+					<a href="productdetail-1.html?id=1" data-analytics-title="product index">
+						Ultra Pro Mini					</a>
+				</div>
+				<div class="ac-ln-menu">
+					<a href="#ac-ln-menustate" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-open ac-ln-menucta-click" id="ac-ln-menustate-open" role="button" aria-controls="ac-ln-menustate-tray" aria-expanded="false"> <span class="ac-ln-menucta-anchor-label">本地导航打开菜单</span> </a> <a href="#" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-close ac-ln-menucta-click" id="ac-ln-menustate-close" role="button" aria-controls="ac-ln-menustate-tray" aria-expanded="true"> <span class="ac-ln-menucta-anchor-label">本地导航关闭菜单</span> </a>
+					<div class="ac-ln-menu-tray" id="ac-ln-menustate-tray" style="--r-localnav-menu-tray-natural-height: 55px;">
+						<ul class="ac-ln-menu-items">
+							<li class="ac-ln-menu-item doxxsec0">
+							    <a href="javascript:void(0);" class="ac-ln-menu-link current xxbai xxactive" role="link" aria-disabled="true" aria-current="page">预览</a>
+							</li>
+							<li class="ac-ln-menu-item doxxsec1">
+								<a href="javascript:void(0);" class="ac-ln-menu-link xxbai" data-analytics-title="why apple watch">参数</a>
+							</li>
+							<li class="ac-ln-menu-item doxxsec2">
+								<a href="javascript:void(0);" class="ac-ln-menu-link xxbai" data-analytics-title="tech specs">对比</a>
+							</li>
+						</ul>
+					</div>
+					<div class="ac-ln-actions">
+						<div class="ac-ln-action ac-ln-action-menucta" aria-hidden="true">
+							<label for="ac-ln-menustate" class="ac-ln-menucta">
+										<span class="ac-ln-menucta-chevron">
+                                        </span>
+									</label>
+						</div>
+						<div class="ac-ln-action ac-ln-action-button doxxsec3">
+							<a class="ac-ln-button" href="javascript:void(0);" aria-label="购买 Ultra Pro Mini" data-analytics-title="buy | Ultra Pro Mini">Buy<span class="ac-ln-action-product">Ultra Pro Mini</span>
+								</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<label id="ac-ln-curtain" for="ac-ln-menustate"></label>
+	<script type="text/javascript" src="ac/localnav/8/scripts/ac-localnav.built.js"></script>
+
+	<main id="main" class="main" role="main" data-page-type="overview" data-component-list="PageStateManager" data-anim-scroll-group="Page - Global">
+	    
+	    
+	    
+	    
+	    <script src="js/gsap.min.js"></script>
+        <script src="gsap/assets/js/scrollTrigger.js"></script>
+        <script src="js/jquery.min.js"></script>
+	    <script src="js/xx_index-19.js?t=6618"></script>
+	    <link rel="stylesheet" type="text/css" href="css/xx_index-19.css?t=4969">
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+                <section class="section section-hero theme-dark" style="padding-top:52px" data-name="hero" data-anim-scroll-group=": hero" data-component-list="Hero" data-analytics-section-engagement="name:hero">
+			<div class="sticky-container">
+				<div class="sticky-content">
+					<div class="content-wrapper">
+						<div class="hero-experience hero-experience--intro">
+							<h1 class="hero-logo will-change" data-focus-expression='{"expression": "a0t", "anchors":[".sticky-container"]}' style="">
+								<picture id="overview-hero-logo-watch-series-9-2" class="overview-hero-logo-watch-series-9">
+									<source srcset="" media="(max-width:734px)">
+									<source srcset="" media="(max-width:1068px)">
+									<source srcset="" media="(min-width:0px)">
+									<img src="" onload="__lp(event)" style="max-height: 50px;filter: drop-shadow(1px 2px 2px yellow);" alt="">
+								</picture>
+								<span class="visuallyhidden">用你的心移动</span>
+							</h1>
+							<h2 class="hero-headline typography-hero-headline will-change cl_06" data-focus-expression='{"expression": "a0t", "anchors":[".sticky-container"]}' style="font-family: 'SF Pro SC';">移动与<br>你的心</h2>
+						</div>
+						<div class="hero-experience hero-experience--media will-change">
+							<div class="inline-video-container inline-media hero-watch-video" data-component-list="InlineMedia" role="img" aria-label="Move with&lt;br&gt;your heart">
+								<picture id="overview-hero-hero-startframe-2" class="overview-hero-hero-startframe start-frame" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "no-enhanced-hero"}'>
+									<source data-empty="" srcset="data:image/gif;base64,index.htm" media="(min-width:0px)">
+									<img src="" onload="__lp(event)" alt="">
+								</picture>
+								<noscript>
+                                    <picture class="overview-hero-hero-startframe start-frame">
+                                    	<source srcset="tx/promini/p1/w1.png" media="(max-width:734px)">
+                                        <source srcset="tx/promini/p1/w3.png, tx/promini/p1/w4.png 2x" media="(max-width:1068px)">
+                                        <source srcset="tx/promini/p1/w5.png, tx/promini/p1/w6.png 2x" media="(min-width:0px)">
+                                        <img src="tx/promini/p1/w1.png" alt="">
+                                    </picture>
+                                </noscript>
+								<video class="video" id="" muted="" playsinline="" data-inline-media="" preload="none" data-inline-media-load-keyframe='{"start": "lerp(-0.5, a0t, a0b)", "end": "lerp(0.5, a0t, a0b)", "anchors": [".section-hero .sticky-container"]}' data-inline-media-play-keyframe='{"start": "lerp(-0.5, a0t, a0b)", "end": "lerp(0.5, a0t, a0b)", "anchors": [".section-hero .sticky-container"]}' data-inline-media-kill-keyframe='{"start": "lerp(0.5, a0t, a0b)", "end": "60000px", "anchors": [".section-hero .sticky-container"]}' data-inline-media-basepath="https://v.pavainnov.com/tx/promini/p1/" data-inline-media-plugins="AnimLoad, AnimPlay, DisableOnBreakpointChange, KillAfterPastScroll, ViewportSource" data-inline-media-reset-on-exit="false" data-inline-media-pause-on-exit="false"></video>
+
+								<picture id="overview-hero-hero-endframe-2" class="overview-hero-hero-endframe static-frame" data-lazy="" aria-hidden="true">
+									<source data-empty="" srcset="data:image/gif;base64,index.htm" media="(min-width:0px)">
+                                        <img src="" onload="__lp(event)" alt="">
+								</picture>
+								<noscript>
+                                    <picture class="overview-hero-hero-endframe static-frame">
+                                        <source srcset="tx/promini/p1/w1.png" media="(max-width:734px)">
+                                        <source srcset="tx/promini/p1/w3.png, tx/promini/p1/w4.png 2x" media="(max-width:1068px)">
+                                        <source srcset="tx/promini/p1/w5.png, tx/promini/p1/w6.png 2x" media="(min-width:0px)">
+                                        <img src="tx/promini/p1/w1.png" alt="">
+                                    </picture>
+                                </noscript>
+							</div>
+						</div>
+						<div class="hero-experience hero-experience--outro">
+							<p class="hero-features typography-hero-features" data-focus-expression='{"expression": "lerp(0.6, a0t, a0b)", "anchors":[".sticky-container"]}'>1000+个拨号盘可自由切换<br>无数种模式，只有你不同<br>应用市场定期更新，<br>展现你的个性倾向<br></p>
+							<div class="hero-links" style="display:none;">
+								<a href="donghua1.mp4" data-analytics-title="watch the film - apple watch series 9" data-analytics-intrapage-link="" aria-label="观看 Apple Watch Series 9 影片" id="film-watch-series-9" class="icon-wrapper hero-link hero-link--film typography-hero-link" data-films-modal-link="" role="button" data-analytics-id="film-watch-series-9" data-focus-expression='{"expression": "lerp(0.6, a0t, a0b)", "anchors":[".sticky-container"], "tabindex": 0}'><span class="icon-copy">观看影片</span><span class="icon icon-after icon icon-playcircle"></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		        		<section class="section section-chip section-chip theme-dark" data-name="chip" data-anim-scroll-group=": chip" data-component-list="CopyFade" data-analytics-section-engagement="name:chip">
+			    <div class="section-content">
+    			    <div class="section-intro">
+    					<h2 class="typography-section-eyebrow anim-text-animate">简单，</h2>
+<h3 class="typography-section-headline anim-text-animate">但这并不简单</h3>    				</div>
+				</div>
+				
+				<div class="inline-video-container inline-media" data-component-list="InlineMedia" role="img">
+					<picture id="overview-chip-close-up-startframe-2" class="overview-chip-close-up-startframe start-frame" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "no-enhanced"}'>
+						<source data-empty="" srcset="data:image/gif;base64,index.htm" media="(min-width:0px)">
+						<source srcset="gw/file/watch/171815966801710.png, gw/file/watch/171815970867946.png 2x" media="(max-width:734px)">
+                        <source srcset="gw/file/watch/171815974086201.png, gw/file/watch/171815976938352.png 2x" media="(max-width:1068px)">
+                        <source srcset="gw/file/watch/171815980018883.png" media="(min-width:0px)">
+						<img src="" onload="__lp(event)" alt="">
+					</picture>
+					<noscript>
+	                	<picture class="overview-chip-close-up-startframe start-frame">
+	                		<source srcset="gw/file/watch/171815966801710.png, gw/file/watch/171815970867946.png 2x" media="(max-width:734px)">
+	                		<source srcset="gw/file/watch/171815974086201.png, gw/file/watch/171815976938352.png 2x" media="(max-width:1068px)">
+	                		<source srcset="gw/file/watch/171815980018883.png" media="(min-width:0px)">
+	                		<img src="" alt="">
+	                	</picture>
+	                </noscript>
+					<video class="video" id="" muted="" playsinline="" data-inline-media="" preload="none" data-inline-media-load-keyframe='{"start": "t - 200vh", "end": "b + 200vh"}' data-inline-media-play-keyframe='{"start": "t - 50vh", "end": "b"}' data-inline-media-basepath="https://file.microwear.com/gw/file/watch/p5/" data-inline-media-plugins="AnimLoad, ViewportSource, AnimPlay, DisableOnBreakpointChange, KillAfterPastScroll" data-inline-media-reset-on-exit="false" data-inline-media-pause-on-exit="false"></video>
+					<picture id="overview-chip-close-up-endframe-2" class="overview-chip-close-up-endframe static-frame" data-lazy="" aria-hidden="true">
+						<source data-empty="" srcset="data:image/gif;base64,index.htm" media="(min-width:0px)">
+						<source srcset="gw/file/watch/171815966801710.png, gw/file/watch/171815970867946.png 2x" media="(max-width:734px)">
+                		<source srcset="gw/file/watch/171815974086201.png, gw/file/watch/171815976938352.png 2x" media="(max-width:1068px)">
+                		<source srcset="gw/file/watch/171815980018883.png" media="(min-width:0px)">
+						<img src="" onload="__lp(event)" alt="">
+					</picture>
+					<noscript>
+	                	<picture class="overview-chip-close-up-endframe static-frame">
+	                		<source srcset="gw/file/watch/171815966801710.png, gw/file/watch/171815970867946.png 2x" media="(max-width:734px)">
+	                		<source srcset="gw/file/watch/171815974086201.png, gw/file/watch/171815976938352.png 2x" media="(max-width:1068px)">
+	                		<source srcset="gw/file/watch/171815980018883.png" media="(min-width:0px)">
+	                		<img src="" alt="">
+	                	</picture>
+	                </noscript>
+				</div>
+				<p class="copy-block-copy typography-pillar-intro anim-text-animate" style="padding:20px;">定制芯片使Ultra Pro Mini更强大、更直观、更快。一种新的双核神经引擎过程改进了机器学习任务。</p>
+			
+		</section>
+		        		
+		<section class="section  section-gestures theme-dark" data-name="gestures" data-anim-scroll-group=": gestures" data-component-list="CopyFade" data-analytics-section-engagement="name:gestures" style="padding-bottom:180px;">
+			<div class="section-content">
+				<h2 class="gestures-eyebrow typography-eyebrow typography-section-eyebrow anim-text-animate">新手势</h2>
+						<div class="anim-text-animate">
+							<h3 class="gestures-headline typography-section-headline">触手可及的艺术技巧</h3>
+						</div>
+			</div>
+			<div class="gestures-double-tap" data-component-list="GesturesDoubleTap">
+				<h3 class="gestures-double-tap-headline" style="z-index:10">双击</h3>
+				<div class="gestures-double-tap-media-container">
+					<div class="inline-video-container inline-media gestures-double-tap-video with-static" data-component-list="InlineMedia" role="img">
+						<picture id="overview-gestures-kinetic-tap-tap-startframe-2" class="overview-gestures-kinetic-tap-tap-startframe start-frame" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "no-enhanced"}'>
+													<source data-empty="" srcset="data:image/gif;base64,index.htm" media="(min-width:0px)">
+							
+							<source srcset="Xxupload/2024-03-17/17106683422405_s.png, Xxupload/2024-03-17/17106683422405.png 2x" media="(max-width:734px)">
+							<source srcset="Xxupload/2024-03-17/17106683717320_s.png, Xxupload/2024-03-17/17106683717320.png 2x" media="(max-width:1068px)">
+							<source srcset="Xxupload/2024-03-17/17106684428206_s.png, Xxupload/2024-03-17/17106684428206.png 2x" media="(min-width:0px)">
+							<img src="" onload="__lp(event)" alt="">
+						</picture>
+						<noscript>
+							<picture class="overview-gestures-kinetic-tap-tap-startframe start-frame">
+								<source srcset="Xxupload/2024-03-17/17106683422405_s.png, Xxupload/2024-03-17/17106683422405.png 2x" media="(max-width:734px)">
+								<source srcset="Xxupload/2024-03-17/17106683717320_s.png, Xxupload/2024-03-17/17106683717320.png 2x" media="(max-width:1068px)">
+								<source srcset="Xxupload/2024-03-17/17106684428206_s.png, Xxupload/2024-03-17/17106684428206.png 2x" media="(min-width:0px)">
+								<img src="" alt="">
+							</picture>
+						</noscript>
+						<video class="video" id="double-tap-video" muted="" playsinline="" data-inline-media="" preload="none" data-inline-media-load-keyframe='{"start": "t - 250vh", "end": "b + 250vh"}' data-inline-media-basepath="https://file.microwear.com/gw/file/watch/p4/" data-inline-media-plugins="AnimLoad, AnimPlay, DisableOnBreakpointChange, KillAfterPastScroll, ViewportSource, PlayPauseButton" data-inline-media-reset-on-exit="false" data-inline-media-pause-on-exit="false"></video>
+					
+						
+						<picture id="overview-gestures-kinetic-tap-tap-endframe-2" class="overview-gestures-kinetic-tap-tap-endframe end-frame" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "no-enhanced"}'>
+							<source data-empty="" srcset="data:image/gif;base64,index.htm" media="(min-width:0px)">
+							<source srcset="gw/file/watch/171777121542387.png, gw/file/watch/171777129345298.png 2x" media="(max-width:734px)">
+							<source srcset="gw/file/watch/171777132930470.png, gw/file/watch/171777137136976.png 2x" media="(max-width:1068px)">
+							<source srcset="gw/file/watch/171777139735897.png, gw/file/watch/171777143328920.png 2x" media="(min-width:0px)">
+							<img src="" onload="__lp(event)" alt="">
+						</picture>
+						<noscript>
+							<picture class="overview-gestures-kinetic-tap-tap-endframe end-frame">
+								<source srcset="gw/file/watch/171777121542387.png, gw/file/watch/171777129345298.png 2x" media="(max-width:734px)">
+								<source srcset="gw/file/watch/171777132930470.png, gw/file/watch/171777137136976.png 2x" media="(max-width:1068px)">
+								<source srcset="gw/file/watch/171777139735897.png, gw/file/watch/171777143328920.png 2x" media="(min-width:0px)">
+								<img src="" alt="">
+							</picture>
+						</noscript>
+						<picture id="overview-gestures-kinetic-tap-tap-fallback-2" class="overview-gestures-kinetic-tap-tap-fallback static-frame" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "enhanced"}'>
+							<source data-empty="" srcset="data:image/gif;base64,index.htm" media="(min-width:0px)">
+							<source srcset="gw/file/watch/171777121542387.png, gw/file/watch/171777129345298.png 2x" media="(max-width:734px)">
+							<source srcset="gw/file/watch/171777132930470.png, gw/file/watch/171777137136976.png 2x" media="(max-width:1068px)">
+							<source srcset="gw/file/watch/171777139735897.png, gw/file/watch/171777143328920.png 2x" media="(min-width:0px)">
+							<img src="" onload="__lp(event)" alt="">
+						</picture>
+						<noscript>
+							<picture class="overview-gestures-kinetic-tap-tap-fallback static-frame">
+								<source srcset="gw/file/watch/171777121542387.png, gw/file/watch/171777129345298.png 2x" media="(max-width:734px)">
+								<source srcset="gw/file/watch/171777132930470.png, gw/file/watch/171777137136976.png 2x" media="(max-width:1068px)">
+								<source srcset="gw/file/watch/171777139735897.png, gw/file/watch/171777143328920.png 2x" media="(min-width:0px)">
+								<img src="" alt="">
+							</picture>
+						</noscript>
+					</div>
+				</div>
+				<div class="section-content">
+					<div class="inline-media-ui">
+						<button class="play-pause-button stack-container" data-inline-media-control="PlayPause" data-inline-media-controller="double-tap-video" aria-hidden="true" disabled="" data-analytics-click-play="prop3:play | double tap gesture animation" data-analytics-click-pause="prop3:pause | double tap gesture animation" data-analytics-click-replay="prop3:replay | double tap gesture animation" data-analytics-title-play="play | double tap gesture animation" data-analytics-title-pause="pause | double tap gesture animation" data-analytics-title-replay="replay | double tap gesture animation" data-aria-playing="暂停互点两下手势动画" data-aria-paused="播放互点两下手势动画" data-aria-ended="重播互点两下手势动画" data-analytics-intrapage-link=""><span class="slot-replay icon icon-after icon-replay stack-item">重播</span><span class="slot-play   icon icon-after icon-playcircle stack-item">播放</span><span class="slot-pause  icon icon-after icon-pausecircle stack-item">暂停</span></button>
+					</div>
+					<p class="gestures-double-tap-copy copy-block-copy typography-copy-block anim-text-animate">抛开繁琐的步骤，简化复杂性。您可以通过手势操作它，ULTRA Pro Mini更了解您。</p>
+				</div>
+			</div>			
+		</section>
+            	    
+	    
+	    <section class="section section-gestures theme-dark" data-name="gestures" data-anim-scroll-group=": gestures" data-component-list="CopyFade" data-analytics-section-engagement="name:gestures" style="z-index:111">
+	
+	<div class="gestures-examples sticky-container" data-component-list="GesturesExamples">
+		<div class="examples-content sticky-content">
+			<ul class="examples-list" style="z-index:100">
+					
+
+				<li class="example-list-item 
+				    				    example-list-item-music
+				    " style="">
+					<picture id="overview-gestures-kinetic-icon-music-2" class="overview-gestures-kinetic-icon-music example-icon example-icon-music loaded" data-lazy="" data-download-area-keyframe='{"start":"a0t-200vh", "anchors":[".sticky-container"]}' data-picture-loaded="">
+						<source srcset="Xxupload/2024-06-01/17171844795866_s.png, Xxupload/2024-06-01/17171844795866.png 2x" media="(max-width:734px)">
+						<source srcset="Xxupload/2024-06-01/17171844895194_s.png, Xxupload/2024-06-01/17171844895194.png 2x" media="(min-width:0px)">
+						<img src="" onload="__lp(event)" alt="">
+					</picture>
+					<noscript>
+						<picture class="overview-gestures-kinetic-icon-music example-icon example-icon-music">
+							<source srcset="Xxupload/2024-06-01/17171844795866_s.png, Xxupload/2024-06-01/17171844795866.png 2x" media="(max-width:734px)">
+						<source srcset="Xxupload/2024-06-01/17171844895194_s.png, Xxupload/2024-06-01/17171844895194.png 2x" media="(min-width:0px)">
+						<img src="" onload="__lp(event)" alt="">
+						</picture>
+					</noscript>
+					<h3 class="example-list-headline typography-gestures-intro mbh3" data-focus-expression="">拿着购物袋<span class="nowrap">播放歌曲或像往常一样暂停span&gt;</span>					</h3>
+				</li>
+					
+
+				<li class="example-list-item 
+				    				    example-list-item-phone
+				    " style="">
+					<picture id="overview-gestures-kinetic-icon-music-2" class="overview-gestures-kinetic-icon-music example-icon example-icon-music loaded" data-lazy="" data-download-area-keyframe='{"start":"a0t-200vh", "anchors":[".sticky-container"]}' data-picture-loaded="">
+						<source srcset="Xxupload/2024-06-01/17171845036940_s.png, Xxupload/2024-06-01/17171845036940.png 2x" media="(max-width:734px)">
+						<source srcset="Xxupload/2024-06-01/17171845168909_s.png, Xxupload/2024-06-01/17171845168909.png 2x" media="(min-width:0px)">
+						<img src="" onload="__lp(event)" alt="">
+					</picture>
+					<noscript>
+						<picture class="overview-gestures-kinetic-icon-music example-icon example-icon-music">
+							<source srcset="Xxupload/2024-06-01/17171845036940_s.png, Xxupload/2024-06-01/17171845036940.png 2x" media="(max-width:734px)">
+						<source srcset="Xxupload/2024-06-01/17171845168909_s.png, Xxupload/2024-06-01/17171845168909.png 2x" media="(min-width:0px)">
+						<img src="" onload="__lp(event)" alt="">
+						</picture>
+					</noscript>
+					<h3 class="example-list-headline typography-gestures-intro mbh3" data-focus-expression="">它可以自动<span class="nowrap">同步手机天气。</span>					</h3>
+				</li>
+					
+
+				<li class="example-list-item 
+				    				    example-list-item-timer
+				    " style="">
+					<picture id="overview-gestures-kinetic-icon-music-2" class="overview-gestures-kinetic-icon-music example-icon example-icon-music loaded" data-lazy="" data-download-area-keyframe='{"start":"a0t-200vh", "anchors":[".sticky-container"]}' data-picture-loaded="">
+						<source srcset="Xxupload/2024-06-01/17171845303669_s.png, Xxupload/2024-06-01/17171845303669.png 2x" media="(max-width:734px)">
+						<source srcset="Xxupload/2024-06-01/17171845424194_s.png, Xxupload/2024-06-01/17171845424194.png 2x" media="(min-width:0px)">
+						<img src="" onload="__lp(event)" alt="">
+					</picture>
+					<noscript>
+						<picture class="overview-gestures-kinetic-icon-music example-icon example-icon-music">
+							<source srcset="Xxupload/2024-06-01/17171845303669_s.png, Xxupload/2024-06-01/17171845303669.png 2x" media="(max-width:734px)">
+						<source srcset="Xxupload/2024-06-01/17171845424194_s.png, Xxupload/2024-06-01/17171845424194.png 2x" media="(min-width:0px)">
+						<img src="" onload="__lp(event)" alt="">
+						</picture>
+					</noscript>
+					<h3 class="example-list-headline typography-gestures-intro mbh3" data-focus-expression="">变得更聪明<span class="nowrap">                              </span>					</h3>
+				</li>
+					
+
+				<li class="example-list-item 
+				    				    example-list-item-messages
+				    " style="">
+					<picture id="overview-gestures-kinetic-icon-music-2" class="overview-gestures-kinetic-icon-music example-icon example-icon-music loaded" data-lazy="" data-download-area-keyframe='{"start":"a0t-200vh", "anchors":[".sticky-container"]}' data-picture-loaded="">
+						<source srcset="Xxupload/2024-06-01/17171845574601_s.png, Xxupload/2024-06-01/17171845574601.png 2x" media="(max-width:734px)">
+						<source srcset="Xxupload/2024-06-01/17171845662557_s.png, Xxupload/2024-06-01/17171845662557.png 2x" media="(min-width:0px)">
+						<img src="" onload="__lp(event)" alt="">
+					</picture>
+					<noscript>
+						<picture class="overview-gestures-kinetic-icon-music example-icon example-icon-music">
+							<source srcset="Xxupload/2024-06-01/17171845574601_s.png, Xxupload/2024-06-01/17171845574601.png 2x" media="(max-width:734px)">
+						<source srcset="Xxupload/2024-06-01/17171845662557_s.png, Xxupload/2024-06-01/17171845662557.png 2x" media="(min-width:0px)">
+						<img src="" onload="__lp(event)" alt="">
+						</picture>
+					</noscript>
+					<h3 class="example-list-headline typography-gestures-intro mbh3" data-focus-expression="">接听电话<span class="nowrap">在桨板运动中。</span>					</h3>
+				</li>
+					
+
+				<li class="example-list-item 
+				    				    example-list-item-stacks
+				    " style="">
+					<picture id="overview-gestures-kinetic-icon-music-2" class="overview-gestures-kinetic-icon-music example-icon example-icon-music loaded" data-lazy="" data-download-area-keyframe='{"start":"a0t-200vh", "anchors":[".sticky-container"]}' data-picture-loaded="">
+						<source srcset="Xxupload/2024-06-01/17171845817793_s.png, Xxupload/2024-06-01/17171845817793.png 2x" media="(max-width:734px)">
+						<source srcset="Xxupload/2024-06-01/485.png, Xxupload/2024-06-01/96.png 2x" media="(min-width:0px)">
+						<img src="" onload="__lp(event)" alt="">
+					</picture>
+					<noscript>
+						<picture class="overview-gestures-kinetic-icon-music example-icon example-icon-music">
+							<source srcset="Xxupload/2024-06-01/17171845817793_s.png, Xxupload/2024-06-01/17171845817793.png 2x" media="(max-width:734px)">
+						<source srcset="Xxupload/2024-06-01/485.png, Xxupload/2024-06-01/96.png 2x" media="(min-width:0px)">
+						<img src="" onload="__lp(event)" alt="">
+						</picture>
+					</noscript>
+					<h3 class="example-list-headline typography-gestures-intro mbh3" data-focus-expression="">多NFC，<span class="nowrap">一块手表就够了。</span>					</h3>
+				</li>
+							</ul>
+
+
+
+
+			<div class="example-screens" style="z-index:111">
+					
+				<picture id="overview-gestures-kinetic-scenarios-screen-music-avail-2" class="overview-gestures-kinetic-scenarios-screen-music-avail example-screen example-screen-music loaded will-change" style="z-index:9" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "no-enhanced"}' data-picture-loaded="">
+
+					<source srcset="Xxupload/2024-06-01/17171907012167_s.png, Xxupload/2024-06-01/17171907012167.png 2x" media="(max-width:734px)">
+					<source srcset="Xxupload/2024-06-01/17171856339785_s.png, Xxupload/2024-06-01/17171856339785.png 2x" media="(min-width:0px)">
+					<img src="Xxupload/2024-06-01/17171907012167_s.png" onload="__lp(event)" alt="">
+				</picture>
+				<noscript>
+					<picture class="overview-gestures-kinetic-scenarios-screen-music-avail example-screen example-screen-music">
+						<source srcset="Xxupload/2024-06-01/17171907012167_s.png, Xxupload/2024-06-01/17171907012167.png 2x" media="(max-width:734px)">
+						<source srcset="Xxupload/2024-06-01/17171856339785_s.png, Xxupload/2024-06-01/17171856339785.png 2x" media="(min-width:0px)">
+						<img src="Xxupload/2024-06-01/17171907012167_s.png" onload="__lp(event)" alt="">
+					</picture>
+				</noscript>
+					
+				<picture id="overview-gestures-kinetic-scenarios-screen-phone-2" class="overview-gestures-kinetic-scenarios-screen-phone example-screen example-screen-music loaded will-change" style="z-index:8" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "no-enhanced"}' data-picture-loaded="">
+
+					<source srcset="Xxupload/2024-06-01/17171909454949_s.png, Xxupload/2024-06-01/17171909454949.png 2x" media="(max-width:734px)">
+					<source srcset="Xxupload/2024-06-01/17171868838392_s.png, Xxupload/2024-06-01/17171868838392.png 2x" media="(min-width:0px)">
+					<img src="Xxupload/2024-06-01/17171909454949_s.png" onload="__lp(event)" alt="">
+				</picture>
+				<noscript>
+					<picture class="overview-gestures-kinetic-scenarios-screen-phone example-screen example-screen-music">
+						<source srcset="Xxupload/2024-06-01/17171909454949_s.png, Xxupload/2024-06-01/17171909454949.png 2x" media="(max-width:734px)">
+						<source srcset="Xxupload/2024-06-01/17171868838392_s.png, Xxupload/2024-06-01/17171868838392.png 2x" media="(min-width:0px)">
+						<img src="Xxupload/2024-06-01/17171909454949_s.png" onload="__lp(event)" alt="">
+					</picture>
+				</noscript>
+					
+				<picture id="overview-gestures-kinetic-scenarios-screen-timer-avail-2" class="overview-gestures-kinetic-scenarios-screen-timer-avail example-screen example-screen-music loaded will-change" style="z-index:7" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "no-enhanced"}' data-picture-loaded="">
+
+					<source srcset="xxx/pro/mini/4_3/208.png, xxx/pro/mini/4_3/416.png 2x" media="(max-width:734px)">
+					<source srcset="xxx/pro/mini/4_3/355.png, xxx/pro/mini/4_3/710.png 2x" media="(min-width:0px)">
+					<img src="xxx/pro/mini/4_3/208.png" onload="__lp(event)" alt="">
+				</picture>
+				<noscript>
+					<picture class="overview-gestures-kinetic-scenarios-screen-timer-avail example-screen example-screen-music">
+						<source srcset="xxx/pro/mini/4_3/208.png, xxx/pro/mini/4_3/416.png 2x" media="(max-width:734px)">
+						<source srcset="xxx/pro/mini/4_3/355.png, xxx/pro/mini/4_3/710.png 2x" media="(min-width:0px)">
+						<img src="xxx/pro/mini/4_3/208.png" onload="__lp(event)" alt="">
+					</picture>
+				</noscript>
+					
+				<picture id="overview-gestures-kinetic-scenarios-screen-messages-2" class="overview-gestures-kinetic-scenarios-screen-messages example-screen example-screen-music loaded will-change" style="z-index:6" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "no-enhanced"}' data-picture-loaded="">
+
+					<source srcset="xxx/pro/mini/4_4/208.png, xxx/pro/mini/4_4/416.png 2x" media="(max-width:734px)">
+					<source srcset="xxx/pro/mini/4_4/355.png, xxx/pro/mini/4_4/710.png 2x" media="(min-width:0px)">
+					<img src="xxx/pro/mini/4_4/208.png" onload="__lp(event)" alt="">
+				</picture>
+				<noscript>
+					<picture class="overview-gestures-kinetic-scenarios-screen-messages example-screen example-screen-music">
+						<source srcset="xxx/pro/mini/4_4/208.png, xxx/pro/mini/4_4/416.png 2x" media="(max-width:734px)">
+						<source srcset="xxx/pro/mini/4_4/355.png, xxx/pro/mini/4_4/710.png 2x" media="(min-width:0px)">
+						<img src="xxx/pro/mini/4_4/208.png" onload="__lp(event)" alt="">
+					</picture>
+				</noscript>
+					
+				<picture id="overview-gestures-kinetic-scenarios-screen-stacks-2" class="overview-gestures-kinetic-scenarios-screen-stacks example-screen example-screen-music loaded will-change" style="z-index:5" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "no-enhanced"}' data-picture-loaded="">
+
+					<source srcset="xxx/pro/mini/4_5/208.png, xxx/pro/mini/4_5/416.png 2x" media="(max-width:734px)">
+					<source srcset="xxx/pro/mini/4_5/355.png, xxx/pro/mini/4_5/710.png 2x" media="(min-width:0px)">
+					<img src="xxx/pro/mini/4_5/208.png" onload="__lp(event)" alt="">
+				</picture>
+				<noscript>
+					<picture class="overview-gestures-kinetic-scenarios-screen-stacks example-screen example-screen-music">
+						<source srcset="xxx/pro/mini/4_5/208.png, xxx/pro/mini/4_5/416.png 2x" media="(max-width:734px)">
+						<source srcset="xxx/pro/mini/4_5/355.png, xxx/pro/mini/4_5/710.png 2x" media="(min-width:0px)">
+						<img src="xxx/pro/mini/4_5/208.png" onload="__lp(event)" alt="">
+					</picture>
+				</noscript>
+							</div>
+
+
+			<div class="examples-container stack-container">
+				<picture id="overview-gestures-kinetic-scenarios-2" class="overview-gestures-kinetic-scenarios example example-hand loaded" data-lazy="" data-picture-loaded="">
+
+					<source srcset="Img/huadong/shou_sm.jpg, Img/huadong/shou_sm_2x.jpg 2x" media="(max-width:734px)">
+					<source srcset="Img/huadong/shou_lg.jpg, Img/huadong/shou_lg_2x.jpg 2x" media="(min-width:0px)">
+					<img src="" onload="__lp(event)" alt="手表的正面视图，展示智能叠放。">
+				</picture>
+				<noscript>
+					<picture class="overview-gestures-kinetic-scenarios example example-hand">
+						<source srcset="Img/huadong/shou_sm.jpg, Img/huadong/shou_sm_2x.jpg 2x" media="(max-width:734px)">
+						<source srcset="Img/huadong/shou_lg.jpg, Img/huadong/shou_lg_2x.jpg 2x" media="(min-width:0px)">
+						<img src="Img/huadong/shou_lg.jpg" alt="手表的正面视图，展示智能叠放。">
+					</picture>
+				</noscript>
+			</div>
+		</div>
+	</div>
+
+</section>
+	    
+	    
+	    
+	             
+		<style>
+		    
+		    .xxxiahua {  
+                position: relative;  
+                display: inline-block;  
+              }  
+              
+              .xxxiahua::after {  
+                content: '';  
+                position: absolute;  
+                bottom: 0;  
+                left: 0;  
+                width: 0;  
+                height: 2px;  
+                background-color: red;  
+                transition: width 0.3s ease;  
+              }  
+              
+              .xxxiahua:hover::after {  
+                width: 100%;  
+              }
+		    .border {
+                border: 0.1px solid #f2f8fd !important;
+            }
+		    .xxhei{
+		        color:#1d1d1f !important;
+		    }
+		    @media screen and (max-width:768px){
+		        .xxpadding{
+    		        padding-top:0px;
+    		    }
+    		    .mbh3{
+    		        max-width:260px;
+    		        overflow-x:hidden;
+    		        font-size:26px;
+    		    }
+    		    .header{
+    		        width:100vw;
+    		    }
+		    }
+		    @media screen and (min-width:769px){
+		        .xxpadding{
+    		        padding-top:180px;
+    		    }
+		    }
+		    
+		    
+		</style>
+		<section class="section section-os section-garagedoor xxpadding theme-dark" data-name="os" data-anim-scroll-group=": os" data-component-list="CopyFade OS">
+			<div class="two-column-responsive subsection-os-gallery  theme-dark" style="border:0px;" data-analytics-section-engagement="name:watchos 10 options">
+				<div class="os-container">
+					<picture id="overview-os-watchos-apps-2" class="overview-os-watchos-apps" data-lazy="">
+						<source data-empty="" srcset="data:image/gif;base64,index.htm" media="(min-width:0px)">
+    						<source srcset="Xxupload/2024-05-19/17160561128931_s.png, Xxupload/2024-05-19/17160561128931.png 2x" media="(max-width:734px)">
+                            <source srcset="Xxupload/2024-05-19/17160561187881_s.png, Xxupload/2024-05-19/17160561187881.png 2x" media="(max-width:1068px)">
+                            <source srcset="Xxupload/2024-05-27/17167504414128_s.png, Xxupload/2024-05-27/17167504414128.png 2x" media="(min-width:0px)">
+						<img src="" onload="__lp(event)" alt="">
+					</picture>
+					<noscript>
+					<picture class="overview-os-watchos-apps">
+						<source srcset="Xxupload/2024-05-19/17160561128931_s.png, Xxupload/2024-05-19/17160561128931.png 2x" media="(max-width:734px)">
+                        <source srcset="Xxupload/2024-05-19/17160561187881_s.png, Xxupload/2024-05-19/17160561187881.png 2x" media="(max-width:1068px)">
+                        <source srcset="Xxupload/2024-05-27/17167504414128_s.png, Xxupload/2024-05-27/17167504414128.png 2x" media="(min-width:0px)">
+						<img src="" alt="">
+					</picture>
+				</noscript>
+				</div>
+				<div class="section-content">
+					<div class="os-copy typography-copy-block anim-text-animate animated-copy-element">更多Ul菜单供您选择。随意切换菜单样式。1000多个海量在线表盘可免费下载，菜单风格可切换，满足多样化的美学需求。</div>
+				</div>
+			</div>
+		</section>
+        
+                		<section class="section section-pillar section-health" data-analytics-section-engagement="name:health" style="margin-top:0px;">
+			<div class="pillar-hero ">
+				<div class="section-content" data-component-list="CopyFade">
+					<h2 class="typography-section-eyebrow anim-text-animate">配置</h2>
+					<div class="">
+						<h3 class="typography-section-headline  typography-section-headline  pillar-headline large-8 small-10 anim-text-animate xxfont_family">应用海洋<br>无尽的游泳<br><span class="nowrap">快速存储</span>                        </h3>
+						<p class="typography-pillar-intro pillar-intro-copy large-6 medium-7 small-12 large-last anim-text-animate">多种拨号方式，切换方便，内存大，更适合各种应用生态系统。音乐、电子书、录音、视频，无压力。</p>
+					</div>
+				</div>
+				<div class="hero-image-container justify-content-center" data-component-list="Parallax" data-para-start="t - 100vh">
+					<picture id="overview-health-health-hero-2" class="overview-health-health-hero parallax-item" data-lazy="">
+						<source srcset="Xxupload/2024-05-19/17160645914262_s.png, Xxupload/2024-05-19/17160645914262.png 2x" media="(max-width:734px)">
+                        <source srcset="Xxupload/2024-05-19/17160645952467_s.png, Xxupload/2024-05-19/17160645952467.png 2x" media="(max-width:1068px)">
+                        <source srcset="Xxupload/2024-05-19/17160645998067_s.png, Xxupload/2024-05-19/17160645998067.png 2x" media="(min-width:0px)">
+                        <img src="" alt="Configuration">
+					</picture>
+					
+				</div>
+			</div>
+						<div class="pillar-gallery gallery" data-component-list="CardGallery" id="health-gallery" data-analytics-gallery-id="health gallery">
+				<div class="card-gallery-container theme-gray">
+					<div class="scroll-container">
+						<ul role="list" class="item-container">
+						    
+						    
+						    
+                                                            
+									<li class="gallery-item current" data-analytics-gallery-item-id="ecg app">
+										<div class="card   card-ecg " style="">
+											<div class="card-block align-items-end   ">
+												<h3 class="card-headline copy-block-headline typography-copy-block">妇女健康。</h3>
+<p class="typography-copy card-copy copy-block-copy typography-copy-block"><br class="large-show medium-hide small-show">排卵期/排卵日/月经期/妊娠期，每天都有关爱陪伴。<br class="large-show medium-hide small-hide"><span class="nowrap"></span></p>
+<div class="ecg-tip-block">
+</div>											</div>
+											<div class="card-image-container align-items-end    justify-content-center">
+												<div class="inline-video-container inline-media" data-component-list="InlineMedia" role="img" aria-label="多种应用表盘风格">													<picture id="overview-health-ecg-health-startframe-1" class=" hidden  overview-health-ecg-health-startframe static-frame" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "no-enhanced"}'>
+												
+														<source data-empty="" srcset="data:image/gif;base64,index.htm" media="(min-width:0px)">
+														<source srcset="Xxupload/2024-04-01/17119785383036_s.jpg, Xxupload/2024-04-01/17119785383036.jpg 2x" media="(max-width:734px)">
+														<source srcset="Xxupload/2024-04-01/17119785488947_s.jpg, Xxupload/2024-04-01/17119785488947.jpg 2x" media="(max-width:1068px)">
+														<source srcset="Xxupload/2024-04-01/17119785677215_s.jpg, Xxupload/2024-04-01/17119785677215.jpg 2x" media="(min-width:0px)">
+														<img src="" alt="多种应用表盘风格">
+														
+													</picture>
+													
+																											<picture id="overview-health-ecg-health-endframe-2" class="overview-health-ecg-health-endframe " data-lazy="" aria-hidden="true">
+														<source srcset="xxx/pro/mini/7_4/750x636_s.png, xxx/pro/mini/7_4/750x636.png 2x" media="(max-width:734px)">
+															<source srcset="xxx/pro/mini/7_4/768x668_s.png, xxx/pro/mini/7_4/768x668.png 2x" media="(max-width:1068px)">
+															<source srcset="xxx/pro/mini/7_4/960x856_s.png, xxx/pro/mini/7_4/960x856.png 2x" media="(min-width:0px)">
+															<img src="/apple-watch-series-9/images/overview/health/health_insights__vx6epwtz21em_large.jpg" alt="多种应用表盘风格">
+													</picture>
+													
+													
+												</div>											</div>
+										</div>
+									</li>
+                                                    
+									<li class="gallery-item current" data-analytics-gallery-item-id="ecg app">
+										<div class="card   card-ecg " style="">
+											<div class="card-block align-items-end   ">
+												<h3 class="card-headline copy-block-headline typography-copy-block">手腕光学，动态心率监测仪。</h3><p class="typography-copy card-copy copy-block-copy typography-copy-block">通过科学量化的大数据，您可以看到每日心率曲线，保护您的身心健康。<sup class="footnote footnote-number"><a href="#footnote-7" aria-label="脚注 7" data-modal-close=""></a></sup></p>											</div>
+											<div class="card-image-container align-items-end    justify-content-center">
+												<div class="inline-video-container inline-media" data-component-list="InlineMedia" role="img" aria-label="ULTRA Pro Mini拥有2g的大内存，更大的空间，更懂您。">													<picture id="overview-health-ecg-health-startframe-1" class=" hidden  overview-health-ecg-health-startframe static-frame" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "no-enhanced"}'>
+												
+														<source data-empty="" srcset="data:image/gif;base64,index.htm" media="(min-width:0px)">
+														<source srcset="Xxupload/2024-04-01/17119795769985_s.jpg, Xxupload/2024-04-01/17119795769985.jpg 2x" media="(max-width:734px)">
+														<source srcset="Xxupload/2024-04-01/17119795873448_s.jpg, Xxupload/2024-04-01/17119795873448.jpg 2x" media="(max-width:1068px)">
+														<source srcset="Xxupload/2024-04-01/17119795975796_s.jpg, Xxupload/2024-04-01/17119795975796.jpg 2x" media="(min-width:0px)">
+														<img src="" alt="ULTRA Pro Mini拥有2g的大内存，更大的空间，更懂您。">
+														
+													</picture>
+													
+																											<picture id="overview-health-ecg-health-endframe-2" class="overview-health-ecg-health-endframe " data-lazy="" aria-hidden="true">
+														<source srcset="Xxupload/2024-05-19/17160644678694_s.png, Xxupload/2024-05-19/17160644678694.png 2x" media="(max-width:734px)">
+															<source srcset="Xxupload/2024-05-19/17160644742143_s.png, Xxupload/2024-05-19/17160644742143.png 2x" media="(max-width:1068px)">
+															<source srcset="Xxupload/2024-05-19/17160644775608_s.png, Xxupload/2024-05-19/17160644775608.png 2x" media="(min-width:0px)">
+															<img src="/apple-watch-series-9/images/overview/health/health_insights__vx6epwtz21em_large.jpg" alt="ULTRA Pro Mini拥有2g的大内存，更大的空间，更懂您。">
+													</picture>
+													
+													
+												</div>											</div>
+										</div>
+									</li>
+                                                    
+									<li class="gallery-item current" data-analytics-gallery-item-id="ecg app">
+										<div class="card   stack-container bg-image " style="">
+											<div class="card-block  stack-item   ">
+												
+										<h3 class="card-headline copy-block-headline typography-copy-block">戴好表，祝好梦。</h3><p class="typography-copy card-copy copy-block-copy typography-copy-block">有ULTRA Pro Mini您可以安心睡眠，可以随手支付，可以随拍生活，可以用用更多的可能。关于ULTRA Pro Mini，您值得拥有</p>											</div>
+											<div class="card-image-container  stack-item    justify-content-center">
+												<div class="inline-video-container inline-media" data-component-list="InlineMedia" role="img" aria-label="丰富的应用，多彩的功能，留住您生活的每一刻。">													<picture id="overview-health-ecg-health-startframe-1" class=" hidden  overview-health-ecg-health-startframe static-frame" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "no-enhanced"}'>
+												
+														<source data-empty="" srcset="data:image/gif;base64,index.htm" media="(min-width:0px)">
+														<source srcset="Xxupload/2024-04-01/17119798611123_s.jpg, Xxupload/2024-04-01/17119798611123.jpg 2x" media="(max-width:734px)">
+														<source srcset="Xxupload/2024-04-01/17119798716578_s.jpg, Xxupload/2024-04-01/17119798716578.jpg 2x" media="(max-width:1068px)">
+														<source srcset="Xxupload/2024-04-01/17119798823531_s.jpg, Xxupload/2024-04-01/17119798823531.jpg 2x" media="(min-width:0px)">
+														<img src="" alt="丰富的应用，多彩的功能，留住您生活的每一刻。">
+														
+													</picture>
+													
+																											<picture id="overview-health-ecg-health-endframe-2" class="overview-health-ecg-health-endframe " data-lazy="" aria-hidden="true">
+														<source srcset="xxx/pro/mini/750x1140_s.jpg, xxx/pro/mini/750x1140.jpg 2x" media="(max-width:734px)">
+															<source srcset="xxx/pro/mini/1040x1180_s.jpg, xxx/pro/mini/1040x1180.jpg 2x" media="(max-width:1068px)">
+															<source srcset="xxx/pro/mini/1304x1304_s.jpg, xxx/pro/mini/1304x1304.jpg 2x" media="(min-width:0px)">
+															<img src="/apple-watch-series-9/images/overview/health/health_insights__vx6epwtz21em_large.jpg" alt="丰富的应用，多彩的功能，留住您生活的每一刻。">
+													</picture>
+													
+													
+												</div>											</div>
+										</div>
+									</li>
+                                                    
+									<li class="gallery-item current" data-analytics-gallery-item-id="ecg app">
+										<div class="card   card-ecg " style="">
+											<div class="card-block align-items-end   ">
+												<h3 class="card-headline copy-block-headline typography-copy-block">动作游戏，潜入虚拟世界。</h3><br><p class="typography-copy card-copy copy-block-copy typography-copy-block">打破界限，手腕互动。解锁智能手表的乐趣，真正的健身和游戏体验。大量类型的在线免费下载。</p>											</div>
+											<div class="card-image-container align-items-end    justify-content-center">
+												<div class="inline-video-container inline-media" data-component-list="InlineMedia" role="img" aria-label="游戏，健身两不误">													<picture id="overview-health-ecg-health-startframe-1" class=" hidden  overview-health-ecg-health-startframe static-frame" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "no-enhanced"}'>
+												
+														<source data-empty="" srcset="data:image/gif;base64,index.htm" media="(min-width:0px)">
+														<source srcset="Xxupload/2024-05-30/17170620692009_s.png, Xxupload/2024-05-30/17170620692009.png 2x" media="(max-width:734px)">
+														<source srcset="Xxupload/2024-05-30/17170620744725_s.png, Xxupload/2024-05-30/17170620744725.png 2x" media="(max-width:1068px)">
+														<source srcset="Xxupload/2024-05-30/17170620795188_s.png, Xxupload/2024-05-30/17170620795188.png 2x" media="(min-width:0px)">
+														<img src="" alt="游戏，健身两不误">
+														
+													</picture>
+													
+																											<picture id="overview-health-ecg-health-endframe-2" class="overview-health-ecg-health-endframe " data-lazy="" aria-hidden="true">
+														<source srcset="xxx/pro/mini/6_4/752x748_s.png, xxx/pro/mini/6_4/752x748.png 2x" media="(max-width:734px)">
+															<source srcset="xxx/pro/mini/6_4/960x812_s.png, xxx/pro/mini/6_4/960x812.png 2x" media="(max-width:1068px)">
+															<source srcset="xxx/pro/mini/6_4/1040x776_s.png, xxx/pro/mini/6_4/1040x776.png 2x" media="(min-width:0px)">
+															<img src="/apple-watch-series-9/images/overview/health/health_insights__vx6epwtz21em_large.jpg" alt="游戏，健身两不误">
+													</picture>
+													
+													
+												</div>											</div>
+										</div>
+									</li>
+                                                    
+									<li class="gallery-item current" data-analytics-gallery-item-id="ecg app">
+										<div class="card   stack-container bg-image  theme-dark " style="">
+											<div class="card-block  stack-item   ">
+												<h3 class="card-headline copy-block-headline typography-copy-block">Al语音控制，“嘿，微型…”</h3>											</div>
+											<div class="card-image-container  stack-item    justify-content-center">
+																									<picture id="overview-health-ecg-health-startframe-1" class=" hidden  overview-health-ecg-health-startframe static-frame" data-lazy="" aria-hidden="true" data-download-area-keyframe='{"disabledWhen": "no-enhanced"}'>
+												
+														<source data-empty="" srcset="data:image/gif;base64,index.htm" media="(min-width:0px)">
+														<source srcset="Xxupload/2024-05-30/17170620986310_s.jpg, Xxupload/2024-05-30/17170620986310.jpg 2x" media="(max-width:734px)">
+														<source srcset="Xxupload/2024-05-30/17170621033248_s.jpg, Xxupload/2024-05-30/17170621033248.jpg 2x" media="(max-width:1068px)">
+														<source srcset="Xxupload/2024-05-30/17170621071017_s.jpg, Xxupload/2024-05-30/17170621071017.jpg 2x" media="(min-width:0px)">
+														<img src="" alt="语音辅助">
+														
+													</picture>
+													
+																											<picture id="overview-health-ecg-health-endframe-2" class="overview-health-ecg-health-endframe " data-lazy="" aria-hidden="true">
+														<source srcset="xxx/pro/mini/6_5/750x1212_s.jpg, xxx/pro/mini/6_5/750x1212.jpg 2x" media="(max-width:734px)">
+															<source srcset="xxx/pro/mini/6_5/1040x1210_s.jpg, xxx/pro/mini/6_5/1040x1210.jpg 2x" media="(max-width:1068px)">
+															<source srcset="xxx/pro/mini/6_5/1304x1304_s.jpg, xxx/pro/mini/6_5/1304x1304.jpg 2x" media="(min-width:0px)">
+															<img src="/apple-watch-series-9/images/overview/health/health_insights__vx6epwtz21em_large.jpg" alt="语音辅助">
+													</picture>
+													
+													
+																							</div>
+										</div>
+									</li>
+                    	
+						</ul>
+					</div>
+				</div>
+				<div data-analytics-gallery-interaction-type="paddlenav" class="paddlenav paddlenav-compact paddlenav-framed">
+					<ul>
+						<li><button aria-label="上一项" class="paddlenav-arrow paddlenav-arrow-previous"></button></li>
+						<li><button aria-label="下一项" class="paddlenav-arrow paddlenav-arrow-next"></button></li>
+					</ul>
+				</div>
+			</div>
+					</section>
+                        
+		<section class="section section-pillar section-connect" data-analytics-section-engagement="name:connect">
+			<div class="pillar-hero ">
+				<div class="section-content" data-component-list="CopyFade">
+					<h2 class="typography-section-eyebrow anim-text-animate">详情</h2>
+					<h3 class="typography-section-headline pillar-headline large-8 small-12 anim-text-animate will-change animated-copy-element">一切<br>节奏很快</h3>					<div class="hero-image-container stack-container" data-component-list="Parallax" data-para-start="t - 100vh" role="img" aria-label="">
+						<picture id="overview-connect-connect-hero-front-2" class="stack-item overview-connect-connect-hero-front parallax-item" style="" data-lazy="" aria-hidden="true">
+							<source srcset="Xxupload/2024-05-19/17160582251176_s.png, Xxupload/2024-05-19/17160582251176.png 2x" media="(max-width:734px)">
+							<source srcset="Xxupload/2024-05-19/17160582358031_s.png, Xxupload/2024-05-19/17160582358031.png 2x" media="(max-width:1068px)">
+							<source srcset="Xxupload/2024-05-19/17160582448284_s.png, Xxupload/2024-05-19/17160582448284.png 2x" media="(min-width:0px)">
+							<img src="" alt="">
+						</picture>
+						
+						<picture id="overview-connect-connect-hero-back-2" class="overview-connect-connect-hero-back stack-item" data-lazy="" aria-hidden="true">
+							<source srcset="Xxupload/2024-05-19/17160582304870_s.png, Xxupload/2024-05-19/17160582304870.png 2x" media="(max-width:734px)">
+    						<source srcset="Xxupload/2024-05-19/17160582397706_s.png, Xxupload/2024-05-19/17160582397706.png 2x" media="(max-width:1068px)">
+    						<source srcset="Xxupload/2024-05-19/17160582476902_s.png, Xxupload/2024-05-19/17160582476902.png 2x" media="(min-width:0px)">
+							<img src="" alt="">
+						</picture>
+						
+					</div>
+					<p class="typography-pillar-intro pillar-intro-copy large-6 small-10 anim-text-animate">将Ultra Pro Mini戴在手腕上，时尚将陪伴您。简单、精致，但敏捷灵活。</p>
+				</div>
+			</div>
+            			<div class="pillar-gallery gallery" data-component-list="CardGallery" id="connect-gallery" data-analytics-gallery-id="connect gallery">
+				<div class="card-gallery-container theme-gray">
+					<div class="scroll-container">
+						<ul role="list" class="item-container">
+						                                    <li class="gallery-item" data-analytics-gallery-item-id="freedom of cellular">
+                                    <div class="card card-cellular   card-ecg " style="">
+                                        <div class="card-block align-items-end  ">
+                                            <h3 class="card-headline copy-block-headline typography-copy-block">床头钟。</h3>
+<p class="typography-copy card-copy copy-block-copy typography-copy-block"><br class="large-show medium-hide small-show">水平/垂直屏幕可以随意切换，所以你晚上醒来时不会觉得黑暗！</p>
+<div class="ecg-tip-block">
+</div>	                                        </div>
+                                        <div class="card-image-container  justify-content-center align-items-end ">
+                                            <picture id="overview-connect-connect-cellular-2" class="overview-connect-connect-cellular card-image" data-lazy="">
+                                                <source srcset="Xxupload/2024-05-19/17160583629668_s.png, Xxupload/2024-05-19/17160583629668.png 2x" media="(max-width:734px)">
+                                                    <source srcset="Xxupload/2024-05-19/17160583677738_s.png, Xxupload/2024-05-19/17160583677738.png 2x" media="(max-width:1068px)">
+                                                    <source srcset="Xxupload/2024-05-19/17160583715180_s.png, Xxupload/2024-05-19/17160583715180.png 2x" media="(min-width:0px)">
+                                                    <img src="" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                </li>
+							
+							
+							
+							                                <li class="gallery-item" data-analytics-gallery-item-id="freedom of cellular">
+                                    <div class="card card-cellular   card-ecg " style="">
+                                        <div class="card-block align-items-end  ">
+                                            <h3 class="card-headline copy-block-headline typography-copy-block">为来电/消息/闹钟添加了自定义铃声，</h3>
+<p class="typography-copy card-copy copy-block-copy typography-copy-block">易于处理日常生活。您手腕上的专属管家。</p>                                        </div>
+                                        <div class="card-image-container  justify-content-center align-items-end ">
+                                            <picture id="overview-connect-connect-cellular-2" class="overview-connect-connect-cellular card-image" data-lazy="">
+                                                <source srcset="xxx/pro/mini/7_2/750x636_s.png, xxx/pro/mini/7_2/750x636.png 2x" media="(max-width:734px)">
+                                                    <source srcset="xxx/pro/mini/7_2/768x668_s.png, xxx/pro/mini/7_2/768x668.png 2x" media="(max-width:1068px)">
+                                                    <source srcset="xxx/pro/mini/7_2/960x856_s.png, xxx/pro/mini/7_2/960x856.png 2x" media="(min-width:0px)">
+                                                    <img src="" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                </li>
+							
+							
+							
+							                                <li class="gallery-item" data-analytics-gallery-item-id="freedom of cellular">
+                                    <div class="card card-cellular   card-ecg " style="">
+                                        <div class="card-block align-items-end  ">
+                                            <h3 class="card-headline copy-block-headline typography-copy-block xxhei">移动皮毛，然后扮演怀尔德。</h3><br>
+<p class="typography-copy card-copy copy-block-copy typography-copy-block">最新升级的常见运动模式，步行、跑步、骑自行车、篮球、足球。。。满足不同体育爱好者的需求。</p>                                        </div>
+                                        <div class="card-image-container  justify-content-center align-items-end ">
+                                            <picture id="overview-connect-connect-cellular-2" class="overview-connect-connect-cellular card-image" data-lazy="">
+                                                <source srcset="xxx/pro/mini/9_1/750x1140_s.png, xxx/pro/mini/9_1/750x1140.png 2x" media="(max-width:734px)">
+                                                    <source srcset="xxx/pro/mini/9_1/768x1180_s.png, xxx/pro/mini/9_1/768x1180.png 2x" media="(max-width:1068px)">
+                                                    <source srcset="xxx/pro/mini/9_1/960x1034_s.png, xxx/pro/mini/9_1/960x1034.png 2x" media="(min-width:0px)">
+                                                    <img src="" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                </li>
+							
+							
+							
+							                                <li class="gallery-item" data-analytics-gallery-item-id="freedom of cellular">
+                                    <div class="card card-cellular   card-ecg " style="">
+                                        <div class="card-block align-items-end  ">
+                                            <h3 class="card-headline copy-block-headline typography-copy-block xxhei">设计</h3><br><p class="typography-copy card-copy copy-block-copy typography-copy-block">先锋工程。</p>                                        </div>
+                                        <div class="card-image-container  justify-content-center align-items-end ">
+                                            <picture id="overview-connect-connect-cellular-2" class="overview-connect-connect-cellular card-image" data-lazy="">
+                                                <source srcset="Xxupload/2024-05-21/17162555968278_s.png, Xxupload/2024-05-21/17162555968278.png 2x" media="(max-width:734px)">
+                                                    <source srcset="Xxupload/2024-05-21/17162556009033_s.png, Xxupload/2024-05-21/17162556009033.png 2x" media="(max-width:1068px)">
+                                                    <source srcset="Xxupload/2024-05-21/17162556033789_s.png, Xxupload/2024-05-21/17162556033789.png 2x" media="(min-width:0px)">
+                                                    <img src="" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                </li>
+							
+							
+							
+							                                <li class="gallery-item" data-analytics-gallery-item-id="freedom of cellular">
+                                    <div class="card card-cellular   card-ecg " style="">
+                                        <div class="card-block align-items-end  ">
+                                            <h3 class="card-headline copy-block-headline typography-copy-block xxhei">电池寿命更长内置380mAh大容量电池，</h3><p class="typography-copy card-copy copy-block-copy typography-copy-block">优化了通话内部的硬件功耗管理，以及新升级的功耗优化，让您根本不必担心电量不足。更长的电池寿命使您能够轻松应对更多挑战。</p>                                        </div>
+                                        <div class="card-image-container  justify-content-center align-items-end ">
+                                            <picture id="overview-connect-connect-cellular-2" class="overview-connect-connect-cellular card-image" data-lazy="">
+                                                <source srcset="Xxupload/2024-05-21/17162556207196_s.png, Xxupload/2024-05-21/17162556207196.png 2x" media="(max-width:734px)">
+                                                    <source srcset="Xxupload/2024-05-21/17162556247373_s.png, Xxupload/2024-05-21/17162556247373.png 2x" media="(max-width:1068px)">
+                                                    <source srcset="Xxupload/2024-05-21/17162556298828_s.png, Xxupload/2024-05-21/17162556298828.png 2x" media="(min-width:0px)">
+                                                    <img src="" alt="">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                </li>
+							
+							
+							
+													</ul>
+					</div>
+				</div>
+				<div data-analytics-gallery-interaction-type="paddlenav" class="paddlenav paddlenav-compact paddlenav-framed">
+					<ul>
+						<li><button aria-label="上一项" class="paddlenav-arrow paddlenav-arrow-previous"></button></li>
+						<li><button aria-label="下一项" class="paddlenav-arrow paddlenav-arrow-next"></button></li>
+					</ul>
+				</div>				
+			</div>
+            		</section>
+		
+		        		<section class="section section-pillar section-fitness " style="background: rgba(0,0,0,0.01) !important;" data-analytics-section-engagement="name:fitness">
+			<div class="pillar-hero stack-container">
+				<div class="section-content stack-item" data-component-list="CopyFade">
+					<div class="hero-copy-container">
+						<div class="column large-5 small-12 text-zoom-12">
+							<h2 class="typography-section-eyebrow anim-text-animate">耐力</h2>
+							<h3 class="typography-section-headline pillar-headline anim-text-animate xxfont_family">更进一步</h3>
+							<p class="typography-pillar-intro pillar-intro-copy anim-text-animate">所以你也可以。无论是你一段时间以来的第一次跑步，10公里还是铁人三项，都需要一定的心态来寻找考验你身体的挑战。Ultra Pro Mini是终极训练伙伴，它充满了新功能，可以帮助您实现目标。</p>
+						</div>
+					</div>
+				</div>
+				<style>
+				    #overview-fitness-fitness-hero-2{
+			            transform: translate3d(0px, 0px,0px) !important;
+				    }
+				</style>
+				<div class="hero-image-container stack-item" data-component-list="Parallax" data-para-start="t - 100vh">
+					<picture id="overview-fitness-fitness-hero-2" class="overview-fitness-fitness-hero parallax-item" data-lazy="">
+						<source srcset="gw/file/watch/171764991701762.png, gw/file/watch/171765002475470.jpg 2x" media="(max-width:734px)">
+						<source srcset="gw/file/watch/171764982633112.png, gw/file/watch/171764968543646.jpg 2x" media="(max-width:1068px)">
+						<source srcset="gw/file/watch/171764960683653.png, gw/file/watch/171764921833005.jpg 2x" media="(min-width:0px)">
+						<img src="" alt="Endurance">
+					</picture>
+				</div>
+			</div>
+					</section>
+		
+		        		
+		<section class="section section-pillar section-safety theme-dark" data-analytics-section-engagement="name:safety">
+			<div class="pillar-hero ">
+				<div class="section-content" data-component-list="CopyFade" style="width:100vw !important;">
+					<h2 class="typography-section-eyebrow anim-text-animate xxfont_family" style="width:980px;margin:auto">特点</h2>
+					<div class="row xxfont_family" style="width:980px;margin:auto;">
+						
+					    <h3 class="typography-section-headline pillar-headline large-5 small-12 text-zoom-12 anim-text-animate animated-copy-element will-change xxfont_family">微型能力。</h3>
+						<p class="typography-pillar-intro pillar-intro-copy large-6 small-12 text-zoom-12 large-last anim-text-animate animated-copy-element will-change">使用Ultra Pro Mini，在您的设备上处理的Micro请求更快、更安全。此外，微听写的准确率高达25%。<span class="nowrap"></span></p>					
+					</div>
+					<div class="row" style="padding-bottom:50px;">
+						<div class="hero-image-container justify-content-center" data-component-list="Parallax" data-para-start="t - 25vh">
+							<picture id="overview-safety-safety-hero-2" class="overview-safety-safety-hero parallax-item" data-lazy="">
+								<source srcset="Xxupload/2024-05-19/17160615134536_s.jpg, Xxupload/2024-05-19/17160615134536.jpg 2x" media="(max-width:734px)">
+        						<source srcset="Xxupload/2024-05-19/17160615169673_s.jpg, Xxupload/2024-05-19/17160615169673.jpg 2x" media="(max-width:1068px)">
+        						<source srcset="Xxupload/2024-05-19/17160615206229_s.jpg, Xxupload/2024-05-19/17160615206229.jpg 2x" media="(min-width:0px)">
+								<img src="" alt="Characteristic">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</div>
+
+						
+			
+		</section>
+		
+	            		
+		
+		<section class="section section-routers" data-name="routers" data-anim-scroll-group="routers" style="display:none;padding:0px">
+                                                                                                                                    <style>
+                .xxcontent{
+                    margin-top: -100px;
+                    text-align: center;
+                }
+                /*.navs li:hover .product-menu {  
+                    display: block; 
+                }*/
+                @media screen and (max-width: 768px) { 
+                    .xxcontent_pc{
+                        display: none !important;
+                    }
+                    .xxcontent_mb{
+                        display: block !important;
+                    }
+                }
+                @media screen and (min-width:769px){
+                    .xxcontent_pc{
+                        display: block !important;
+                    }
+                    .xxcontent_mb{
+                        display: none !important;
+                    }
+                }
+            </style>
+            <div class="xxcontent">
+                <div class="xxcontent_pc" ihtml="">
+                                    </div>  
+                <div class="xxcontent_mb" ihtml="">
+                                    </div>    
+                            </div>
+
+            
+
+
+            <style>
+                .video{
+    		        display: block !important;
+    		    }
+			    ul{
+			        list-style: none;
+			    }
+			    /*.parameter-content-10086664303515{*/
+			    /*    display: flex;*/
+			    /*}*/
+			    .product-parameter-list{
+			        display: flex;
+                    flex-direction: row;
+                    padding:20px 0px;
+			    }
+			    .product-parameter-list ul{
+			            display: flex;
+                        flex-direction: column;
+                        border-bottom: 1px solid #5a555a;;
+                        margin-left: 0px;
+                        width: calc(80vw - 160px);
+                        padding-left: 30px;
+			    }
+			    .product-parameter-list li{
+			        padding:10px 0px;
+			        /*height:32px;*/
+			        /*line-height:32px;*/
+			    }
+			    .product-parameter-list h2{
+                      /*  border-bottom: 1px solid #5a555a;;*/
+			    }
+			    .product-parameter-list li{
+			            display: flex;
+                       flex-direction: row;
+			    }
+			    .compare-tables{
+			        text-align: left;
+			    }
+			    .compare-tables h2{
+			        width:120px;
+			    }
+			    .compare-tables label{
+			        width: 100px;
+			    }
+			    .compare-tables span{
+			        width: clac(100vw - 220px);
+			    }
+			    
+			    @media screen and (max-width: 768px) { /* 根据需要调整这个断点值 */  
+                    .product-parameter-list ul {  
+                        width: calc(100vw - 160px);
+                    }  
+                    .compare-tables h2{
+                        padding-left: 20px;
+                        font-size: 20px;
+                    }
+                    /* 在这里添加其他针对手机屏幕尺寸的样式调整 */  
+                    .header{
+                        background: #fff;
+                    } 
+                    
+                    .xxsmimg{
+                        width:16% !important;
+                    }
+                }
+                
+                @media screen and (min-width:769px){
+                    .header{
+                        background: #333;
+                    } 
+                }
+                .hidden{
+                    display:none;
+                }
+                .xxfont{
+                    color:#6e6e73
+                }
+                .xxflex{
+                    display:flex;
+                    align-items: flex-end;
+                }
+                .xxfont_family{
+                    font-family:SF Pro SC,SF Pro Display,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif
+                }
+                .typography-section-headline: {
+                        font-family: SF Pro SC,SF Pro Display,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
+                    }
+                    
+                   
+			</style>
+			
+		</section>
+		<section class="section pt-1 mt-3 xxsec1" style="display:none">
+		    <div class="col-12 text-center text-dark">
+		        <div class="col-8  d-block mx-auto">
+		            <img class="d-block mx-auto img-thumbnail border-0 xximgs_banner" src="Img/product/Ultra-Pro-Mini.png">
+		        </div>
+		        
+		        <div class="col-sm-8 col-12 d-block mx-auto text-cn xxscroll anim-text-animate will-change">
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">材料和表面处理</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">合金</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">表带</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">创新海洋乐队</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">显示</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">1.32" Amoled, 466 * 466 px</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">尺寸和重量</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">宽42.6*H42*D12毫米</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">CPU</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">JL7012A7S</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">蓝牙</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">3.0和5.1蓝牙通话</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">触摸屏</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">2.5D曲面全触控</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">电池</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">380毫安时</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">防水</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">IP 68</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">充电</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">无线</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">语言文字</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">中文、英文、法文。。。</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">颜色</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">黑色、金色</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">APP</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left no-gutters d-flex  flex-column pl-2"><p>
+    <img alt="(图1)" src="Img/app/A1.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图2)" src="Img/app/A2.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图3)" src="Img/app/A3.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图4)" src="Img/app/A4.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图5)" src="Img/app/A5.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图6)" src="Img/app/A6.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图7)" src="Img/app/A7.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图8)" src="Img/app/A8.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图9)" src="Img/app/A9.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图10)" src="Img/app/A10.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图11)" src="Img/app/A11.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图12)" src="Img/app/A12.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图13)" src="Img/app/A13.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图14)" src="Img/app/A14.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图15)" src="Img/app/A15.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图16)" src="Img/app/A16.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图17)" src="Img/app/A17.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图18)" src="Img/app/A18.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图19)" src="Img/app/A19.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图20)" src="Img/app/A20.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图21)" src="Img/app/A21.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图22)" src="Img/app/A22.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图23)" src="Img/app/A23.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图24)" src="Img/app/A24.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图25)" src="Img/app/A25.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图26)" src="Img/app/A26.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图27)" src="Img/app/27.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto="">
+</p></div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">其他</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left no-gutters d-flex  flex-column pl-2"><p>系统：iOS/Android/HarmonyOS</p><p>ROM：256 KB+RAM 684 KB+2 MB</p><p>闪存：1 Gb</p></div>
+    		                    		            </div>
+    		            
+		            		        </div>
+		    </div>
+		</section>
+		
+		
+		<section class="section pt-1 xxsec3 pb-1">
+
+            <div class="d-flex flex-column align-items-center bg-light mt-sm-0 mb-5 pt-5 xxscroll anim-text-animate will-change">
+                <div class="text-center">
+                    <h3 class="xxh3 " style="font-size: 3rem;">Microwear手表</h3>
+                    <p class="xxh5 text-warming mt-2 mb-5">智能，随意</p>
+                    <img src="Img/product/Ultra-Pro-Mini.png" class="w-75 mx-auto xximgs_banner">
+                    <div class="xxxin_kuang d-flex align-items-center mx-auto justify-content-between p-1 m-4">
+                        <div class="xxxin_yuan d-flex align-items-center justify-content-center">
+                            <div class="xxxin"></div>
+                        </div>
+                        <span class="xxh5s">去买</span>
+                        <span> </span>
+                    </div>
+                    
+                    
+                    <div class="xxjiantou">  
+                        <span class="blink">&gt;</span>  
+                        <span class="blink">&gt;</span>  
+                    </div>
+                   
+                   <p class="xxh5 text-warming mt-2 mb-5">您可以从以下商店购买，价格更优惠</p>
+                   
+                   <div class="container row mx-auto" style="width:100vw">
+                                              <div class="col-12 col-sm-4 mb-3 xxmendian" idd="https://mall.jd.com/index-16291346.html">
+                           <div class="bg-white p-3 pt-5 pb-4 xxrounded">
+                               <h3 class="xxh3">Microwear 微穿戴旗舰店</h3>
+                               <h3 class="xxh3">商店</h3>
+                               <a href="https://mall.jd.com/index-16291346.html" target="_blank">
+                                   <h5 class="xxh5 mt-5 d-flex justify-content-center align-items-center" style="font-size:14px">查看<span color="blink" style="padding-left:5px;">
+                                            <svg viewbox="0 0 12 16" style="width:12px;" aria-label="arrowRight" class="show">
+                                                <path d="M6 2 4.95 3.05l4.2 4.2H0v1.5h9.15l-4.2 4.2L6 14l6-6z" fill="#ff0808">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                   </h5>
+                                </a>   
+                           </div>
+                       </div>
+                                              <div class="col-12 col-sm-4 mb-3 xxmendian" idd="https://www.microwear.com/">
+                           <div class="bg-white p-3 pt-5 pb-4 xxrounded">
+                               <h3 class="xxh3">Microwear</h3>
+                               <h3 class="xxh3">商店</h3>
+                               <a href="index.htm" target="_blank">
+                                   <h5 class="xxh5 mt-5 d-flex justify-content-center align-items-center" style="font-size:14px">查看<span color="blink" style="padding-left:5px;">
+                                            <svg viewbox="0 0 12 16" style="width:12px;" aria-label="arrowRight" class="show">
+                                                <path d="M6 2 4.95 3.05l4.2 4.2H0v1.5h9.15l-4.2 4.2L6 14l6-6z" fill="#ff0808">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                   </h5>
+                                </a>   
+                           </div>
+                       </div>
+                                              <div class="col-12 col-sm-4 mb-3 xxmendian" idd="https://mall.jd.com/index-16291346.html">
+                           <div class="bg-white p-3 pt-5 pb-4 xxrounded">
+                               <h3 class="xxh3">Microwear 微穿戴旗舰店</h3>
+                               <h3 class="xxh3">商店</h3>
+                               <a href="https://mall.jd.com/index-16291346.html" target="_blank">
+                                   <h5 class="xxh5 mt-5 d-flex justify-content-center align-items-center" style="font-size:14px">查看<span color="blink" style="padding-left:5px;">
+                                            <svg viewbox="0 0 12 16" style="width:12px;" aria-label="arrowRight" class="show">
+                                                <path d="M6 2 4.95 3.05l4.2 4.2H0v1.5h9.15l-4.2 4.2L6 14l6-6z" fill="#ff0808">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                   </h5>
+                                </a>   
+                           </div>
+                       </div>
+                                          </div>
+                   
+                </div>
+            </div>
+        </section>
+		
+		
+		<section class="section pt-1 xxsec2 pb-1">
+            <div class="d-flex flex-column align-items-center mt-5">
+                <div class="text-center xxscroll anim-text-animate will-change">
+                    <h3 class="xxh3 " style="font-size: 3rem;">Microwear手表</h3>
+                    <h5 class="xxh3" style="font-size: 3rem;">手表型号比较</h5>
+                    <p class="xxh5 text-warming mt-2 mb-5" style="color:#ff0808;">点击查看所有手表款式</p>
+                </div>
+                <div class="row container mt-3">
+                                        <div class="col-sm-4  col-6 mb-sm-0 mb-5 text-center xxscroll anim-text-animate will-change">
+                        <a href="productdetail-1.html?id=1"><img src="Img/product/Ultra-Pro-Mini.png" class="w-75 mx-auto"></a>
+                        <h3 class="xxh1 text-center mt-5 mb-2 pb-1">
+                            <span class="xxxiahua"><a href="productdetail-1.html?id=1">Ultra Pro Mini</a></span>
+                        </h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">显示器</h3>
+                        <h3 class="xxh5">1.32" Amoled, 466 * 466 px</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">CPU</h3>
+                        <h3 class="xxh5">JL7012A7S</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">蓝牙</h3>
+                        <h3 class="xxh5">3.0和5.1蓝牙通话</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">贝彤</h3>
+                        <h3 class="xxh5">380毫安时</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">充电</h3>
+                        <h3 class="xxh5">无线</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">尺寸和重量</h3>
+                        <h3 class="xxh5">宽42.6*H42*D12毫米</h3>
+                        
+                    </div>
+                                        <div class="col-sm-4  col-6 mb-sm-0 mb-5 text-center xxscroll anim-text-animate will-change">
+                        <a href="productdetail-4.html?id=2"><img src="Img/product/Ultra-3-Mini.png" class="w-75 mx-auto"></a>
+                        <h3 class="xxh1 text-center mt-5 mb-2 pb-1">
+                            <span class="xxxiahua"><a href="productdetail-4.html?id=2">Ultra 3 Mini</a></span>
+                        </h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">显示器</h3>
+                        <h3 class="xxh5">1.52" IPS screen, 320*390 px</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">CPU</h3>
+                        <h3 class="xxh5">JL7012F6</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">蓝牙</h3>
+                        <h3 class="xxh5">3.0/5.1蓝牙通话</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">贝彤</h3>
+                        <h3 class="xxh5">160毫安时</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">充电</h3>
+                        <h3 class="xxh5">无线</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">尺寸和重量</h3>
+                        <h3 class="xxh5">宽34*H39.6*D11.3毫米</h3>
+                        
+                    </div>
+                                        <div class="col-sm-4  col-6 mb-sm-0 mb-5 text-center xxscroll anim-text-animate will-change">
+                        <a href="productdetail-2.html?id=13"><img src="gw/file/watch/172931795885062.png" class="w-75 mx-auto"></a>
+                        <h3 class="xxh1 text-center mt-5 mb-2 pb-1">
+                            <span class="xxxiahua"><a href="productdetail-2.html?id=13">Ultra Ai 3</a></span>
+                        </h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">显示器</h3>
+                        <h3 class="xxh5">2.06" Amoled screen, 428*518 px</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">CPU</h3>
+                        <h3 class="xxh5">安卓8.1系统</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">蓝牙</h3>
+                        <h3 class="xxh5">3.0/5.1蓝牙通话</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">贝彤</h3>
+                        <h3 class="xxh5">800毫安时</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">充电</h3>
+                        <h3 class="xxh5">无线</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">尺寸和重量</h3>
+                        <h3 class="xxh5">宽44*H49*D14.4毫米</h3>
+                        
+                    </div>
+                                        
+                </div>
+            </div> 
+        </section>   
+        
+        
+        
+        
+        
+        
+		
+	</main>
+
+    <style>
+	    .img-thumbnail{
+	        border:0px !important;   
+	    }
+        #ac-localnav .ac-ln-content{
+            max-width: 1400px;
+        }
+        .ac-ln-menu-link::hover{ 
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .xxactive{
+            color:#fff !important;
+            opacity: 1 !important;
+        }
+        .xxbai{
+            color: #fff !important;
+            opacity: 1;
+        }
+        #ac-localnav{
+		        /*display: none !important;*/
+		    }
+		.xxrounded{
+		    border-radius: 10px;
+		}   
+	    .xxjiantou {  
+            display: flex;  
+            align-items: center;  
+            justify-content: center;  
+            color: #ff0808;  
+            font-size: 18px;  
+            font-weight: 600;  
+            letter-spacing: 1px;  
+            transform: rotateZ(90deg);
+            animation: rotate 1s infinite linear; /* 添加一个旋转动画（如果需要的话）*/  
+        }   
+          
+        .blink {  
+            opacity: 1;  
+            animation: blinker 1s infinite alternate;  
+        }  
+          
+        .blink:nth-child(1) {  
+            animation-delay: 0s;  
+        }  
+          
+        .blink:nth-child(2) {  
+            animation-delay: 0.5s; /* 第二个元素延迟0.5秒开始动画，以实现交替效果 */  
+        }  
+          
+        @keyframes blinker {  
+            from { opacity: 1; }  
+            to { opacity: 0; }  
+        }  
+          
+         
+        .xxxin_kuang{
+                padding: 1px !important;
+                width: 120px;
+                border-radius: 8px;
+                background: #ff0808;
+                border-bottom-left-radius: 17.5px;
+                border-top-left-radius: 17.5px;
+        }
+        .xxxin_yuan{
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background: #fff;
+        }
+        .xxxin{
+            width: 20px;
+            height: 20px;
+            background-image: url(Img/app/xin_hui.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        .xxxin_kuang:hover .xxxin{
+            background-image: url("Img/app/xin_hongs.png");
+            background-size:100%;
+            transform: scale(1.2);
+        }
+		@media screen and  (max-width:768px){
+		    .xxh1{
+		        font-size: 1.2rem;
+		    }
+		    .xxh3{
+		        font-size:1rem;
+		        
+		    }
+		    .xxh5{
+	            font-family: 'HarmonyOS_Sans_SC_Regular';
+		    }
+		    .xxh5s{
+		        font-family: 'HarmonyOS_Sans_SC_Regular';
+		        height: 28px;
+                line-height: 28px;
+                font-size: 1rem;
+		    }
+		}  
+		@media screen and (min-width:769px){
+		    .xxh1{
+		        font-size: 2rem;
+		    }
+	        .xxh3{
+		        font-size:1.3rem;
+		        
+		    }
+		    .xxh5{
+	            font-family: 'HarmonyOS_Sans_SC_Regular';
+	            font-size: 1.2rem;
+		    }
+		    .xxh5s{
+		        font-family: 'HarmonyOS_Sans_SC_Regular';
+		        height: 28px;
+                line-height: 28px;
+                font-size: 1.2rem;
+		    }
+		}
+		@media screen and (min-width:1366px){
+		    .xxh1{
+		        font-size: 1.8rem;
+		    }
+		    .xximgs_banner{
+		        max-width: 400px;
+		    }
+		    .xxxin_kuang {
+		        width:130px
+		    }
+		    
+		}
+		
+		@media screen and (min-width:1920px){
+		    .xxh1{
+		        font-size: 2.2rem;
+		    }
+		}
+		
+		@media screen and (min-width:2320px){
+		    .xxh1{
+		        font-size: 3rem;
+		    }
+		}
+		
+		.section .xxanim-text-animate {
+            transition: opacity .6s linear, transform .6s cubic-bezier(0.26,0.67,0.48,0.91);
+            opacity: 0;
+            transform: translateY(100px);
+        }
+    </style>
+    
+    <footer class="footer">
+            <div class="scroll-top iconfont"><a href="#"></a></div>
+            <div class="footer-bd pc" style="">
+                <div class="footer-tops inner" style="padding:10px 0px;display:flex;flex-direction:row;justify-content:space-between;align-items:center;">
+                    <div class="footer-tops-left">
+                         <img src="xximgs/hhlogo2_red.png" style="height:50px;" alt="">
+                    </div>
+                    <div class="footer-tops-right">
+                        <div class="followus clearfix " style="width: 360px;line-height: 24px;padding-top:5px;margin-left: 40px;overflow: hidden;">
+    						<div class="xxlinks" style="color:#444444;display:flex;align-items:center">
+    							<h4 class="" style='margin-right:20px;font-size: 20px;font-family:"HarmonyOS_Sans_SC_Regular";font-weight: 500;width:160px;'>关注我们</h4>
+    							<div class="list " style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;width: 10vw;">
+    							        								<a href="https://www.instagram.com/microwearoffice/" class="iconfont icon-instagram" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://www.youtube.com/channel/UCsIoYsdHbwU_1z9fzgzSNKw" class="iconfont icon-youtube" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://www.tiktok.com/@microwearoffice" class="iconfont icon-tiktok" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://www.facebook.com/microwearO?mibextid=ZbWKwL" class="iconfont icon-facebook" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://x.com/MicrowearO" class="iconfont icon-tuite" target="_blank" rel="nofollow"></a>
+    								    							</div>
+    						</div>
+    					</div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="footer-bd mb inner" style="">
+                <div class="footer-tops" style="padding:10px 0px;display:flex;flex-direction:row;justify-content:space-between;align-items:center;">
+                    <div class="footer-tops-left" style="">
+                         <img src="xximgs/hhlogo2_red.png" style="height:50px;" alt="">
+                    </div>
+                    <div class="footer-tops-right">
+                        <div class="followus clearfix col-xl-12 col-lg-12" style="padding-top:5px;line-height: 22px;overflow: hidden;">
+    						<div class="xxlinks" style="color:#444444;display:flex;">
+    							<div class="list" style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;width: calc(80vw - 180px);margin-left: 30px;">
+    							        								<a href="https://www.instagram.com/microwearoffice/" class="iconfont icon-instagram" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://www.youtube.com/channel/UCsIoYsdHbwU_1z9fzgzSNKw" class="iconfont icon-youtube" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://www.tiktok.com/@microwearoffice" class="iconfont icon-tiktok" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://www.facebook.com/microwearO?mibextid=ZbWKwL" class="iconfont icon-facebook" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://x.com/MicrowearO" class="iconfont icon-tuite" target="_blank" rel="nofollow"></a>
+    								    							
+    									
+    							</div>
+    						</div>
+    					</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-down">
+                <div class="footer-wrap inner article-block">
+                    <div class="footer-navs" style="border-bottom: 1px solid #cececf;padding-bottom:25px;">
+                        <div class="footer_left">
+                                                        <dl class="footer-navs-item">
+                                <dt><a href="product.html">产品中心</a></dt>
+                                 
+                                <dd>
+                                                                            <p><a href="#">Ultra系列</a></p>
+                                        
+                                                                            <p><a href="#">W系列</a></p>
+                                        
+                                                                            <p><a href="#">GT系列</a></p>
+                                        
+                                                                            <p><a href="#">A系列</a></p>
+                                        
+                                                                            <p><a href="#">MA系列</a></p>
+                                        
+                                                                            <p><a href="#">其他</a></p>
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                                    </dd>
+                                                            </dl>
+                                                        <dl class="footer-navs-item">
+                                <dt><a href="#">关于</a></dt>
+                                 
+                                <dd>
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                                            <p><a href="Brand.html">品牌</a></p>
+                                        
+                                                                            <p><a href="news.html">活动</a></p>
+                                        
+                                        
+                                        
+                                        
+                                                                    </dd>
+                                                            </dl>
+                                                        <dl class="footer-navs-item">
+                                <dt><a href="#">支持</a></dt>
+                                 
+                                <dd>
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                                            <p><a href="Support.html">下载</a></p>
+                                        
+                                                                            <p><a href="faq.html">FAQ</a></p>
+                                        
+                                                                            <p><a href="Contactus.html">售后服务</a></p>
+                                        
+                                                                    </dd>
+                                                            </dl>
+                                                    </div>    
+                        
+                        <dl class="footer-navs-item" style="width:360px;">
+                            <dt>订阅我们</dt>
+                            <dd>
+                                <p>
+                                    <a href="#">首次访问<br>最新Microwear产品，<br>灵感与服务。</a>
+                                </p>
+                                <p>
+                                    <a style="display:flex;">
+                                        <input id="mymail" type="text" style="width: calc(100% - 20px);line-height: 20px;border: 2px solid #ccc;box-shadow: 1px solid #ccc;box-shadow: 0 0 black;font-size: 14px;text-indent: 5px;" placeholder="Email Addredss">
+                                        <span id="sendmail" style="margin-left: -3px;background: #000;color: #fff;display: inline-block;padding: 0px 5px;border-right-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;">&gt;</span>
+                                    </a>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <ul class="mobile-menu-list">
+                                                <li>
+                            <div class="mobile-defaul">
+                                <span>产品中心</span>
+                                <i></i>
+                            </div>
+                                                        <ol class="mobile-down">
+                                                                         <li><a href="#">Ultra系列</a></li>
+                                         
+                                                                         <li><a href="#">W系列</a></li>
+                                         
+                                                                         <li><a href="#">GT系列</a></li>
+                                         
+                                                                         <li><a href="#">A系列</a></li>
+                                         
+                                                                         <li><a href="#">MA系列</a></li>
+                                         
+                                                                         <li><a href="#">其他</a></li>
+                                         
+                                     
+                                     
+                                     
+                                     
+                                     
+                                                            </ol>
+                                                    </li>
+                                                <li>
+                            <div class="mobile-defaul">
+                                <span>关于</span>
+                                <i></i>
+                            </div>
+                                                        <ol class="mobile-down">
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                                                         <li><a href="Brand.html">品牌</a></li>
+                                         
+                                                                         <li><a href="news.html">活动</a></li>
+                                         
+                                     
+                                     
+                                     
+                                                            </ol>
+                                                    </li>
+                                                <li>
+                            <div class="mobile-defaul">
+                                <span>支持</span>
+                                <i></i>
+                            </div>
+                                                        <ol class="mobile-down">
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                                                         <li><a href="Support.html">下载</a></li>
+                                         
+                                                                         <li><a href="faq.html">FAQ</a></li>
+                                         
+                                                                         <li><a href="Contactus.html">售后服务</a></li>
+                                         
+                                                            </ol>
+                                                    </li>
+                                              
+                        <li class="active">
+                            <div class="mobile-defaul"><span>订阅我们</span><i></i></div>
+                            <ol class="mobile-down" style="display:block">
+                                <li><a href="#" target="_self">首次访问<br>最新Microwear产品，<br>灵感与服务。</a></li>
+                                <li>
+                                    <a>
+                                        <input id="mymail" type="text" style="width: 80%;line-height: 20px;border: 2px solid #ccc;box-shadow: 1px solid #ccc;box-shadow: 0 0 black;font-size: 14px;text-indent: 5px;" placeholder="Email Addredss">
+                                        <span id="sendmail" style="margin-left: -3px;background: #000;color: #fff;display: inline-block;padding: 0px 5px;border-right-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;">&gt;</span>
+                                    </a>
+                                </li>
+                            </ol>
+                        </li>
+                        
+                    </ul>
+                    
+
+                    
+                    <div class="footer-copy pc" style="padding-top: 25px;display: flex;justify-content: space-between;align-items: start;">
+                        <div class="footer-copy-left">
+                            <div class="footer-tel">
+                                <span class="iconfont"></span>
+                                <div class="footer-tel-info" style="display:flex;flex-direction:row;justify-content:start;align-items:center;">
+                                    <b>电话：0755-26403109</b>
+                                </div>
+                            </div>
+                            <div class="footer-email" style="display: flex;justify-content: start;align-items: center;">
+                                <img src="Img/email.png" style="width:40px;">
+                                <div class="footer-tel-info" style="display:flex;flex-direction:row;justify-content:start;align-items:center;">
+                                    <b>业务联系人：<a href="mailto:microwear@njytech.com.cn">microwear@njytech.com.cn</a></b>
+                                </div>
+                            </div>
+                        </div>
+                        
+                         <div class="footer-copy-right" style="display: flex;flex-direction: column;justify-content: flex-end;align-items: flex-end;">
+                            <b style="color:#333;font-size:14px;font-weight:500;margin-top: -50px;">粤ICP备20203631号-1</b>
+                            <b style="color:#333;font-size:14px;font-weight:500;margin-top:40px;">Copyright@2024 Microwear.All rights reserved</b>
+                            
+                         </div>     
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-copy-right mb inner" style="display: flex;flex-direction: column;justify-content: flex-end;align-items: flex-end;">
+                    <b style="color:#333;font-size:14px;font-weight:500;">粤ICP备20203631号-1</b>
+                    <b style="color:#333;font-size:14px;font-weight:500;">Copyright@2024 Microwear.All rights reserved</b>
+                            
+            </div>
+            
+        <div style="display: none">
+            <script src="layer/layer.js"></script>
+            <script>
+            $(document).ready(function(){
+                $("#sendmail").click(function(){
+                    $.ajax({
+                        "tpye":"post",
+                        "dataType":"json",
+                        "url":"/api.php/ajax/saveemail",
+                        "data":{"email":$("#mymail").val()},
+                        "success":function(s){
+                            layer.msg(s.msg, {  
+                                  shade: 0.1, // 可选的其他配置  
+                                  time: 2000, // 可选的其他配置  
+                                  className: 'layer-msg' // 添加自定义类名  
+                                });
+                            console.log(11);
+                        },
+                        "error":function(e){
+                            console.log(11);
+                            console.log(e);
+                        }
+                    })
+                })
+                
+                
+                $(document).on("mouseenter",".navs li",function(){
+                    $(this).children(".product-menu").css("display","block");
+                })
+                
+                $(document).on("mouseleave",".navs li",function(){
+                    $(this).children(".product-menu").css("display","none");
+                })
+                
+                $(document).on("mouseenter",".product-menu-item",function(){
+                    $(".product-menu-item").removeClass("active");
+                    var ival=$(this).attr("ivalue");
+                    $(".product-menu-items").hide();
+                    $('div[ivalue="'+ival+'"]').show();
+                    $(this).addClass("active");
+                })
+                
+                
+                $.post({
+                    url: "/index.php/index/navs",
+                    data: { qw: "qw" },
+                    success: function(s) {
+                        var $response = $(s);
+                        var productMenuTabContent = $response.find('.product-menu-tab').first().html();
+                
+                      //  console.log(productMenuTabContent);
+                        if (productMenuTabContent) {
+                            $(".product-menu-tab").html(productMenuTabContent);
+                        } else {
+                            console.log("没有找到内容");
+                        }
+                    }
+                });
+                
+                
+                // $(".product-menu-item").hover(function(){
+                //     $(".product-menu-item").removeClass("active");
+                //     var ival=$(this).attr("ivalue");
+                //     $(".product-menu-items").hide();
+                //     $('div[ivalue="'+ival+'"]').show();
+                //     $(this).addClass("active");
+                // })
+            })
+        </script>
+    </div>    
+            
+        </footer>
+        
+
+	
+
+<script src="metrics/data-relay/1.1.4/scripts/data-relay.js" type="text/javascript" charset="utf-8"></script>
+<script src="metrics/data-relay/1.1.4/scripts/auto-relay.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="v/zhuanti/c/built/scripts/main.built.js" type="text/javascript" charset="utf-8"></script>
+	
+	
+
+
+
+<script src="ac/pricing/latest-1/scripts/autopricing.built.js" type="text/javascript"></script>
+	
+<link rel="stylesheet" href="ac/ac-films/6.9.0/styles/modal.css">
+<script src="ac/ac-films/6.9.0/scripts/autofilms.built.js" type="text/javascript"></script>
+
+<script>
+    $(document).ready(function(){
+        //xxsec3
+        //const urlParams = new URLSearchParams(window.location.search);
+  
+  // 获取url中的 'show' 参数
+  ///const showClass = urlParams.get('show');
+        const urlParams=new URLSearchParams(window.location.search);
+        const buy=urlParams.get("buy");
+        setTimeout(function(){
+            if(buy=="buy"){
+                $(".section").hide();
+                $(".xxsec3").show();
+                $(".xxsec3").children(".xxscroll").addClass("animated-copy-element");
+                $(".doxxsec3").click();
+            } 
+        },1000)
+        
+        
+                $(".xxmendian").click(function(){
+                   var dqurl= $(this).attr("idd");
+                   location.href=dqurl;
+                })
+        
+                var kd=$(window).width();
+                    var pchtml=$(".xxcontent_pc").attr("ihtml")
+                    var mbhtml=$(".xxcontent_mb").attr("ihtml")
+                   // console.log(1);
+                    if(kd<768){
+                       // $(".xxcontent_pc").html(mbhtml);
+                       //  console.log('aaa');
+                       $(".xxcontent_pc").hide();
+                       $(".xxcontent_mb").show();
+                    }else{
+                        $(".xxcontent_mb").show();
+                        $(".xxcontent_pc").show();
+                       // console.log('bbb');
+                    }
+                  //  console.log(2);
+                    
+                    
+                    var ykd=$(window).width();
+                    var pchtml=$(".xxcontent_pc").attr("ihtml");
+                    var mbhtml=$(".xxcontent_mb").attr("ihtml");
+                    $(window).resize(function(){
+                        kd=$(window).width();
+                        if(ykd<768 && kd>=768){
+                            // $(".xxcontent_pc").html(pchtml);
+                            // $(".xxcontent_mb").html("");
+                        }else if(ykd>=768 && kd<768){
+                            // $(".xxcontent_pc").html("");
+                            // $(".xxcontent_mb").html(mbhtml);
+                        }
+                    })
+                  //  console.log(3);
+        
+        $(".xxrounded").hover(function(){
+            $(this).addClass("shadow")
+        },function(){
+            $(this).removeClass("shadow")
+        })
+        
+        $(".menubtn").click(function(){
+            if($("body").hasClass("show")){ 
+                $("body").removeClass("show");
+                $(".menubtn").removeClass("active");
+            }else{
+                $("body").addClass("show");
+                $(".menubtn").addClass("active");
+            }
+            
+        })
+        
+        // $(".navs li").hover(function(){
+        //     $(this).children(".product-menu").attr("style","display:block");
+        // })
+        $(".doxxsec0").click(function(){
+            $(".section").show();
+            $(".xxsec1").removeClass("mt-5");
+            $(".xxsec2").removeClass("mt-5");
+            $(".xxsec1").hide();
+            //$(".xxsec2").hide();
+            $('html, body').animate({  
+                scrollTop: $(window).scrollTop() + 10  
+            }, 500); // 500是动画持续时间，单位毫秒  
+        }).trigger("click")
+
+        $(".doxxsec1").click(function(){
+            $(".xxsec2").removeClass("mt-5");
+            $(".xxsec3").removeClass("mt-5");
+            $(".section").show();
+            $(".section").not(".xxsec1").hide();
+            $(".xxsec1").addClass("mt-5");
+            $('html, body').animate({  
+                scrollTop: $(window).scrollTop() + 10  
+            }, 500); // 500是动画持续时间，单位毫秒  
+        })
+        $(".doxxsec2").click(function(){
+            $(".xxsec1").removeClass("mt-5");
+            $(".xxsec3").removeClass("mt-5");
+            $(".section").show();
+            $(".section").not(".xxsec2").hide();
+            $(".xxsec2").addClass("mt-5");
+             $('html, body').animate({  
+                scrollTop: $(window).scrollTop() + 10  
+            }, 500); // 500是动画持续时间，单位毫秒  
+        })
+        $(".doxxsec3").click(function(){
+            $(".xxsec1").removeClass("mt-5");
+            $(".xxsec2").removeClass("mt-5");
+            $(".section").show();
+            $(".section").not(".xxsec3").hide();
+            $(".xxsec3").addClass("mt-5");
+             $('html, body').animate({  
+                scrollTop: $(window).scrollTop() + 10  
+            }, 500); // 500是动画持续时间，单位毫秒  
+        })
+
+
+        $(".navs li").hover(function(){
+                $(this).children(".product-menu").css("display","block");
+            },function(){
+                $(this).children(".product-menu").css("display","none");
+            })
+            
+        $(".product-menu-item").hover(function(){
+            $(".product-menu-item").removeClass("active");
+            var ival=$(this).attr("ivalue");
+            $(".product-menu-items").hide();
+            $('div[ivalue="'+ival+'"]').show();
+            $(this).addClass("active");
+        })
+
+       
+        var $element;  
+        var elementTop;  
+        var elementBottom;  
+        var viewportTop;  
+        var viewportBottom;  
+        var kaishi=0;
+        $(window).scroll(function() {
+            if($(window).scrollTop()>0){
+                if ($(".video").length > 0) {  
+                    if($(".video").eq(0)[0].paused==true){
+                        $(".video").eq(0)[0].play()
+                    }
+                }    
+            }    
+            var num = $(".video").length;  
+            viewportTop = $(window).scrollTop(); // 更新每次滚动时的视口顶部位置  
+            viewportBottom = viewportTop + $(window).height(); // 更新每次滚动时的视口底部位置  
+            for (var i = 0; i < num; i++) { // 注意使用 var 或 let 声明 i  
+                $element = $('.video').eq(i);  
+                elementTop = $element.offset().top;  
+                elementBottom = elementTop + $element.outerHeight();  
+                // 判断元素是否进入视口  
+                if (elementTop < (viewportBottom-100) && elementBottom > viewportTop) {  
+                    // 元素已进入视口  
+                    if($element[0].paused==true){
+                        $element[0].play();
+                    } 
+                } else {  
+                    // 如果需要，可以在这里处理元素离开视口的情况  
+                    // 例如：$element.removeClass("xshow");  
+                   // console.log("i元素==>" + i + '元素未进入视口');  
+                }  
+            }
+            
+            
+            var nums = $(".xxscroll").length;  
+            viewportTop = $(window).scrollTop(); // 更新每次滚动时的视口顶部位置  
+            viewportBottom = viewportTop + $(window).height(); // 更新每次滚动时的视口底部位置  
+            for (var i = 0; i < nums; i++) { // 注意使用 var 或 let 声明 i  
+                $element = $('.xxscroll').eq(i);  
+                elementTop = $element.offset().top;  
+                elementBottom = elementTop + $element.outerHeight();  
+                // 判断元素是否进入视口  
+                
+                if (elementTop < (viewportBottom-100) && elementBottom > viewportTop) {  
+                  //  console.log($element.hasClass("animated-copy-element"));
+                    // 元素已进入视口  
+                    if($element.hasClass("animated-copy-element")==false){
+                        $element.addClass("animated-copy-element");
+                    } 
+                } else {  
+                    // 如果需要，可以在这里处理元素离开视口的情况  
+                    // 例如：$element.removeClass("xshow");  
+                   // console.log("i元素==>" + i + '元素未进入视口');  
+                   if($element.hasClass("animated-copy-element")==true){
+                        $element.removeClass("animated-copy-element");
+                    }
+                }  
+                
+            }
+            //xxanim-text-animate
+            
+
+            
+        });  
+       
+    })
+</script>
+</body>
+</html>

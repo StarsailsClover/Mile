@@ -1,0 +1,2011 @@
+﻿<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="api-www/global-elements/global-header/v1/assets/globalheader.css">
+    <link rel="stylesheet" type="text/css" href="ac/globalfooter/8/zh_CN/styles/ac-globalfooter.built.css">
+    
+    <link rel="stylesheet" type="text/css" href="ac/localnav/8/styles/ac-localnav.built-18.css?7990">
+    <link rel="ac:pricing-endpoint" href="index.htm">
+    <link rel="ac:edupricing-endpoint" href="index.htm">
+    <link rel="ac:tradein-endpoint" href="index.htm">
+
+
+	<meta name="Description" content="Ultra Ai 3">
+	<meta name="keywords" content="">
+	
+	<link rel="stylesheet" href="wss/fonts/1.css">
+	<link rel="stylesheet" href="v/zhuanti/c/built/styles/main.built-18.css?t=2714" type="text/css">
+	<link rel="stylesheet" href="v/zhuanti/c/built/styles/overview.built-18.css?t=6162" type="text/css">
+	<script src="v/zhuanti/c/built/scripts/head.built.js" type="text/javascript" charset="utf-8"></script>
+
+	<link rel="stylesheet" href="wss/fonts/2.css" type="text/css">
+	<link rel="stylesheet" href="global-cn/styles/sfpro-cn.css">
+	<!--[if IE]>
+	<link rel="stylesheet" href="/wss/fonts/1.css" type="text/css">
+	<link rel="stylesheet" href="/global-cn/styles/sfpro-cn-ie.css" />
+	<![endif]-->
+
+	<link rel="stylesheet" href="zhuanti/styles/overview.compare.images.css">
+	<link rel="stylesheet" href="zhuanti/styles/overview.built.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="shortcut icon" href="xxx/favicon.ico" type="image/x-icon">
+</head>
+<body class="page-overview ac-gn-current-watch ac-localnav-overlap globalheader-dark" data-component-list="FocusManager">
+
+    <style>
+		body #ac-globalnav,
+		html #globalnav {
+			top: var(--global-nav-ad-bar-height);
+		}
+		body {
+			border-top: 1px solid transparent;
+			margin-top: -1px;
+			position: relative;
+		}
+		html.oldie body {
+			overflow-x: visible;
+		}
+
+		[data-ac-gn-flyout-open="true"] {
+			--r-gn-topbar-override: var(--r-ac-gn-background-opened);
+			--r-gn-topbar-override-dark: var(--r-ac-gn-background-opened-dark);
+		}
+
+		#ac-localeswitcher {
+			z-index: 10001 !important;
+		}
+
+		.adv-wrapper {
+			--globalmessage-segment-background: rgb(251, 251, 253);
+			--globalmessage-segment-scrim-background: rgba(0, 0, 0, .04);
+			--globalmessage-segment-text-color: rgba(0, 0, 0, .8);
+			--globalmessage-segment-border-color: rgba(0, 0, 0, .16);
+			position: absolute;
+			top: calc(-1 * var(--r-adv-height, 40px));
+			z-index: 10000 !important;
+			background: var(--globalmessage-segment-background);
+			color: var(--globalmessage-segment-text-color);
+			line-height: 1;
+			width: 100%;
+			right: 0;
+			height: var(--r-adv-height, 40px);
+			z-index: 9999;
+		}
+
+		.adv-wrapper:after {
+			position: absolute;
+			top: 0;
+			background: var(--globalmessage-segment-scrim-background);
+			z-index: 1;
+			width: 100%;
+			height: var(--r-adv-height, 40px);
+			content: "";
+		}
+
+		.adv-wrapper-dark {
+			background: var(--r-gn-topbar-override-dark, var(--r-topbar-background-color-dark, var(--r-globalnav-segmentbar-background-color-dark, rgb(22, 22, 23))));
+		}
+
+		.globalheader-dark .adv-wrapper {
+			--globalmessage-segment-background: rgb(22, 22, 23);
+			--globalmessage-segment-scrim-background: rgba(255, 255, 255, .08);
+			--globalmessage-segment-text-color: rgba(255, 255, 255, .92);
+			--globalmessage-segment-border-color: rgba(255, 255, 255, .24);
+		}
+
+		.theme-dark .adv-wrapper {
+			background: var(--r-gn-topbar-override-dark, var(--r-topbar-background-color-dark, var(--r-globalnav-segmentbar-background-color-dark, rgb(22, 22, 23))));
+		}
+
+		.adv-wrapper-dark:after {
+			background: transparent;
+		}
+
+		.globalheader-dark .adv-wrapper:after {
+			background: var(--globalmessage-segment-scrim-background);
+		}
+
+		.theme-dark .adv-wrapper:after {
+			background: var(--globalmessage-segment-scrim-background);
+		}
+
+		.globalmessage-segment-visible .adv-wrapper {
+			position: absolute;
+			top: calc(-1 * var(--r-adv-height, 40px));
+		}
+
+		.globalmessage-segment-visible .macpro-gg .adv-wrapper {
+			top: 0px;
+		}
+
+		.adv-wrapper .adv-wrapper-text {
+			color: rgba(0, 0, 0, 0.8);
+			display: block;
+			line-height: var(--r-adv-height, 40px);
+			overflow: hidden;
+			text-decoration: none;
+			text-overflow: ellipsis;
+			text-align: right;
+			max-width: 980px;
+			margin: 0 auto;
+		}
+
+		.adv-wrapper-dark .adv-wrapper-text {
+			color: rgba(255, 255, 255, 0.92);
+		}
+
+		.globalheader-dark .adv-wrapper .adv-wrapper-text {
+			color: rgba(255, 255, 255, 0.92);
+		}
+
+		.theme-dark .adv-wrapper .adv-wrapper-text {
+			color: rgba(255, 255, 255, 0.92);
+		}
+
+		.globalmessage-segment-visible .adv-wrapper {
+			width: 20%
+		}
+
+		@media only screen and (max-width: 1023px) {
+			.adv-wrapper {
+				min-width: 20%
+			}
+
+			.adv-wrapper .adv-wrapper-text {
+				margin-left: auto;
+				width: auto;
+				padding: 0 22px;
+				position: relative;
+				left: 0;
+				padding-left: calc(max(22px, env(safe-area-inset-left)));
+				padding-right: calc(max(22px, env(safe-area-inset-right)));
+			}
+
+			.globalmessage-segment-visible .adv-wrapper .adv-wrapper-text {
+				width: auto;
+				position: relative;
+				padding: 0 12px;
+				left: -6%;
+				margin: 0;
+			}
+
+			.globalmessage-segment-visible #sonic-automotive.profiles.platter.full-nav.ac-gn-current-iphone .adv-wrapper .adv-wrapper-text,
+			.globalmessage-segment-visible #ducati.profiles.platter.full-nav.ac-gn-current-iphone .adv-wrapper .adv-wrapper-text,
+			.globalmessage-segment-visible #mayo-clinic.profiles.platter.ac-gn-current-iphone.full-nav .adv-wrapper .adv-wrapper-text {
+				left: -27%;
+			}
+		}
+
+		@media only screen and (max-width: 767px) {
+			.adv-wrapper .adv-wrapper-text {
+				line-height: var(--r-adv-height, 40px);
+				margin-left: auto;
+				width: auto;
+				padding: 0 16px;
+				position: relative;
+				left: 0;
+			}
+
+			.globalmessage-segment-visible .adv-wrapper .adv-wrapper-text {
+				width: auto;
+				position: relative;
+				left: 0;
+				margin: 0;
+			}
+
+			.globalmessage-segment-visible #sonic-automotive.profiles.platter.full-nav.ac-gn-current-iphone .adv-wrapper .adv-wrapper-text,
+			.globalmessage-segment-visible #ducati.profiles.platter.full-nav.ac-gn-current-iphone .adv-wrapper .adv-wrapper-text,
+			.globalmessage-segment-visible #mayo-clinic.profiles.platter.ac-gn-current-iphone.full-nav .adv-wrapper .adv-wrapper-text {
+				left: -25%;
+			}
+
+			:root {
+				--r-adv-height: 44px;
+			}
+		}
+
+		.adv-wrapper .adv-wrapper-text {
+			color: rgba(0, 0, 0, 0.8);
+			font-size: 12px;
+			font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+		}
+
+		.adv-wrapper-dark .adv-wrapper-text {
+			color: rgba(255, 255, 255, 0.92);
+		}
+
+		.globalheader-dark .adv-wrapper {
+			color: rgba(255, 255, 255, 0.92);
+		}
+
+		/* Always show in IE8, whether zoom because IE8 doesnt have responsive. */
+		/* hack for IE8 without shop button */
+		/*js no-touch no-svg ie8 no-progressive no-transforms no-tablet no-handheld no-oldTablet no-maskBoxImage no-maskedParallaxAnimation no-webgl no-video no-inlineVideo no-canvas cssFilter no-cssTransition2d no-cssTransition3d ie*/
+
+		html.ie8,
+		html.oldie,
+		html.oldIE {
+			margin-top: 0px !important;
+		}
+
+		html.ie8 .adv-wrapper,
+		html.oldie .adv-wrapper,
+		html.oldIE .adv-wrapper {
+			position: relative;
+			top: 0px;
+			min-width: 1024px;
+		}
+
+		html.ie8 .adv-wrapper .adv-wrapper-text,
+		html.oldie .adv-wrapper .adv-wrapper-text,
+		html.oldIE .adv-wrapper .adv-wrapper-text {
+			line-height: 40px;
+		}
+
+		html.ie8 #globalnav,
+		html.oldie #globalnav,
+		html.oldIE #globalnav {
+			top: 40px;
+		}
+
+		html.ie8 .ac-familybrowser,
+		html.oldie .ac-familybrowser,
+		html.oldIE .ac-familybrowser {
+			top: 84px;
+		}
+
+		html.ie8 .ac-nav-overlap .chapternav,
+		html.oldie .ac-nav-overlap .chapternav,
+		html.oldIE .ac-nav-overlap .chapternav {
+			margin-top: 84px;
+		}
+
+		/* hack for IE8 with shop button*/
+		html.ie8.globalmessage-segment-visible #globalmessage-segment,
+		html.oldie.globalmessage-segment-visible #globalmessage-segment,
+		html.oldIE.globalmessage-segment-visible #globalmessage-segment {
+			position: relative;
+			top: 0;
+		}
+
+		html.ie8.globalmessage-segment-visible .adv-wrapper,
+		html.oldie.globalmessage-segment-visible .adv-wrapper,
+		html.oldIE.globalmessage-segment-visible .adv-wrapper {
+			position: absolute;
+			min-width: auto;
+		}
+
+		/* fix adv aglin*/
+		@media only screen and (max-width: 833px) {
+			.adv-wrapper .adv-wrapper-text {
+				padding-left: calc(max(16px, env(safe-area-inset-left)));
+				padding-right: calc(max(16px, env(safe-area-inset-right)));
+			}
+		}
+
+		.globalmessage-segment-visible .adv-wrapper {
+			width: unset;
+		}
+
+		.globalmessage-segment-visible .adv-wrapper .adv-wrapper-text {
+			position: relative;
+			padding: 0;
+			left: unset;
+			right: max(calc(((100vw - 1024px) / 2) + 22px), 22px);
+		}
+
+		@media only screen and (max-width: 833px) {
+			.globalmessage-segment-visible .adv-wrapper .adv-wrapper-text {
+				right: max(calc(((100vw - 1024px) / 2) + 16px), 16px);
+			}
+		}
+	</style>
+
+
+
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/common-2.css?v1=0.5">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style-23.css?v1=9112">
+    <link rel="stylesheet" type="text/css" href="css/responsive-23.css?v1=6715">
+    <link rel="stylesheet" type="text/css" href="css/ziti-23.css?v1=3021">
+    <script src="js/jquery-2.2.4.min-23.js?t=7050"></script>
+    <script src="js/jquery.textillate-23.js?t=3851"></script>
+    <script src="js/jquery.lettering-23.js?t=8375"></script>
+    <script src="js/waypoints.min-23.js?t=8411"></script>
+    <script src="js/plugin-23.js?t=9255"></script>
+    <script src="js/ppage-19.js?t=9028"></script>
+    <script src="js/index-22.js?t=3837"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?2469bf4b50522c7fac61a1c7d9db4b83";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+    
+    <header class="header" style="position:static;">
+	<div class="header-wrap inner">
+	    <div class="menubtn">
+			<span></span>
+		</div>
+		<h1 class="logo">
+			<a href="index.htm">
+				<img src="xximgs/hhlogo2_red.png" style="height:50px;" alt="">
+			</a>
+		</h1>
+		<ul class="navs">
+		                    <li>
+                    <a href="product.html" target="_self">产品中心</a>
+                                        <div class="product-menu" style="">
+    					<div class="product-menu-tab inner">
+    						<div class="product-menu-btn">
+                                                                        <div class="product-menu-item active" ivalue="Ultra Series">
+            								<span><a href="#" target="_blank">Ultra系列</a></span>
+            							</div>
+                                        
+                                                                        <div class="product-menu-item " ivalue="W Series">
+            								<span><a href="#" target="_blank">W系列</a></span>
+            							</div>
+                                        
+                                                                        <div class="product-menu-item " ivalue="GT Series">
+            								<span><a href="#" target="_blank">GT系列</a></span>
+            							</div>
+                                        
+                                                                        <div class="product-menu-item " ivalue="A Series">
+            								<span><a href="#" target="_blank">A系列</a></span>
+            							</div>
+                                        
+                                                                        <div class="product-menu-item " ivalue="MA Series">
+            								<span><a href="#" target="_blank">MA系列</a></span>
+            							</div>
+                                        
+                                                                        <div class="product-menu-item " ivalue="Others">
+            								<span><a href="#" target="_blank">其他</a></span>
+            							</div>
+                                        
+                                                            </div>
+                            
+							<div class="product-menu-content">
+							                                        <div class="product-menu-items" ivalue="Ultra Series">
+                                        <div class="product-menu-info">
+                                                                                                <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail.html?id=18" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="gw/file/watch/173044840005715.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Ultra 3</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                        
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-1.html?id=1" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="Img/product/Ultra-Pro-Mini.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Ultra Pro Mini</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </dd>
+                                                    </dl>
+                                                                                                                                                                                                    <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-2.html?id=13" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="gw/file/watch/172931795885062.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Ultra Ai 3</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                        
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-3.html?id=11" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="v/cp/ultra/Ultra%209%20Plus/1.jpg" alt="">
+                                                                    </figure>
+                                                                    <strong>Ultra 9 Plus</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </dd>
+                                                    </dl>
+                                                                                                                                                                                                    <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-4.html?id=2" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="Img/product/Ultra-3-Mini.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Ultra 3 Mini</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                        
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-5.html?id=3" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="Img/product/Ultra-3-Pro.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Ultra 3 Pro</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </dd>
+                                                    </dl>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                            
+                                        </div>
+                                    </div>
+                                                                        <div class="product-menu-items" ivalue="W Series">
+                                        <div class="product-menu-info">
+                                                                                                                                                                                                                                                                                                                                                                        <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-6.html?id=22" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="uploads/allimg/20240912/a6b995e358242212413cb417d945f7b6.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Watch S10</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                        
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-7.html?id=23" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="gw/file/watch/172930810956270.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Watch S10 Pro</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </dd>
+                                                    </dl>
+                                                                                                                                                                                                    <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-8.html?id=24" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="gw/file/watch/172931803940985.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Watch S10 Mini</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                        
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-9.html?id=15" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="gw/file/watch/172931787410907.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Watch X Mini</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </dd>
+                                                    </dl>
+                                                                                                                                                                                                    <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-10.html?id=16" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="Img/product/Watch-X-Pro.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Watch X Pro</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                        
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-11.html?id=19" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="Img/product/WATCH-X.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Watch X</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </dd>
+                                                    </dl>
+                                                                                                                                                                                                                                                                                                                                                                            
+                                            
+                                        </div>
+                                    </div>
+                                                                        <div class="product-menu-items" ivalue="GT Series">
+                                        <div class="product-menu-info">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-12.html?id=20" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="v/cp/GT/GTS%204%20Pro%28MA24%29/PNG/5.png" alt="">
+                                                                    </figure>
+                                                                    <strong>GTS 4 Pro</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                        
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-13.html?id=21" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="v/cp/GT/GTR%204%20Pro%28MA25%29/PNG/5.png" alt="">
+                                                                    </figure>
+                                                                    <strong>GTR 4 Pro</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                            
+                                                        </dd>
+                                                    </dl>
+                                                                                                                                                                                                    <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-14.html?id=26" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="gw/file/watch/173129419509991.png" alt="">
+                                                                    </figure>
+                                                                    <strong>GT5 Pro</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                                                                                                        
+                                            
+                                        </dd></dl></div>
+                                    </div>
+                                                                        <div class="product-menu-items" ivalue="A Series">
+                                        <div class="product-menu-info">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                            
+                                        </div>
+                                    </div>
+                                                                        <div class="product-menu-items" ivalue="MA Series">
+                                        <div class="product-menu-info">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <dl class="product-menu-culmu">
+                                                        <dd>
+                                                            
+                                                            <div class="product-menu-li">
+                                                                <a href="productdetail-15.html?id=25" navto="nav1">
+                                                                    <figure>
+                                                                    <img src="gw/file/watch/172950237907583.png" alt="">
+                                                                    </figure>
+                                                                    <strong>Watch Ultra</strong>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                                                                                                                                            
+                                            
+                                        </dd></dl></div>
+                                    </div>
+                                                                        <div class="product-menu-items" ivalue="Others">
+                                        <div class="product-menu-info">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                            
+                                        </div>
+                                    </div>
+                                    								</div>	
+								
+                        </div>   
+                    </div>
+                                    </li>
+                            <li>
+                    <a href="news.html" target="_self">活动</a>
+                                    </li>
+                            <li>
+                    <a href="Brand.html" target="_self">品牌</a>
+                                    </li>
+                            <li>
+                    <a href="Support.html" target="_self">支持</a>
+                                    </li>
+            		    
+		    
+		   
+		</ul>
+		<div class="navs-bg">
+		</div>
+		<div class="header-right">
+			<span class="search-btn iconfont"></span>
+		</div>
+		
+	</div>
+	<div class="search-box">
+		<div class="header-search inner">
+			<h1 class="logo">
+				<a href="index.htm">
+					<img src="uploads/allimg/20240612/51fcf178e7eb3fd94ebbe12a7e5fb1ef.png" style="height:30px;filter: drop-shadow(1px 1px 1px #003);" alt="">
+				</a>
+			</h1>
+			<div class="search">
+				<div class="search-defaul">
+					<span class="iconfont"></span>
+					<input class="text" type="text" placeholder="搜索关键词" id="commIptKeys">
+					<p>按Enter搜索</p>
+				</div>
+				<div class="hot-search">
+					<p>热门搜索</p>
+					<ul class="hot-search-list">
+
+						<li>
+							<a href="#">a</a>
+						</li>
+
+						<li>
+							<a href="#">b</a>
+						</li>
+
+						<li>
+							<a href="#">c</a>
+						</li>
+
+						<li>
+							<a href="">d</a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+			<div class="search-close iconfont"></div>
+		</div>
+	</div>
+	<div class="mobile-menu">
+		<ul class="mobile-menu-list">
+			<li>
+				<div class="mobile-defaul">
+					<span><a href="product.html">产品中心</a></span>
+					<i></i>
+				</div>
+				<ol class="mobile-down">
+					<li><a href="#">Ultra系列</a></li>
+					<li><a href="#">W系列</a></li>
+					<li><a href="#">GT系列</a></li>
+					<li><a href="#">A系列</a></li>
+					<li><a href="#">MA系列</a></li>
+					<li><a href="#">其他</a></li>
+				</ol>
+			</li>
+			<li>
+				<div class="mobile-defaul">
+					<span><a href="news.html">活动</a></span>
+					<i></i>
+				</div>
+			</li>
+			<li>
+				<div class="mobile-defaul"><span><a href="Brand.html">品牌</a></span><i></i></div>
+			</li>
+			<li>
+				<div class="mobile-defaul"><a href="Support.html" target="_self">支持</a></div>
+			</li>
+		</ul>
+		<div class="footer-tel">
+			<span class="iconfont"></span>
+			<div class="footer-tel-info">
+				<b>电话：0755-26403109</b>
+				<p>业务联系人：<br>microwear@njytech.com.cn</p>
+			</div>
+		</div>
+		<div class="footer-share" style="margin-left:-10px;">
+			<div class="followus clearfix col-xl-12 col-lg-12" style="width: calc(100% - 40px);line-height: 22px;overflow: hidden;">
+				<div class="row xxlinks" style="color:#444444;display:flex;">
+					<div class="list col-xl-8 col-lg-8" style="display:flex;flex-direction:row;justify-content:space-around;align-items:center;width: calc(100vw - 160px);margin-left: 30px;">
+						<a href="https://www.instagram.com/microwearoffice/" class="iconfont icon-instagram" target="_blank" rel="nofollow"></a>
+						<a href="https://www.youtube.com/channel/UCsIoYsdHbwU_1z9fzgzSNKw" class="iconfont icon-youtube" target="_blank" rel="nofollow"></a>
+						<a href="https://www.tiktok.com/@microwearoffice" class="iconfont icon-tiktok" target="_blank" rel="nofollow"></a>
+						<a href="https://www.facebook.com/microwearO?mibextid=ZbWKwL" class="iconfont icon-facebook" target="_blank" rel="nofollow"></a>
+						<a href="https://x.com/MicrowearO" class="iconfont icon-tuite" target="_blank" rel="nofollow"></a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copy-infos">
+			<p>版权所有©2024 microwear</p>
+			<p>
+				<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备20203631号-1</a>
+			</p>
+
+		</div>
+	</div>
+</header>
+    
+
+	
+
+<script src="metrics/ac-analytics/2.20.0/scripts/ac-analytics.js" type="text/javascript" charset="utf-8"></script>
+<script src="metrics/ac-analytics/2.20.0/scripts/auto-init.js" type="text/javascript" charset="utf-8"></script>
+
+	<input type="checkbox" id="ac-ln-menustate" class="ac-ln-menustate">
+	<nav id="ac-localnav" class="no-js ac-localnav-noborder ac-localnav-dark" lang="zh-CN" dir="ltr" data-sticky="" data-analytics-activitymap-region-id="local nav" role="navigation" aria-label="本地">
+		<div class="ac-ln-wrapper xxblack">
+			<div class="ac-ln-background" style="display:none;"></div>
+			<div class="ac-ln-content inner">
+				<div class="ac-ln-title xxbai">
+					<a href="productdetail-2.html?id=13" data-analytics-title="product index">Ultra Ai 3</a>
+				</div>
+				<div class="ac-ln-menu">
+					<a href="#ac-ln-menustate" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-open ac-ln-menucta-click" id="ac-ln-menustate-open" role="button" aria-controls="ac-ln-menustate-tray" aria-expanded="false"> <span class="ac-ln-menucta-anchor-label">本地导航打开菜单</span> </a> <a href="#" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-close ac-ln-menucta-click" id="ac-ln-menustate-close" role="button" aria-controls="ac-ln-menustate-tray" aria-expanded="true"> <span class="ac-ln-menucta-anchor-label">本地导航关闭菜单</span> </a>
+					<div class="ac-ln-menu-tray" id="ac-ln-menustate-tray" style="--r-localnav-menu-tray-natural-height: 55px;">
+						<ul class="ac-ln-menu-items">
+							<li class="ac-ln-menu-item doxxsec0">
+							    <a href="javascript:void(0);" class="ac-ln-menu-link current xxbai xxactive" role="link" aria-disabled="true" aria-current="page">预览</a>
+							</li>
+							<li class="ac-ln-menu-item doxxsec1">
+								<a href="javascript:void(0);" class="ac-ln-menu-link xxbai" data-analytics-title="why apple watch">参数</a>
+							</li>
+							<li class="ac-ln-menu-item doxxsec2">
+								<a href="javascript:void(0);" class="ac-ln-menu-link xxbai" data-analytics-title="tech specs">对比</a>
+							</li>
+						</ul>
+					</div>
+					<div class="ac-ln-actions">
+						<div class="ac-ln-action ac-ln-action-menucta" aria-hidden="true">
+							<label for="ac-ln-menustate" class="ac-ln-menucta">
+										<span class="ac-ln-menucta-chevron">
+                                        </span>
+									</label>
+						</div>
+						<div class="ac-ln-action ac-ln-action-button doxxsec3">
+							<a class="ac-ln-button" href="javascript:void(0);" aria-label="购买 Ultra Ai 3" data-analytics-title="buy | Ultra Ai 3">Buy<span class="ac-ln-action-product">Ultra Ai 3</span>
+								</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<label id="ac-ln-curtain" for="ac-ln-menustate"></label>
+	<script type="text/javascript" src="ac/localnav/8/scripts/ac-localnav.built.js"></script>
+
+	<main id="main" class="main" role="main" data-page-type="overview" data-component-list="PageStateManager" data-anim-scroll-group="Page - Global">
+	    
+	    
+	    
+	    
+	    <script src="js/gsap.min.js"></script>
+        <script src="gsap/assets/js/scrollTrigger.js"></script>
+        <script src="js/jquery.min.js"></script>
+	    <script src="js/xx_index-18.js?t=5266"></script>
+	    <link rel="stylesheet" type="text/css" href="css/xx_index-18.css?t=3740">
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+        		
+		
+		<section class="section section-routers" data-name="routers" data-anim-scroll-group="routers" style="display:none;padding:0px">
+                        <style>
+                .xxcontent{
+                    margin-top: -100px;
+                    text-align: center;
+                }
+                /*.navs li:hover .product-menu {  
+                    display: block; 
+                }*/
+                @media screen and (max-width: 768px) { 
+                    .xxcontent_pc{
+                        display: none !important;
+                    }
+                    .xxcontent_mb{
+                        display: block !important;
+                    }
+                }
+                @media screen and (min-width:769px){
+                    .xxcontent_pc{
+                        display: block !important;
+                    }
+                    .xxcontent_mb{
+                        display: none !important;
+                    }
+                }
+            </style>
+            <div class="xxcontent">
+                <div class="xxcontent_pc" ihtml="">
+                    <video class="video" poster="" x5-video-player-type="h5" webkit-playsinline="" playsinline="" x5-video-player-fullscreen="" x5-video-orientation="portraint" preload="yes" muted="" style="width:100%;height:auto;" autoplay=""><source class="pcvideo" src="tx/Ultra_Ai_3/01.mp4"></video><p><img alt="(图1)" src="tx/Ultra_Ai_3/2.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/3.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><video class="video" poster="" x5-video-player-type="h5" webkit-playsinline="" playsinline="" x5-video-player-fullscreen="" x5-video-orientation="portraint" preload="yes" muted="" style="width:100%;height:auto;"><source class="pcvideo" src="tx/Ultra_Ai_3/04.mp4"></video><p><img alt="(图1)" src="tx/Ultra_Ai_3/5.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><video class="video" poster="" x5-video-player-type="h5" webkit-playsinline="" playsinline="" x5-video-player-fullscreen="" x5-video-orientation="portraint" preload="yes" muted="" style="width:100%;height:auto;"><source class="pcvideo" src="tx/Ultra_Ai_3/06.mp4"></video><video class="video" poster="" x5-video-player-type="h5" webkit-playsinline="" playsinline="" x5-video-player-fullscreen="" x5-video-orientation="portraint" preload="yes" muted="" style="width:100%;height:auto;"><source class="pcvideo" src="tx/Ultra_Ai_3/07.mp4"></video><p><img alt="(图1)" src="tx/Ultra_Ai_3/8.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><video class="video" poster="" x5-video-player-type="h5" webkit-playsinline="" playsinline="" x5-video-player-fullscreen="" x5-video-orientation="portraint" preload="yes" muted="" style="width:100%;height:auto;"><source class="pcvideo" src="tx/Ultra_Ai_3/09.mp4"></video><video class="video" poster="" x5-video-player-type="h5" webkit-playsinline="" playsinline="" x5-video-player-fullscreen="" x5-video-orientation="portraint" preload="yes" muted="" style="width:100%;height:auto;"><source class="pcvideo" src="tx/Ultra_Ai_3/10.mp4"></video><p><img alt="(图1)" src="tx/Ultra_Ai_3/11.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/12.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/13.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/14.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/15.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/16.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/17.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/18.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p>                </div>  
+                <div class="xxcontent_mb" ihtml="">
+                    <video class="video" poster="" x5-video-player-type="h5" webkit-playsinline="" playsinline="" x5-video-player-fullscreen="" x5-video-orientation="portraint" preload="yes" muted="" style="width:100%;height:auto;" autoplay=""><source class="pcvideo" src="tx/Ultra_Ai_3/mb/01.mp4"></video><p><img alt="(图1)" src="tx/Ultra_Ai_3/mb/02.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/mb/03.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><video class="video" poster="" x5-video-player-type="h5" webkit-playsinline="" playsinline="" x5-video-player-fullscreen="" x5-video-orientation="portraint" preload="yes" muted="" style="width:100%;height:auto;"><source class="pcvideo" src="tx/Ultra_Ai_3/mb/04.mp4"></video><p><img alt="(图1)" src="tx/Ultra_Ai_3/mb/05.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><video class="video" poster="" x5-video-player-type="h5" webkit-playsinline="" playsinline="" x5-video-player-fullscreen="" x5-video-orientation="portraint" preload="yes" muted="" style="width:100%;height:auto;"><source class="pcvideo" src="tx/Ultra_Ai_3/mb/06.mp4"></video><video class="video" poster="" x5-video-player-type="h5" webkit-playsinline="" playsinline="" x5-video-player-fullscreen="" x5-video-orientation="portraint" preload="yes" muted="" style="width:100%;height:auto;"><source class="pcvideo" src="tx/Ultra_Ai_3/mb/07.mp4"></video><p><img alt="(图1)" src="tx/Ultra_Ai_3/mb/08.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><video class="video" poster="" x5-video-player-type="h5" webkit-playsinline="" playsinline="" x5-video-player-fullscreen="" x5-video-orientation="portraint" preload="yes" muted="" style="width:100%;height:auto;"><source class="pcvideo" src="tx/Ultra_Ai_3/mb/09.mp4"></video><video class="video" poster="" x5-video-player-type="h5" webkit-playsinline="" playsinline="" x5-video-player-fullscreen="" x5-video-orientation="portraint" preload="yes" muted="" style="width:100%;height:auto;"><source class="pcvideo" src="tx/Ultra_Ai_3/mb/10.mp4"></video><p><img alt="(图1)" src="tx/Ultra_Ai_3/mb/11.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/mb/12.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/mb/13.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/mb/14.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/mb/15.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/mb/16.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p><p><img alt="(图1)" src="tx/Ultra_Ai_3/mb/17.png" style="max-width:100%!important;height:auto;width: 100%; auto;"></p>                </div>    
+                            </div>
+
+            
+
+
+            <style>
+                .video{
+    		        display: block !important;
+    		    }
+			    ul{
+			        list-style: none;
+			    }
+			    /*.parameter-content-10086664303515{*/
+			    /*    display: flex;*/
+			    /*}*/
+			    .product-parameter-list{
+			        display: flex;
+                    flex-direction: row;
+                    padding:20px 0px;
+			    }
+			    .product-parameter-list ul{
+			            display: flex;
+                        flex-direction: column;
+                        border-bottom: 1px solid #5a555a;;
+                        margin-left: 0px;
+                        width: calc(80vw - 160px);
+                        padding-left: 30px;
+			    }
+			    .product-parameter-list li{
+			        padding:10px 0px;
+			        /*height:32px;*/
+			        /*line-height:32px;*/
+			    }
+			    .product-parameter-list h2{
+                      /*  border-bottom: 1px solid #5a555a;;*/
+			    }
+			    .product-parameter-list li{
+			            display: flex;
+                       flex-direction: row;
+			    }
+			    .compare-tables{
+			        text-align: left;
+			    }
+			    .compare-tables h2{
+			        width:120px;
+			    }
+			    .compare-tables label{
+			        width: 100px;
+			    }
+			    .compare-tables span{
+			        width: clac(100vw - 220px);
+			    }
+			    
+			    @media screen and (max-width: 768px) { /* 根据需要调整这个断点值 */  
+                    .product-parameter-list ul {  
+                        width: calc(100vw - 160px);
+                    }  
+                    .compare-tables h2{
+                        padding-left: 20px;
+                        font-size: 20px;
+                    }
+                    /* 在这里添加其他针对手机屏幕尺寸的样式调整 */  
+                    .header{
+                        background: #fff;
+                    } 
+                    
+                    .xxsmimg{
+                        width:16% !important;
+                    }
+                }
+                
+                @media screen and (min-width:769px){
+                    .header{
+                        background: #333;
+                    } 
+                }
+                .hidden{
+                    display:none;
+                }
+                .xxfont{
+                    color:#6e6e73
+                }
+                .xxflex{
+                    display:flex;
+                    align-items: flex-end;
+                }
+                .xxfont_family{
+                    font-family:SF Pro SC,SF Pro Display,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif
+                }
+                .typography-section-headline: {
+                        font-family: SF Pro SC,SF Pro Display,SF Pro Icons,PingFang SC,Helvetica Neue,Helvetica,Arial,sans-serif;
+                    }
+                    
+                   
+			</style>
+			
+		</section>
+		<section class="section pt-1 mt-3 xxsec1" style="display:none">
+		    <div class="col-12 text-center text-dark">
+		        <div class="col-8  d-block mx-auto">
+		            <img class="d-block mx-auto img-thumbnail border-0 xximgs_banner" src="gw/file/watch/172931795885062.png">
+		        </div>
+		        
+		        <div class="col-sm-8 col-12 d-block mx-auto text-cn xxscroll anim-text-animate will-change">
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">材料和表面处理</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">合金</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">表带</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">创新海洋乐队</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">显示</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">2.06" Amoled screen, 428*518 px</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">尺寸和重量</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">宽44*H49*D14.4毫米</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">CPU</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">安卓8.1系统</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">蓝牙</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">3.0/5.1蓝牙通话</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">触摸屏</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">2.5D曲面全触控</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">电池</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">800毫安时</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">防水</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">IP 68</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">充电</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">无线</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">语言文字</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">中文、英文、法文。。。</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">颜色</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left d-flex align-items-center pl-2 ">黑色、金色</div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">APP</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left no-gutters d-flex  flex-column pl-2"><p>
+    <img alt="(图1)" src="Img/app/A1.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图2)" src="Img/app/A2.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图3)" src="Img/app/A3.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图4)" src="Img/app/A4.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图5)" src="Img/app/A5.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图6)" src="Img/app/A6.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图7)" src="Img/app/A7.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图8)" src="Img/app/A8.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图9)" src="Img/app/A9.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图10)" src="Img/app/A10.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图11)" src="Img/app/A11.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图12)" src="Img/app/A12.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图13)" src="Img/app/A13.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图14)" src="Img/app/A14.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图15)" src="Img/app/A15.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图16)" src="Img/app/A16.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图17)" src="Img/app/A17.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图18)" src="Img/app/A18.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图19)" src="Img/app/A19.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图20)" src="Img/app/A20.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图21)" src="Img/app/A21.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图22)" src="Img/app/A22.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图23)" src="Img/app/A23.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图24)" src="Img/app/A24.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图25)" src="Img/app/A25.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图26)" src="Img/app/A26.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto=""><img alt="(图27)" src="Img/app/27.png" class="img-thumbnail" xxsmimg="" mr-sm-2="" ml-2="" mt-sm-2="" mb-sm-2="" mr-2="" mt-1="" mb-1="" border-0="" style="max-width:100%!importantheight:autotext-wrap:" wrap="" max-width:="" height:="" auto="">
+</p></div>
+    		                    		            </div>
+    		            
+		                		            <div class="row container mx-auto  no-gutters border border-left-0 border-right-0 pt-3 pb-3" style="    border-left-width: 0px !important;border-right-width: 0px !important;">
+    		                
+    		                    		                <div class="col-5 col-sm-4 xxh3 text-left">其他</div>
+    		                <div class="col-7 col-sm-8 xxh5 text-left no-gutters d-flex  flex-column pl-2"><p style="text-wrap: wrap;">摄像头：200W像素，支持180°旋转</p><p style="text-wrap: wrap;"><span data-slate-fragment="JTVCJTdCJTIydHlwZSUyMiUzQSUyMnBhcmFncmFwaCUyMiUyQyUyMmNoaWxkcmVuJTIyJTNBJTVCJTdCJTIyaWQlMjIlM0ElMjJZSjUyRzdSM3dYJTIyJTJDJTIycGFyYUlkeCUyMiUzQTAlMkMlMjJzcmMlMjIlM0ElMjJTdXBwb3J0cyUyMGNlbGx1bGFyJTIwbmV0d29ya3MlMjIlMkMlMjJkc3QlMjIlM0ElMjIlRTYlOTQlQUYlRTYlOEMlODElRTglOUMlODIlRTclQUElOUQlRTclQkQlOTElRTclQkIlOUMlMjIlMkMlMjJtZXRhZGF0YSUyMiUzQSUyMiUyMiUyQyUyMm1ldGFEYXRhJTIyJTNBJTVCJTVEJTJDJTIydGV4dCUyMiUzQSUyMmNlbGx1bGFyJTIwbmV0d29ya3MlMjIlN0QlNUQlN0QlNUQ=" style="white-space-collapse: preserve;">蜂窝网络：5G互联网/WlFl</span></p><p style="text-wrap: wrap;">其他：GPS</p></div>
+    		                    		            </div>
+    		            
+		            		        </div>
+		    </div>
+		</section>
+		
+		
+		<section class="section pt-1 xxsec3 pb-1">
+
+            <div class="d-flex flex-column align-items-center bg-light mt-sm-0 mb-5 pt-5 xxscroll anim-text-animate will-change">
+                <div class="text-center">
+                    <h3 class="xxh3 " style="font-size: 3rem;">Microwear手表</h3>
+                    <p class="xxh5 text-warming mt-2 mb-5">In All face in AI time</p>
+                    <img src="gw/file/watch/172931795885062.png" class="w-75 mx-auto xximgs_banner">
+                    <div class="xxxin_kuang d-flex align-items-center mx-auto justify-content-between p-1 m-4">
+                        <div class="xxxin_yuan d-flex align-items-center justify-content-center">
+                            <div class="xxxin"></div>
+                        </div>
+                        <span class="xxh5s">去买</span>
+                        <span> </span>
+                    </div>
+                    
+                    
+                    <div class="xxjiantou">  
+                        <span class="blink">&gt;</span>  
+                        <span class="blink">&gt;</span>  
+                    </div>
+                   
+                   <p class="xxh5 text-warming mt-2 mb-5">您可以从以下商店购买，价格更优惠</p>
+                   
+                   <div class="container row mx-auto" style="width:100vw">
+                                              <div class="col-12 col-sm-4 mb-3 xxmendian" idd="https://mall.jd.com/index-16291346.html">
+                           <div class="bg-white p-3 pt-5 pb-4 xxrounded">
+                               <h3 class="xxh3">Microwear 微穿戴旗舰店</h3>
+                               <h3 class="xxh3">商店</h3>
+                               <a href="https://mall.jd.com/index-16291346.html" target="_blank">
+                                   <h5 class="xxh5 mt-5 d-flex justify-content-center align-items-center" style="font-size:14px">查看<span color="blink" style="padding-left:5px;">
+                                            <svg viewbox="0 0 12 16" style="width:12px;" aria-label="arrowRight" class="show">
+                                                <path d="M6 2 4.95 3.05l4.2 4.2H0v1.5h9.15l-4.2 4.2L6 14l6-6z" fill="#ff0808">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                   </h5>
+                                </a>   
+                           </div>
+                       </div>
+                                              <div class="col-12 col-sm-4 mb-3 xxmendian" idd="https://www.microwear.com/">
+                           <div class="bg-white p-3 pt-5 pb-4 xxrounded">
+                               <h3 class="xxh3">Microwear</h3>
+                               <h3 class="xxh3">商店</h3>
+                               <a href="index.htm" target="_blank">
+                                   <h5 class="xxh5 mt-5 d-flex justify-content-center align-items-center" style="font-size:14px">查看<span color="blink" style="padding-left:5px;">
+                                            <svg viewbox="0 0 12 16" style="width:12px;" aria-label="arrowRight" class="show">
+                                                <path d="M6 2 4.95 3.05l4.2 4.2H0v1.5h9.15l-4.2 4.2L6 14l6-6z" fill="#ff0808">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                   </h5>
+                                </a>   
+                           </div>
+                       </div>
+                                              <div class="col-12 col-sm-4 mb-3 xxmendian" idd="https://mall.jd.com/index-16291346.html">
+                           <div class="bg-white p-3 pt-5 pb-4 xxrounded">
+                               <h3 class="xxh3">Microwear 微穿戴旗舰店</h3>
+                               <h3 class="xxh3">商店</h3>
+                               <a href="https://mall.jd.com/index-16291346.html" target="_blank">
+                                   <h5 class="xxh5 mt-5 d-flex justify-content-center align-items-center" style="font-size:14px">查看<span color="blink" style="padding-left:5px;">
+                                            <svg viewbox="0 0 12 16" style="width:12px;" aria-label="arrowRight" class="show">
+                                                <path d="M6 2 4.95 3.05l4.2 4.2H0v1.5h9.15l-4.2 4.2L6 14l6-6z" fill="#ff0808">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                   </h5>
+                                </a>   
+                           </div>
+                       </div>
+                                          </div>
+                   
+                </div>
+            </div>
+        </section>
+		
+		
+		<section class="section pt-1 xxsec2 pb-1">
+            <div class="d-flex flex-column align-items-center mt-5">
+                <div class="text-center xxscroll anim-text-animate will-change">
+                    <h3 class="xxh3 " style="font-size: 3rem;">Microwear手表</h3>
+                    <h5 class="xxh3" style="font-size: 3rem;">手表型号比较</h5>
+                    <p class="xxh5 text-warming mt-2 mb-5" style="color:#ff0808;">点击查看所有手表款式</p>
+                </div>
+                <div class="row container mt-3">
+                                        <div class="col-sm-4  col-6 mb-sm-0 mb-5 text-center xxscroll anim-text-animate will-change">
+                        <a href="productdetail-5.html?id=3"><img src="Img/product/Ultra-3-Pro.png" class="w-75 mx-auto"></a>
+                        <h3 class="xxh1 text-center mt-5 mb-2 pb-1">
+                            <span class="xxxiahua"><a href="productdetail-5.html?id=3">Ultra 3 Pro</a></span>
+                        </h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">显示器</h3>
+                        <h3 class="xxh5">2.1" IPS screen, 320*385 px</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">CPU</h3>
+                        <h3 class="xxh5">A9</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">蓝牙</h3>
+                        <h3 class="xxh5">5.0蓝牙通话</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">贝彤</h3>
+                        <h3 class="xxh5">450毫安时</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">充电</h3>
+                        <h3 class="xxh5">无线</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">尺寸和重量</h3>
+                        <h3 class="xxh5">宽44*H49*D14.4毫米</h3>
+                        
+                    </div>
+                                        <div class="col-sm-4  col-6 mb-sm-0 mb-5 text-center xxscroll anim-text-animate will-change">
+                        <a href="productdetail-2.html?id=13"><img src="gw/file/watch/172931795885062.png" class="w-75 mx-auto"></a>
+                        <h3 class="xxh1 text-center mt-5 mb-2 pb-1">
+                            <span class="xxxiahua"><a href="productdetail-2.html?id=13">Ultra Ai 3</a></span>
+                        </h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">显示器</h3>
+                        <h3 class="xxh5">2.06" Amoled screen, 428*518 px</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">CPU</h3>
+                        <h3 class="xxh5">安卓8.1系统</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">蓝牙</h3>
+                        <h3 class="xxh5">3.0/5.1蓝牙通话</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">贝彤</h3>
+                        <h3 class="xxh5">800毫安时</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">充电</h3>
+                        <h3 class="xxh5">无线</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">尺寸和重量</h3>
+                        <h3 class="xxh5">宽44*H49*D14.4毫米</h3>
+                        
+                    </div>
+                                        <div class="col-sm-4  col-6 mb-sm-0 mb-5 text-center xxscroll anim-text-animate will-change">
+                        <a href="productdetail.html?id=18"><img src="gw/file/watch/173044840005715.png" class="w-75 mx-auto"></a>
+                        <h3 class="xxh1 text-center mt-5 mb-2 pb-1">
+                            <span class="xxxiahua"><a href="productdetail.html?id=18">Ultra 3</a></span>
+                        </h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">显示器</h3>
+                        <h3 class="xxh5">2.2" Amoled screen, 468*568 px</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">CPU</h3>
+                        <h3 class="xxh5">S10</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">蓝牙</h3>
+                        <h3 class="xxh5">5.0蓝牙通话</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">贝彤</h3>
+                        <h3 class="xxh5">450毫安时</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">充电</h3>
+                        <h3 class="xxh5">无线</h3>
+                        
+                        
+                        <h3 class="xxh3 text-center mt-5 mb-2">尺寸和重量</h3>
+                        <h3 class="xxh5">宽44*H49*D14.4毫米</h3>
+                        
+                    </div>
+                                        
+                </div>
+            </div> 
+        </section>   
+        
+        
+        
+        
+        
+        
+		
+	</main>
+
+    <style>
+	    .img-thumbnail{
+	        border:0px !important;   
+	    }
+        #ac-localnav .ac-ln-content{
+            max-width: 1400px;
+        }
+        .ac-ln-menu-link::hover{ 
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .xxactive{
+            color:#fff !important;
+            opacity: 1 !important;
+        }
+        .xxbai{
+            color: #fff !important;
+            opacity: 1;
+        }
+        #ac-localnav{
+		        /*display: none !important;*/
+		    }
+		.xxrounded{
+		    border-radius: 10px;
+		}   
+	    .xxjiantou {  
+            display: flex;  
+            align-items: center;  
+            justify-content: center;  
+            color: #ff0808;  
+            font-size: 18px;  
+            font-weight: 600;  
+            letter-spacing: 1px;  
+            transform: rotateZ(90deg);
+            animation: rotate 1s infinite linear; /* 添加一个旋转动画（如果需要的话）*/  
+        }   
+          
+        .blink {  
+            opacity: 1;  
+            animation: blinker 1s infinite alternate;  
+        }  
+          
+        .blink:nth-child(1) {  
+            animation-delay: 0s;  
+        }  
+          
+        .blink:nth-child(2) {  
+            animation-delay: 0.5s; /* 第二个元素延迟0.5秒开始动画，以实现交替效果 */  
+        }  
+          
+        @keyframes blinker {  
+            from { opacity: 1; }  
+            to { opacity: 0; }  
+        }  
+          
+         
+        .xxxin_kuang{
+                padding: 1px !important;
+                width: 120px;
+                border-radius: 8px;
+                background: #ff0808;
+                border-bottom-left-radius: 17.5px;
+                border-top-left-radius: 17.5px;
+        }
+        .xxxin_yuan{
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background: #fff;
+        }
+        .xxxin{
+            width: 20px;
+            height: 20px;
+            background-image: url(Img/app/xin_hui.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        .xxxin_kuang:hover .xxxin{
+            background-image: url("Img/app/xin_hongs.png");
+            background-size:100%;
+            transform: scale(1.2);
+        }
+		@media screen and  (max-width:768px){
+		    .xxh1{
+		        font-size: 1.2rem;
+		    }
+		    .xxh3{
+		        font-size:1rem;
+		        
+		    }
+		    .xxh5{
+	            font-family: 'HarmonyOS_Sans_SC_Regular';
+		    }
+		    .xxh5s{
+		        font-family: 'HarmonyOS_Sans_SC_Regular';
+		        height: 28px;
+                line-height: 28px;
+                font-size: 1rem;
+		    }
+		}  
+		@media screen and (min-width:769px){
+		    .xxh1{
+		        font-size: 2rem;
+		    }
+	        .xxh3{
+		        font-size:1.3rem;
+		        
+		    }
+		    .xxh5{
+	            font-family: 'HarmonyOS_Sans_SC_Regular';
+	            font-size: 1.2rem;
+		    }
+		    .xxh5s{
+		        font-family: 'HarmonyOS_Sans_SC_Regular';
+		        height: 28px;
+                line-height: 28px;
+                font-size: 1.2rem;
+		    }
+		}
+		@media screen and (min-width:1366px){
+		    .xxh1{
+		        font-size: 1.8rem;
+		    }
+		    .xximgs_banner{
+		        max-width: 400px;
+		    }
+		    .xxxin_kuang {
+		        width:130px
+		    }
+		    
+		}
+		
+		@media screen and (min-width:1920px){
+		    .xxh1{
+		        font-size: 2.2rem;
+		    }
+		}
+		
+		@media screen and (min-width:2320px){
+		    .xxh1{
+		        font-size: 3rem;
+		    }
+		}
+		
+		.section .xxanim-text-animate {
+            transition: opacity .6s linear, transform .6s cubic-bezier(0.26,0.67,0.48,0.91);
+            opacity: 0;
+            transform: translateY(100px);
+        }
+    </style>
+    
+    <footer class="footer">
+            <div class="scroll-top iconfont"><a href="#"></a></div>
+            <div class="footer-bd pc" style="">
+                <div class="footer-tops inner" style="padding:10px 0px;display:flex;flex-direction:row;justify-content:space-between;align-items:center;">
+                    <div class="footer-tops-left">
+                         <img src="xximgs/hhlogo2_red.png" style="height:50px;" alt="">
+                    </div>
+                    <div class="footer-tops-right">
+                        <div class="followus clearfix " style="width: 360px;line-height: 24px;padding-top:5px;margin-left: 40px;overflow: hidden;">
+    						<div class="xxlinks" style="color:#444444;display:flex;align-items:center">
+    							<h4 class="" style='margin-right:20px;font-size: 20px;font-family:"HarmonyOS_Sans_SC_Regular";font-weight: 500;width:160px;'>关注我们</h4>
+    							<div class="list " style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;width: 10vw;">
+    							        								<a href="https://www.instagram.com/microwearoffice/" class="iconfont icon-instagram" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://www.youtube.com/channel/UCsIoYsdHbwU_1z9fzgzSNKw" class="iconfont icon-youtube" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://www.tiktok.com/@microwearoffice" class="iconfont icon-tiktok" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://www.facebook.com/microwearO?mibextid=ZbWKwL" class="iconfont icon-facebook" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://x.com/MicrowearO" class="iconfont icon-tuite" target="_blank" rel="nofollow"></a>
+    								    							</div>
+    						</div>
+    					</div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="footer-bd mb inner" style="">
+                <div class="footer-tops" style="padding:10px 0px;display:flex;flex-direction:row;justify-content:space-between;align-items:center;">
+                    <div class="footer-tops-left" style="">
+                         <img src="xximgs/hhlogo2_red.png" style="height:50px;" alt="">
+                    </div>
+                    <div class="footer-tops-right">
+                        <div class="followus clearfix col-xl-12 col-lg-12" style="padding-top:5px;line-height: 22px;overflow: hidden;">
+    						<div class="xxlinks" style="color:#444444;display:flex;">
+    							<div class="list" style="display:flex;flex-direction:row;justify-content:space-between;align-items:center;width: calc(80vw - 180px);margin-left: 30px;">
+    							        								<a href="https://www.instagram.com/microwearoffice/" class="iconfont icon-instagram" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://www.youtube.com/channel/UCsIoYsdHbwU_1z9fzgzSNKw" class="iconfont icon-youtube" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://www.tiktok.com/@microwearoffice" class="iconfont icon-tiktok" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://www.facebook.com/microwearO?mibextid=ZbWKwL" class="iconfont icon-facebook" target="_blank" rel="nofollow"></a>
+    								    								<a href="https://x.com/MicrowearO" class="iconfont icon-tuite" target="_blank" rel="nofollow"></a>
+    								    							
+    									
+    							</div>
+    						</div>
+    					</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-down">
+                <div class="footer-wrap inner article-block">
+                    <div class="footer-navs" style="border-bottom: 1px solid #cececf;padding-bottom:25px;">
+                        <div class="footer_left">
+                                                        <dl class="footer-navs-item">
+                                <dt><a href="product.html">产品中心</a></dt>
+                                 
+                                <dd>
+                                                                            <p><a href="#">Ultra系列</a></p>
+                                        
+                                                                            <p><a href="#">W系列</a></p>
+                                        
+                                                                            <p><a href="#">GT系列</a></p>
+                                        
+                                                                            <p><a href="#">A系列</a></p>
+                                        
+                                                                            <p><a href="#">MA系列</a></p>
+                                        
+                                                                            <p><a href="#">其他</a></p>
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                                    </dd>
+                                                            </dl>
+                                                        <dl class="footer-navs-item">
+                                <dt><a href="#">关于</a></dt>
+                                 
+                                <dd>
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                                            <p><a href="Brand.html">品牌</a></p>
+                                        
+                                                                            <p><a href="news.html">活动</a></p>
+                                        
+                                        
+                                        
+                                        
+                                                                    </dd>
+                                                            </dl>
+                                                        <dl class="footer-navs-item">
+                                <dt><a href="#">支持</a></dt>
+                                 
+                                <dd>
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                                            <p><a href="Support.html">下载</a></p>
+                                        
+                                                                            <p><a href="faq.html">FAQ</a></p>
+                                        
+                                                                            <p><a href="Contactus.html">售后服务</a></p>
+                                        
+                                                                    </dd>
+                                                            </dl>
+                                                    </div>    
+                        
+                        <dl class="footer-navs-item" style="width:360px;">
+                            <dt>订阅我们</dt>
+                            <dd>
+                                <p>
+                                    <a href="#">首次访问<br>最新Microwear产品，<br>灵感与服务。</a>
+                                </p>
+                                <p>
+                                    <a style="display:flex;">
+                                        <input id="mymail" type="text" style="width: calc(100% - 20px);line-height: 20px;border: 2px solid #ccc;box-shadow: 1px solid #ccc;box-shadow: 0 0 black;font-size: 14px;text-indent: 5px;" placeholder="Email Addredss">
+                                        <span id="sendmail" style="margin-left: -3px;background: #000;color: #fff;display: inline-block;padding: 0px 5px;border-right-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;">&gt;</span>
+                                    </a>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <ul class="mobile-menu-list">
+                                                <li>
+                            <div class="mobile-defaul">
+                                <span>产品中心</span>
+                                <i></i>
+                            </div>
+                                                        <ol class="mobile-down">
+                                                                         <li><a href="#">Ultra系列</a></li>
+                                         
+                                                                         <li><a href="#">W系列</a></li>
+                                         
+                                                                         <li><a href="#">GT系列</a></li>
+                                         
+                                                                         <li><a href="#">A系列</a></li>
+                                         
+                                                                         <li><a href="#">MA系列</a></li>
+                                         
+                                                                         <li><a href="#">其他</a></li>
+                                         
+                                     
+                                     
+                                     
+                                     
+                                     
+                                                            </ol>
+                                                    </li>
+                                                <li>
+                            <div class="mobile-defaul">
+                                <span>关于</span>
+                                <i></i>
+                            </div>
+                                                        <ol class="mobile-down">
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                                                         <li><a href="Brand.html">品牌</a></li>
+                                         
+                                                                         <li><a href="news.html">活动</a></li>
+                                         
+                                     
+                                     
+                                     
+                                                            </ol>
+                                                    </li>
+                                                <li>
+                            <div class="mobile-defaul">
+                                <span>支持</span>
+                                <i></i>
+                            </div>
+                                                        <ol class="mobile-down">
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                     
+                                                                         <li><a href="Support.html">下载</a></li>
+                                         
+                                                                         <li><a href="faq.html">FAQ</a></li>
+                                         
+                                                                         <li><a href="Contactus.html">售后服务</a></li>
+                                         
+                                                            </ol>
+                                                    </li>
+                                              
+                        <li class="active">
+                            <div class="mobile-defaul"><span>订阅我们</span><i></i></div>
+                            <ol class="mobile-down" style="display:block">
+                                <li><a href="#" target="_self">首次访问<br>最新Microwear产品，<br>灵感与服务。</a></li>
+                                <li>
+                                    <a>
+                                        <input id="mymail" type="text" style="width: 80%;line-height: 20px;border: 2px solid #ccc;box-shadow: 1px solid #ccc;box-shadow: 0 0 black;font-size: 14px;text-indent: 5px;" placeholder="Email Addredss">
+                                        <span id="sendmail" style="margin-left: -3px;background: #000;color: #fff;display: inline-block;padding: 0px 5px;border-right-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;">&gt;</span>
+                                    </a>
+                                </li>
+                            </ol>
+                        </li>
+                        
+                    </ul>
+                    
+
+                    
+                    <div class="footer-copy pc" style="padding-top: 25px;display: flex;justify-content: space-between;align-items: start;">
+                        <div class="footer-copy-left">
+                            <div class="footer-tel">
+                                <span class="iconfont"></span>
+                                <div class="footer-tel-info" style="display:flex;flex-direction:row;justify-content:start;align-items:center;">
+                                    <b>电话：0755-26403109</b>
+                                </div>
+                            </div>
+                            <div class="footer-email" style="display: flex;justify-content: start;align-items: center;">
+                                <img src="Img/email.png" style="width:40px;">
+                                <div class="footer-tel-info" style="display:flex;flex-direction:row;justify-content:start;align-items:center;">
+                                    <b>业务联系人：<a href="mailto:microwear@njytech.com.cn">microwear@njytech.com.cn</a></b>
+                                </div>
+                            </div>
+                        </div>
+                        
+                         <div class="footer-copy-right" style="display: flex;flex-direction: column;justify-content: flex-end;align-items: flex-end;">
+                            <b style="color:#333;font-size:14px;font-weight:500;margin-top: -50px;">粤ICP备20203631号-1</b>
+                            <b style="color:#333;font-size:14px;font-weight:500;margin-top:40px;">Copyright@2024 Microwear.All rights reserved</b>
+                            
+                         </div>     
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-copy-right mb inner" style="display: flex;flex-direction: column;justify-content: flex-end;align-items: flex-end;">
+                    <b style="color:#333;font-size:14px;font-weight:500;">粤ICP备20203631号-1</b>
+                    <b style="color:#333;font-size:14px;font-weight:500;">Copyright@2024 Microwear.All rights reserved</b>
+                            
+            </div>
+            
+        <div style="display: none">
+            <script src="layer/layer.js"></script>
+            <script>
+            $(document).ready(function(){
+                $("#sendmail").click(function(){
+                    $.ajax({
+                        "tpye":"post",
+                        "dataType":"json",
+                        "url":"/api.php/ajax/saveemail",
+                        "data":{"email":$("#mymail").val()},
+                        "success":function(s){
+                            layer.msg(s.msg, {  
+                                  shade: 0.1, // 可选的其他配置  
+                                  time: 2000, // 可选的其他配置  
+                                  className: 'layer-msg' // 添加自定义类名  
+                                });
+                            console.log(11);
+                        },
+                        "error":function(e){
+                            console.log(11);
+                            console.log(e);
+                        }
+                    })
+                })
+                
+                
+                $(document).on("mouseenter",".navs li",function(){
+                    $(this).children(".product-menu").css("display","block");
+                })
+                
+                $(document).on("mouseleave",".navs li",function(){
+                    $(this).children(".product-menu").css("display","none");
+                })
+                
+                $(document).on("mouseenter",".product-menu-item",function(){
+                    $(".product-menu-item").removeClass("active");
+                    var ival=$(this).attr("ivalue");
+                    $(".product-menu-items").hide();
+                    $('div[ivalue="'+ival+'"]').show();
+                    $(this).addClass("active");
+                })
+                
+                
+                $.post({
+                    url: "/index.php/index/navs",
+                    data: { qw: "qw" },
+                    success: function(s) {
+                        var $response = $(s);
+                        var productMenuTabContent = $response.find('.product-menu-tab').first().html();
+                
+                      //  console.log(productMenuTabContent);
+                        if (productMenuTabContent) {
+                            $(".product-menu-tab").html(productMenuTabContent);
+                        } else {
+                            console.log("没有找到内容");
+                        }
+                    }
+                });
+                
+                
+                // $(".product-menu-item").hover(function(){
+                //     $(".product-menu-item").removeClass("active");
+                //     var ival=$(this).attr("ivalue");
+                //     $(".product-menu-items").hide();
+                //     $('div[ivalue="'+ival+'"]').show();
+                //     $(this).addClass("active");
+                // })
+            })
+        </script>
+    </div>    
+            
+        </footer>
+        
+
+	
+
+<script src="metrics/data-relay/1.1.4/scripts/data-relay.js" type="text/javascript" charset="utf-8"></script>
+<script src="metrics/data-relay/1.1.4/scripts/auto-relay.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="v/zhuanti/c/built/scripts/main.built.js" type="text/javascript" charset="utf-8"></script>
+	
+	
+
+
+
+<script src="ac/pricing/latest-1/scripts/autopricing.built.js" type="text/javascript"></script>
+	
+<link rel="stylesheet" href="ac/ac-films/6.9.0/styles/modal.css">
+<script src="ac/ac-films/6.9.0/scripts/autofilms.built.js" type="text/javascript"></script>
+
+<script>
+    $(document).ready(function(){
+        //xxsec3
+        //const urlParams = new URLSearchParams(window.location.search);
+  
+  // 获取url中的 'show' 参数
+  ///const showClass = urlParams.get('show');
+        const urlParams=new URLSearchParams(window.location.search);
+        const buy=urlParams.get("buy");
+        setTimeout(function(){
+            if(buy=="buy"){
+                $(".section").hide();
+                $(".xxsec3").show();
+                $(".xxsec3").children(".xxscroll").addClass("animated-copy-element");
+                $(".doxxsec3").click();
+            } 
+        },1000)
+        
+        
+                $(".xxmendian").click(function(){
+                   var dqurl= $(this).attr("idd");
+                   location.href=dqurl;
+                })
+        
+                var kd=$(window).width();
+                    var pchtml=$(".xxcontent_pc").attr("ihtml")
+                    var mbhtml=$(".xxcontent_mb").attr("ihtml")
+                   // console.log(1);
+                    if(kd<768){
+                       // $(".xxcontent_pc").html(mbhtml);
+                       //  console.log('aaa');
+                       $(".xxcontent_pc").hide();
+                       $(".xxcontent_mb").show();
+                    }else{
+                        $(".xxcontent_mb").show();
+                        $(".xxcontent_pc").show();
+                       // console.log('bbb');
+                    }
+                  //  console.log(2);
+                    
+                    
+                    var ykd=$(window).width();
+                    var pchtml=$(".xxcontent_pc").attr("ihtml");
+                    var mbhtml=$(".xxcontent_mb").attr("ihtml");
+                    $(window).resize(function(){
+                        kd=$(window).width();
+                        if(ykd<768 && kd>=768){
+                            // $(".xxcontent_pc").html(pchtml);
+                            // $(".xxcontent_mb").html("");
+                        }else if(ykd>=768 && kd<768){
+                            // $(".xxcontent_pc").html("");
+                            // $(".xxcontent_mb").html(mbhtml);
+                        }
+                    })
+                  //  console.log(3);
+        
+        $(".xxrounded").hover(function(){
+            $(this).addClass("shadow")
+        },function(){
+            $(this).removeClass("shadow")
+        })
+        
+        $(".menubtn").click(function(){
+            if($("body").hasClass("show")){ 
+                $("body").removeClass("show");
+                $(".menubtn").removeClass("active");
+            }else{
+                $("body").addClass("show");
+                $(".menubtn").addClass("active");
+            }
+            
+        })
+        
+        // $(".navs li").hover(function(){
+        //     $(this).children(".product-menu").attr("style","display:block");
+        // })
+        $(".doxxsec0").click(function(){
+            $(".section").show();
+            $(".xxsec1").removeClass("mt-5");
+            $(".xxsec2").removeClass("mt-5");
+            $(".xxsec1").hide();
+            //$(".xxsec2").hide();
+            $('html, body').animate({  
+                scrollTop: $(window).scrollTop() + 10  
+            }, 500); // 500是动画持续时间，单位毫秒  
+        }).trigger("click")
+
+        $(".doxxsec1").click(function(){
+            $(".xxsec2").removeClass("mt-5");
+            $(".xxsec3").removeClass("mt-5");
+            $(".section").show();
+            $(".section").not(".xxsec1").hide();
+            $(".xxsec1").addClass("mt-5");
+            $('html, body').animate({  
+                scrollTop: $(window).scrollTop() + 10  
+            }, 500); // 500是动画持续时间，单位毫秒  
+        })
+        $(".doxxsec2").click(function(){
+            $(".xxsec1").removeClass("mt-5");
+            $(".xxsec3").removeClass("mt-5");
+            $(".section").show();
+            $(".section").not(".xxsec2").hide();
+            $(".xxsec2").addClass("mt-5");
+             $('html, body').animate({  
+                scrollTop: $(window).scrollTop() + 10  
+            }, 500); // 500是动画持续时间，单位毫秒  
+        })
+        $(".doxxsec3").click(function(){
+            $(".xxsec1").removeClass("mt-5");
+            $(".xxsec2").removeClass("mt-5");
+            $(".section").show();
+            $(".section").not(".xxsec3").hide();
+            $(".xxsec3").addClass("mt-5");
+             $('html, body').animate({  
+                scrollTop: $(window).scrollTop() + 10  
+            }, 500); // 500是动画持续时间，单位毫秒  
+        })
+
+
+        $(".navs li").hover(function(){
+                $(this).children(".product-menu").css("display","block");
+            },function(){
+                $(this).children(".product-menu").css("display","none");
+            })
+            
+        $(".product-menu-item").hover(function(){
+            $(".product-menu-item").removeClass("active");
+            var ival=$(this).attr("ivalue");
+            $(".product-menu-items").hide();
+            $('div[ivalue="'+ival+'"]').show();
+            $(this).addClass("active");
+        })
+
+       
+        var $element;  
+        var elementTop;  
+        var elementBottom;  
+        var viewportTop;  
+        var viewportBottom;  
+        var kaishi=0;
+        $(window).scroll(function() {
+            if($(window).scrollTop()>0){
+                if ($(".video").length > 0) {  
+                    if($(".video").eq(0)[0].paused==true){
+                        $(".video").eq(0)[0].play()
+                    }
+                }    
+            }    
+            var num = $(".video").length;  
+            viewportTop = $(window).scrollTop(); // 更新每次滚动时的视口顶部位置  
+            viewportBottom = viewportTop + $(window).height(); // 更新每次滚动时的视口底部位置  
+            for (var i = 0; i < num; i++) { // 注意使用 var 或 let 声明 i  
+                $element = $('.video').eq(i);  
+                elementTop = $element.offset().top;  
+                elementBottom = elementTop + $element.outerHeight();  
+                // 判断元素是否进入视口  
+                if (elementTop < (viewportBottom-100) && elementBottom > viewportTop) {  
+                    // 元素已进入视口  
+                    if($element[0].paused==true){
+                        $element[0].play();
+                    } 
+                } else {  
+                    // 如果需要，可以在这里处理元素离开视口的情况  
+                    // 例如：$element.removeClass("xshow");  
+                   // console.log("i元素==>" + i + '元素未进入视口');  
+                }  
+            }
+            
+            
+            var nums = $(".xxscroll").length;  
+            viewportTop = $(window).scrollTop(); // 更新每次滚动时的视口顶部位置  
+            viewportBottom = viewportTop + $(window).height(); // 更新每次滚动时的视口底部位置  
+            for (var i = 0; i < nums; i++) { // 注意使用 var 或 let 声明 i  
+                $element = $('.xxscroll').eq(i);  
+                elementTop = $element.offset().top;  
+                elementBottom = elementTop + $element.outerHeight();  
+                // 判断元素是否进入视口  
+                
+                if (elementTop < (viewportBottom-100) && elementBottom > viewportTop) {  
+                  //  console.log($element.hasClass("animated-copy-element"));
+                    // 元素已进入视口  
+                    if($element.hasClass("animated-copy-element")==false){
+                        $element.addClass("animated-copy-element");
+                    } 
+                } else {  
+                    // 如果需要，可以在这里处理元素离开视口的情况  
+                    // 例如：$element.removeClass("xshow");  
+                   // console.log("i元素==>" + i + '元素未进入视口');  
+                   if($element.hasClass("animated-copy-element")==true){
+                        $element.removeClass("animated-copy-element");
+                    }
+                }  
+                
+            }
+            //xxanim-text-animate
+            
+
+            
+        });  
+       
+    })
+</script>
+<div id="think_page_trace" style="position: fixed;bottom:0;right:0;font-size:14px;width:100%;z-index: 999999;color: #000;text-align:left;font-family:'微软雅黑';">
+    <div id="think_page_trace_tab" style="display: none;background:white;margin:0;height: 250px;">
+        <div id="think_page_trace_tab_tit" style="height:30px;padding: 6px 12px 0;border-bottom:1px solid #ececec;border-top:1px solid #ececec;font-size:16px">
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">基本</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">文件</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">流程</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">错误</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">SQL</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">调试</span>
+                        <span style="color:#000;padding-right:12px;height:30px;line-height:30px;display:inline-block;margin-right:3px;cursor:pointer;font-weight:700">用户</span>
+                    </div>
+        <div id="think_page_trace_tab_cont" style="overflow:auto;height:212px;padding:0;line-height: 24px">
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                    <li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">请求信息：2024-11-18 00:03:34 HTTP/1.1获取：http://watch.microwear.com/productdetail?id=13&amp;buy=buy&amp;yy=en</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">运行时间：0.10925s[起始速度：9.15req/s]内存：6056.13kb文件添加量：165</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">查询信息：37条查询</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">网上信息：11读，1写</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">会议信息：会话ID=8f54ba3696ffcd0b4b56ada7f098d1</li>                </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                    <li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/public/index.php（1.35 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/autoload.php（0.17 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/composer/autoload_real.php（2.49 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/composer/platform_check.php（0.90 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/composer/ClassLoader.php（14.03 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/composer/autoload_static.php（13.11 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/symfony/polyfill-php72/bootstrap.php（1.89 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/ralouphie/金属头/src/金属头.php（1.60 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/guzzlehttp/psr7/src/functions_include.php（0.15 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/guzzlehttp/psr7/src/functions.php（13.09 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/symfony/polyfill-mbstring/bootstrap.php（7.67 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/symfony/polyfill-php80/bootstrap.php（1.50 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/symfony/var-dumper/Resources/functions/dump.php（0.79 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/symfony/polyfill-intl-normalizer/bootstrap.php（0.71 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/guzzlehttp/promises/src/functions_include.php（0.16 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/guzzlehttp/promises/src/functions.php（9.89 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/symfony/polyfill-intl-idn/bootstrap.php（4.52 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/guzzlehttp/guzle/src/functions_include.php（0.16 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/guzzlehttp/guzle/src/functions.php（9.70 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/adbario/php-dot-notation/src/helpers.php（0.57 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-helper/src/helper.php（7.35 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/stubs/load_subs.php（0.16 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Exception.php（1.69 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Facade.php（2.71 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/symfony/polyfill-ctype/bootstrap.php（1.56 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/mtdowling/jmespath.php/src/jmespath.php（0.36 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/libabacloud/client/src/Functions.php（5.33 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-captcha/src/helper.php（1.37 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/zzstudio/think-addons/rc/helper.php（4.76 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Console.php（22.65 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/App.php（14.17 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Container.php（15.38 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/psr/container/src/ContainerInterface.php（1.02 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/app/provider.php（0.13 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Http.php（6.12 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-helper/src/helper/Str.php（7.28 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Env.php（4.64 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/app/common.php（137.20 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/helper.php（18.44 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Config.php（5.03 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config/addons.php（0.10 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config/app.php（1.72 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config-cache.php（0.98 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config-captcha.php（1.39 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config/console.php（0.23 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config/cookie.php（0.49 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config-database.php（1.92 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config-filesystem.php（0.59 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Request.php（54.04 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config-lang.php（0.72 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config-log.php（1.40 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config/middleware.php（0.24 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config/params.php（0.89 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config/pcfcms.php（2.94 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/facade/Cache.php（2.02 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Cache.php（4.79 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Manager.php（3.98 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/psr/simple-cache/src/CacheInterface.php（4.50 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-helper/rc/helper/Arr.php（15.54 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/ache/driver/File.php（7.42 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/ache/Driver.php（8.06 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/contract/CacheHandlerInterface.php（2.25KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/facade/Db.php（0.94 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Db.php（2.87 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/DbManager.php（8.49 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Event.php（6.96 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Log.php（8.50 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/psr/log/psr/LoggerInterface.php（3.04 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/connector/Mysql.php（4.39 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/PDOConnection.php（52.45 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/Connection.php（7.67 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/ConnectionInterface.php（4.56 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/builder/Mysql.php（15.93 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/Builder.php（41.58 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/Query.php（10.64 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/BaseQuery.php（36.47 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/concern/TimeFieldQuery.php（7.50 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/concern/GeneralQuery.php（3.26 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/concern/ModelRelationsQuery.php（16.06 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/concern/ResultOperation.php（6.29 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/concern/Transaction.php（2.85 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/concern/Where查询.php（16.22 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/concern/JoinAndViewQuery.php（6.86 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/concern/ParamsBind.php（3.36 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/concern/TableFieldInfo.php（2.51 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config-route.php（1.54 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config/session.php（0.60 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config-trace.php（0.56 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/config-view.php（0.81KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/app/event.php（0.25 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Lang.php（7.60 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/lang/zh-cn.php（12.88 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/initializer/Error.php（3.27 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/initializer/RegisterService.php（1.33 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/services.php（0.25 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/service/PagnatorService.php（1.52 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Service.php（1.67 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/service/ValidateService.php（0.99 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/service/ModelService.php（1.76 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-captcha/src/CaptchaService.php（0.52 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-multi-app/src/Service.php（1.08 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-trace/src/Service.php（0.77 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Middleware.php（6.78 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/zzstudio/think-addons/rc/addons/Service.php（10.29 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/facade/Lang.php（1.68 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/zzstudio/think-addons/rc/lang/zh-cn.php（6.13 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/facade/Config.php（1.37 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/zzstudio/think-addons/rc/addons.php（5.13 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/facade/Event.php（1.79 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/initializer/BootService.php（0.77 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/Pagnator.php（11.80 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Validate.php（46.10 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/Model.php（25.28 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-helper/rc/contact/Arrable.php（0.09KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-helper/rc/contact/Jsonable.php（0.13 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/model/concern/Attribute.php（17.61 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/model/concern/RelationShip.php（26.12 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/model/concern/ModelEvent.php（2.27 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/model/concern/TimeStamp.php（5.70 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/model/concern/Conversion.php（10.41 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/app/middleware.php（0.27 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Pipeline.php（2.61 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-trace/src/TraceDebug.php（2.94 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/middleware/SessionInit.php（2.06 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Session.php（1.80 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/session/driver/File.php（6.28 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/contract/SessionHandlerInterface.php（0.87 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/session/Store.php（7.26 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-multi-app/src/MultiApp.php（7.07 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/app/home/common.php（7.63 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/app/home/config/view.php（2.50 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/facade/Request.php（8.92 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Route.php（23.96 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/route/RuleName.php（5.33 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/route/Domain.php（5.55 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/route/RuleGroup.php（13.61 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/route/Rule.php（22.85 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/route/RuleItem.php（8.81 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/route/dispatch/Url.php（3.42 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/route/dispatch/Controller.php（6.61 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/route/Dispatch.php（6.49 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/app/home/controller/Productdetail.php（9.46 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/app/home/controller/Base.php（8.75 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/app/命令/控制器/common.php（0.89 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/app/BaseController.php（4.12 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/extend/traces/Jump.php（3.25 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/facade/App.php（2.73 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/facade/View.php（1.71 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/View.php（4.41 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-orm/src/db/Raw.php（1.39 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-helper/src/Collection.php（16.10 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www.wwwroot/watch.microwear.com/vender/zoujingli/ip2region/ip2region.php（1.78 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/zoujingli/ip2region/XdbSearcher.php（9.54 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/facade/Session.php（1.15 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-view/src/Ting.php（8.42 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-template/src/template.php（46.85 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-template/src/template/driver/File.php（2.33 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/runtime/home/temp/912452bcdf9118fb52c970d117d645f3.php（112.71 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Response.php（8.60 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/response/Html.php（0.98 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/Cookie.php（6.28 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/think-trace/src/Html.php（4.49 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/log/driver/File.php（6.17 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/contract/LogHandlerInterface.php（0.86 KB）</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/watch.microwear.com/vender/topthink/framework/src/think/log/Channel.php（6.54 KB）</li>                </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                                    </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                                    </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                                    </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                                    </ol>
+            </div>
+                        <div style="display:none;">
+                <ol style="padding: 0; margin:0">
+                                    </ol>
+            </div>
+                    </div>
+    </div>
+    <div id="think_page_trace_close" style="display:none;text-align:right;height:15px;position:absolute;top:10px;right:12px;cursor:pointer;"><img style="vertical-align:top;" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAAMDA////wAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MUQxMjc1MUJCQUJDMTFFMTk0OUVGRjc3QzU4RURFNkEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MUQxMjc1MUNCQUJDMTFFMTk0OUVGRjc3QzU4RURFNkEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxRDEyNzUxOUJBQkMxMUUxOTQ5RUZGNzdDNThFREU2QSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxRDEyNzUxQUJBQkMxMUUxOTQ5RUZGNzdDNThFREU2QSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAAPAA8AAAIdjI6JZqotoJPR1fnsgRR3C2jZl3Ai9aWZZooV+RQAOw=="></div>
+</div>
+<div id="think_page_trace_open" style="height:30px;float:right;text-align:right;overflow:hidden;position:fixed;bottom:0;right:0;color:#000;line-height:30px;cursor:pointer;">
+    <div style="background:#232323;color:#FFF;padding:0 6px;float:right;line-height:30px;font-size:14px">0.110575秒</div>
+    <img width="30" style="" title="ShowPageTrace" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjVERDVENkZGQjkyNDExRTE5REY3RDQ5RTQ2RTRDQUJCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjVERDVENzAwQjkyNDExRTE5REY3RDQ5RTQ2RTRDQUJCIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NURENUQ2RkRCOTI0MTFFMTlERjdENDlFNDZFNENBQkIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NURENUQ2RkVCOTI0MTFFMTlERjdENDlFNDZFNENBQkIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5fx6IRAAAMCElEQVR42sxae3BU1Rk/9+69+8xuNtkHJAFCSIAkhMgjCCJQUi0GtEIVbP8Qq9LH2No6TmfaztjO2OnUdvqHFMfOVFTqIK0vUEEeqUBARCsEeYQkEPJoEvIiELLvvc9z+p27u2F3s5tsBB1OZiebu5dzf7/v/L7f952zMM8cWIwY+Mk2ulCp92Fnq3XvnzArr2NZnYNldDp0Gw+/OEQ4+obQn5D+4Ubb22+YOGsWi/Todh8AHglKEGkEsnHBQ162511GZFgW6ZCBM9/W4H3iNSQqIe09O196dLKX7d1O39OViP/wthtkND62if/wj/DbMpph8BY/m9xy8BoBmQk+mHqZQGNy4JYRwCoRbwa8l4JXw6M+orJxpU0U6ToKy/5bQsAiTeokGKkTx46RRxxEUgrwGgF4MWNNEJCGgYTvpgnY1IJWg5RzfqLgvcIgktX0i8dmMlFA8qCQ5L0Z/WObPLUxT1i4lWSYDISoEfBYGvM+LlMQQdkLHoWRRZ8zYQI62Thswe5WTORGwNXDcGjqeOA9AF7B8rhzsxMBEoJ8oJKaqPu4hblHMCMPwl9XeNWyb8xkB/DDGYKfMAE6aFL7xesZ389JlgG3XHEMI6UPDOP6JHHu67T2pwNPI69mCP4rEaBDUAJaKc/AOuXiwH07VCS3w5+UQMAuF/WqGI+yFIwVNBwemBD4r0wgQiKoFZa00sEYTwss32lA1tPwVxtc8jQ5/gWCwmGCyUD8vRT0sHBFW4GJDvZmrJFWRY1EkrGA6ZB8/10fOZSSj0E6F+BSP7xidiIzhBmKB09lEwHPkG+UQIyEN44EBiT5vrv2uJXyPQqSqO930fxvcvwbR/+JAkD9EfASgI9EHlp6YiHO4W+cAB20SnrFqxBbNljiXf1Pl1K2S0HCWfiog3YlAD5RGwwxK6oUjTweuVigLjyB0mX410mAFnMoVK1lvvUvgt8fUJH0JVyjuvcmg4dE5mUiFtD24AZ4qBVELxXKS+pMxN43kSdzNwudJ+bQbLlmnxvPOQoCugSap1GnSRoG8KOiKbH+rIA0lEeSAg3y6eeQ6XI2nrYnrPM89bUTgI0Pdqvl50vlNbtZxDUBcLBK0kPd5jPziyLdojJIN0pq5/mdzwL4UVvVInV5ncQEPNOUxa9d0TU+CW5l+FoI0GSDKHVVSOs+0KOsZoxwOzSZNFGv0mQ9avyLCh2Hpm+70Y0YJoJVgmQv822wnDC8Miq6VjJ5IFed0QD1YiAbT+nQE8v/RMZfmgmcCRHIIu7Bmcp39oM9fqEychcA747KxQ/AEyqQonl7hATtJmnhO2XYtgcia01aSbVMenAXrIomPcLgEBA4liGBzFZAT8zBYqW6brI67wg8sFVhxBhwLwBP2+tqBQqqK7VJKGh/BRrfTr6nWL7nYBaZdBJHqrX3kPEPap56xwE/GvjJTRMADeMCdcGpGXL1Xh4ZL8BDOlWkUpegfi0CeDzeA5YITzEnddv+IXL+UYCmqIvqC9UlUC/ki9FipwVjunL3yX7dOTLeXmVMAhbsGporPfyOBTm/BJ23gTVehsvXRnSewagUfpBXF3p5pygKS7OceqTjb7h2vjr/XKm0ZofKSI2Q/J102wHzatZkJPYQ5JoKsuK+EoHJakVzubzuLQDepCKllTZi9AG0DYg9ZLxhFaZsOu7bvlmVI5oPXJMQJcHxHClSln1apFTvAimeg48u0RWFeZW4lVcjbQWZuIQK1KozZfIDO6CSQmQQXdpBaiKZyEWThVK1uEc6v7V7uK0ysduExPZx4vysDR+4SelhBYm0R6LBuR4PXts8MYMcJPsINo4YZCDLj0sgB0/vLpPXvA2Tn42Cv5rsLulGubzW0sEd3d4W/mJt2Kck+DzDMijfPLOjyrDhXSh852B+OvflqAkoyXO1cYfujtc/i3jJSAwhgfFlp20laMLOku/bC7prgqW7lCn4auE5NhcXPd3M7x70+IceSgZvNljCd9k3fLjYsPElqLR14PXQZqD2ZNkkrAB79UeJUebFQmXpf8ZcAQt2XrMQdyNUVBqZoUzAFyp3V3xi/MubUA/mCT4Fhf038PC8XplhWnCmnK/ZzyC2BSTRSqKVOuY2kB8Jia0lvvRIVoP+vVWJbYarf6p655E2/nANBMCWkgD49DA0VAMyI1OLFMYCXiU9bmzi9/y5i/vsaTpHPHidTofzLbM65vMPva9HlovgXp0AvjtaqYMfDD0/4mAsYE92pxa+9k1QgCnRVObCpojpzsKTPvayPetTEgBdwnssjuc0kOBFX+q3HwRQxdrOLAqeYRjkMk/trTSu2Z9Lik7CfF0AvjtqAhS4NHobGXUnB5DQs8hG8p/wMX1r4+8xkmyvQ50JVq72TVeXbz3HvpWaQJi57hJYTw4kGbtS+C2TigQUtZUX+X27QQq2ePBZBru/0lxTm8fOOQ5yaZOZMAV+he4FqIMB+LQB0UgMSajANX29j+vbmly8ipRvHeSQoQOkM5iFXcPQCVwDMs5RBCQmaPOyvbNd6uwvQJ183BZQG3Zc+Eiv7vQOKu8YeDmMcJlt2ckyftVeMIGLBCmdMHl/tFILYwGPjXWO3zOfSq/+om+oa7Mlh2fpSsRGLp7RAW3FUVjNHgiMhyE6zBFjM2BdkdJGO7nP1kJXWAtBuBpPIAu7f+hhu7bFXIuC5xWrf0X2xreykOsUyKkF2gwadbrXDcXrfKxR43zGcSj4t/cCgr+a1iy6EjE5GYktUCl9fwfMeylyooGF48bN2IGLTw8x7StS7sj8TF9FmPGWQhm3rRR+o9lhvjJvSYAdfDUevI1M6bnX/OwWaDMOQ8RPgKRo0eulBTdT8AW2kl8e9L7UHghHwMfLiZPNoSpx0yugpQZaFqKWqxVSM3a2pN1SAhC2jf94I7ybBI7EL5A2Wvu5ht3xsoEt4+Ay/abXgCQAxyOeDsDlTCQzy75ohcGgv9Tra9uiymRUYTLrswOLlCdfAQf7HPDQQ4ErAH5EDXB9cMxWYpjtXApRncojS0sbV/cCgHTHwGNBJy+1PQE2x56FpaVR7wfQGZ37V+V+19EiHNvR6q1fRUjqvbjbMq1/qfHxbTrE10ePY2gPFk48D2CVMTf1AF4PXvyYR9dV6Wf7H413m3xTWQvYGhQ7mfYwA5mAX+18Vue05v/8jG/fZX/IW5MKPKtjSYlt0ellxh+/BOCPAwYaeVr0QofZFxJWVWC8znG70au6llVmktsF0bfHF6k8fvZ5esZJbwHwwnjg59tXz6sL/P0NUZDuSNu1mnJ8Vab17+cy005A9wtOpp3i0bZdpJLUil00semAwN45LgEViZYe3amNye0B6A9chviSlzXVsFtyN5/1H3gaNmMpn8Fz0GpYFp6Zw615H/LpUuRQQDMCL82n5DpBSawkvzIdN2ypiT8nSLth8Pk9jnjwdFzH3W4XW6KMBfwB569NdcGX93mC16tTflcArcYUc/mFuYbV+8zY0SAjAVoNErNgWjtwumJ3wbn/HlBFYdxHvSkJJEc+Ngal9opSwyo9YlITX2C/P/+gf8sxURSLR+mcZUmeqaS9wrh6vxW5zxFCOqFi90RbDWq/YwZmnu1+a6OvdpvRqkNxxe44lyl4OobEnpKA6Uox5EfH9xzPs/HRKrTPWdIQrK1VZDU7ETiD3Obpl+8wPPCRBbkbwNtpW9AbBe5L1SMlj3tdTxk/9W47JUmqS5HU+JzYymUKXjtWVmT9RenIhgXc+nroWLyxXJhmL112OdB8GCsk4f8oZJucnvmmtR85mBn10GZ0EKSCMUSAR3ukcXd5s7LvLD3me61WkuTCpJzYAyRurMB44EdEJzTfU271lUJC03YjXJXzYOGZwN4D8eB5jlfLrdWfzGRW7icMPfiSO6Oe7s20bmhdgLX4Z23B+s3JgQESzUDiMboSzDMHFpNMwccGePauhfwjzwnI2wu9zKGgEFg80jcZ7MHllk07s1H+5yojtUQTlH4nFdLKTGwDmPbIklOb1L1zO4T6N8NCuDLFLS/C63c0eNRimZ++s5BMBHxU11jHchI9oFVUxRh/eMDzHEzGYu0Lg8gJ7oS/tFCwoic44fyUtix0n/46vP4bf+//BRgAYwDDar4ncHIAAAAASUVORK5CYII=">
+</div>
+
+<script type="text/javascript">
+    (function(){
+        var tab_tit  = document.getElementById('think_page_trace_tab_tit').getElementsByTagName('span');
+        var tab_cont = document.getElementById('think_page_trace_tab_cont').getElementsByTagName('div');
+        var open     = document.getElementById('think_page_trace_open');
+        var close    = document.getElementById('think_page_trace_close').children[0];
+        var trace    = document.getElementById('think_page_trace_tab');
+        var cookie   = document.cookie.match(/thinkphp_show_page_trace=(\d\|\d)/);
+        var history  = (cookie && typeof cookie[1] != 'undefined' && cookie[1].split('|')) || [0,0];
+        open.onclick = function(){
+            trace.style.display = 'block';
+            this.style.display = 'none';
+            close.parentNode.style.display = 'block';
+            history[0] = 1;
+            document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+        }
+        close.onclick = function(){
+            trace.style.display = 'none';
+            this.parentNode.style.display = 'none';
+            open.style.display = 'block';
+            history[0] = 0;
+            document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+        }
+        for(var i = 0; i < tab_tit.length; i++){
+            tab_tit[i].onclick = (function(i){
+                return function(){
+                    for(var j = 0; j < tab_cont.length; j++){
+                        tab_cont[j].style.display = 'none';
+                        tab_tit[j].style.color = '#999';
+                    }
+                    tab_cont[i].style.display = 'block';
+                    tab_tit[i].style.color = '#000';
+                    history[1] = i;
+                    document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+                }
+            })(i)
+        }
+        parseInt(history[0]) && open.click();
+        tab_tit[history[1]].click();
+    })();
+</script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+﻿/*.biaopan_jpg:first-child{*/
+/*    opacity: 0;*/
+/*}*/
+
+.show{
+	display:block !important;
+}
+
+.biaopan{
+	display: flex;
+	flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 111;
+}
+.guntitle{
+    z-index: 0;
+}
+
+/* 默认背景图 */  
+.xx_biao {  
+  background-image: url('../gsap/xin2/shou_s.jpg');  
+  background-size: contain; /* 确保背景图覆盖整个元素 */  
+  background-position: center; /* 背景图居中 */  
+  background-repeat: no-repeat; /* 不重复背景图 */  
+  /*padding:50% 0px;*/
+}  
+  
+.biankuang{
+    background:#000;
+}  
+.guding{
+    position: relative;
+}  
+  
+
+/* 当屏幕宽度大于或等于 768px 时 */  
+@media screen and (max-width: 767px) {  
+  .xx_biao {  
+    background-image: url('../gsap/xin2/shou_s.jpg'); 
+	background-size: cover; /* 确保背景图覆盖整个元素 */  
+	background-position: center; /* 背景图居中 */  
+	background-repeat: no-repeat; /* 不重复背景图 */  
+	padding:60% 0px;	
+  }
+  .guntitle{
+    	display:flex;
+    	flex-direction:column;
+    	justify-content:space-around;
+    	align-items:center;
+    	width:100vw;
+        top: 0vh;
+        position: absolute;
+        /*opacity: 0.01;*/
+    }  
+    .guntitle_span{
+    	display: flex;
+        align-items: flex-start;
+        font-size:6.8vw;
+        text-indent: 0.5em;
+    	color: #fff;
+    	width:80vw;
+    	opacity: 0;
+    	/*transform: translate(0px,-20vh);*/
+    	/*padding-bottom:10vh;*/
+    }
+    
+    .xx_hh_span{
+    	text-indent: 2em;
+        padding-left: 15px;
+    }
+    .guntitle_span img{
+    	width:8vw;
+    }
+    
+    .guding{
+        padding-top: 12vh;
+        background:#000; position: relative;
+    }
+   .biaopan_jpg{
+    	/* max-width:280px; */
+    	width:49vw;
+    	object-fit:contain;
+        display:none;
+       /*opacity: 0;*/
+    }
+  
+}  
+  
+  
+  
+/* 当屏幕宽度大于或等于 768px 时 */  
+@media screen and (min-width: 768px) {  
+  .xx_biao {  
+    background-image: url('../gsap/xin2/shou_s.jpg'); 
+	/*background-size: cover;*/
+	background-position: center; /* 背景图居中 */  
+	background-repeat: no-repeat; /* 不重复背景图 */  
+	/*padding:60% 0px;	*/
+	max-width:1023px;
+	max-height:100vh;
+  }
+  .guntitle{
+    	display:flex;
+    	flex-direction:column;
+    	justify-content:space-around;
+    	align-items:center;
+    	margin-top:100px;
+    	width:100vw;
+        top: 0vh;
+        position: absolute;
+        /*opacity: 0.01;*/
+    }  
+    .guntitle_span{
+    	display: flex;
+        align-items: flex-start;
+        font-size:4.8vw;
+        text-indent: 0.5em;
+    	color: #fff;
+    	width:70vw;
+    	opacity: 0;
+    	/*transform: translate(0px,-20vh);*/
+    	/*padding-bottom:10vh;*/
+    }
+    
+    .xx_hh_span{
+    	text-indent: 2em;
+        padding-left: 15px;
+    }
+    .guntitle_span img{
+    	width:8vw;
+    }
+    
+    .guding{
+        padding-top: 12vh;
+        background:#000; position: relative;
+    }
+   .biaopan_jpg{
+    	/* max-width:280px; */
+    	width:51vw;
+    	object-fit:contain;
+        display:none;
+       /*opacity: 0;*/
+    }
+  
+}  
+  
+/* 当屏幕宽度大于或等于 1024px 时 */  
+@media screen and (min-width: 1024px) {  
+  .xx_biao {  
+        background-image: url('../gsap/xin2/shou.jpg');  
+    	background-size: cover; /* 确保背景图覆盖整个元素 */  
+    	background-position: center; /* 背景图居中 */  
+    	background-repeat: no-repeat; /* 不重复背景图 */  	
+    	padding:28% 0px;
+  }  
+   .guntitle{
+    	display:flex;
+    	flex-direction:column;
+    	justify-content:space-around;
+    	align-items:center;
+    	margin-top:200px;
+    	width:100vw;
+        top: 0vh;
+        position: absolute;
+        /*opacity: 0.01;*/
+    }  
+    .guntitle_span{
+    	display: flex;
+        align-items: flex-start;
+        font-size:2.8vw;
+        text-indent: 0.5em;
+    	color: #fff;
+    	width:30vw;
+    	opacity: 0;
+    	/*transform: translate(0px,-20vh);*/
+    	/*padding-bottom:10vh;*/
+    }
+    
+    .xx_hh_span{
+    	text-indent: 2em;
+        padding-left: 15px;
+    }
+    .guntitle_span img{
+    	width:3vw;
+    }
+    
+    .guding{
+        padding-top: 20vh; position: relative;
+    }
+
+    .biaopan_jpg{
+	/* max-width:280px; */
+    	width:24vw;
+    	object-fit:contain;
+        display:none;
+       /*opacity: 0;*/
+    }
+}  
+
+/* 当屏幕宽度大于或等于 1333px 时 */  
+@media screen and (min-width: 1333px) {  
+  .xx_biao {  
+        background-image: url('../gsap/xin2/shou.jpg');  
+    	background-size: contain; /* 确保背景图覆盖整个元素 */  
+    	background-position: center; /* 背景图居中 */  
+    	background-repeat: no-repeat; /* 不重复背景图 */  	
+    	padding:20.5% 0px;
+    	max-width: 1642px;
+        max-height: 782px;
+        margin: auto;
+  }  
+   .guntitle{
+    	display:flex;
+    	flex-direction:column;
+    	justify-content:space-around;
+    	align-items:center;
+    	margin-top:200px;
+    	width:100vw;
+        top: 0vh;
+        position: absolute;
+        /*opacity: 0.01;*/
+    }  
+    .guntitle_span{
+    	display: flex;
+        align-items: flex-start;
+        font-size:2.1vw;
+        text-indent: 0.5em;
+    	color: #fff;
+    	width:26vw;
+    	opacity: 0;
+    	/*transform: translate(0px,-20vh);*/
+    	/*padding-bottom:10vh;*/
+    }
+    
+    .xx_hh_span{
+    	text-indent: 2em;
+        padding-left: 15px;
+    }
+    .guntitle_span img{
+    	width:3vw;
+    }
+    
+    .guding{
+        padding-top: 20vh;
+         position: relative;
+    }
+
+    .biaopan_jpg{
+	/* max-width:280px; */
+    	width:17.5vw;
+    	object-fit:contain;
+        display:none;
+       /*opacity: 0;*/
+    }
+} 
+     

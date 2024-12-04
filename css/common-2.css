@@ -1,0 +1,444 @@
+﻿@charset "utf-8";
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "iconfont"; 
+  src: url('fonts/iconfont.woff2') format('woff2'),
+       url('fonts/iconfont.woff') format('woff'),
+       url('fonts/iconfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Alibaba-Medium';
+  src: url('fonts/AlibabaPuHuiTi-Medium.woff2') format('woff2'),
+      url('fonts/AlibabaPuHuiTi-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alibaba-Regular';
+  src: url('fonts/AlibabaPuHuiTi-Regular.woff2') format('woff2'),
+      url('fonts/AlibabaPuHuiTi-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Alibaba-SemiBold';
+  src: url('fonts/AlibabaPuHuiTi_2_75_SemiBold.woff2') format('woff2'),
+      url('fonts/AlibabaPuHuiTi_2_75_SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SourceHanSansSC-bold';
+  src: url('fonts/AlibabaPuHuiTi-2-85-Bold.otf');
+}
+
+@font-face {
+  font-family: 'SourceHanSansSC-ExtraBold';
+  src: url('fonts/AlibabaPuHuiTi-2-95-ExtraBold.otf');
+}
+
+
+@font-face {
+  font-family: 'Manrope-Semibold';
+  src: url('fonts/Manrope3-Semibold.woff2') format('woff2'),
+      url('fonts/Manrope3-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope3-Regular';
+  src: url('fonts/Manrope3-Regular.woff2') format('woff2'),
+      url('fonts/Manrope3-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope3-Medium';
+  src: url('fonts/Manrope3-Medium.woff2') format('woff2'),
+      url('fonts/Manrope3-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-SemiBold.woff2') format('woff2'),
+      url('fonts/Poppins-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('fonts/Poppins-Medium.ttf');
+}
+
+@font-face {  
+    font-family: 'HarmonyOS_Sans_SC_Bold'; /* 自定义的字体名称 */  
+    src: url('fonts/HarmonyOS_Sans_SC_Bold.ttf') format('truetype'); /* 字体文件的路径和格式 */  
+    font-weight: 500; /* 可选，定义字体的粗细 */  
+    font-style: normal; /* 可选，定义字体的风格，因为是斜体，所以这里明确指定 */  
+} 
+
+@font-face {  
+    font-family: 'HarmonyOS_Sans_SC_Regular'; /* 自定义的字体名称 */  
+    src: url('fonts/HarmonyOS_Sans_SC_Regular.ttf') format('truetype'); /* 字体文件的路径和格式 */  
+    font-weight: 500; /* 可选，定义字体的粗细 */  
+    font-style: normal; /* 可选，定义字体的风格，因为是斜体，所以这里明确指定 */  
+} 
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0px;
+  border: 0;
+  font-size: 100%;
+  outline: none;
+}
+
+html {
+  font-size: 100%;
+  -webkit-overflow-scrolling:touch;
+}
+
+/* always display scrollbars */
+body {
+  font: 12px/1.8 "HarmonyOS_Sans_SC_Bold", "HarmonyOS_Sans_SC_Regular", "Microsoft Yahei", "微软雅黑", "Hiragino Sans GB", "冬青黑体", "Arial", "Helvetica", "SimHei", "黑体", "STXihei", "华文细黑", sans-serif;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #ffffff;
+  _background-attachment: fixed;
+  _background-image: url(about:blank);
+  -webkit-text-size-adjust: 100% !important;
+}
+body.noScroll{
+  overflow: hidden;
+}
+/* video::-webkit-media-controls-play-button {
+  display: none;
+} */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+input {
+  outline: none;
+  padding: 0;
+}
+
+img {
+  border: 0;
+}
+
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+select {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+  background: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+::-moz-selection {
+  background: #f7a300;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #f7a300;
+  color: #fff;
+  text-shadow: none;
+}
+
+a {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fc {
+  text-align: center;
+}
+
+.fr {
+  text-align: right;
+}
+
+.fl{
+  float: right;
+}
+.vt {
+  vertical-align: top;
+}
+
+.vm {
+  vertical-align: middle;
+}
+
+.inner {
+  width: 1400px;
+  margin: 0px auto;
+}
+
+/* ::-webkit-scrollbar {
+  width: 6px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 6px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #ff7500;
+} */
+
+.slick-list { position: relative; z-index: 0; overflow: hidden; width: 100%; height: 100%; }
+.slick-track { position: relative; left: 0; top: 0; display: block; zoom: 1;}
+.slick-track:before, .slick-track:after { content: ""; display: table; }
+.slick-track:after { clear: both;}
+
+.popUpblack {
+  background: #000 \9;
+  filter: alpha(opacity=80);
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1010;
+  display: none;
+}
+
+.popUp {
+  width: 220px;
+  border: 2px solid #E9A43F;
+  background: #fff;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin: -87px 0 0 -115px;
+  z-index: 1004;
+}
+
+.popUp .t {
+  padding: 0 0 0 10px;
+  height: 26px;
+  line-height: 26px;
+  color: #666;
+  font-weight: bold;
+  border-bottom: 1px solid #e8e8e8;
+  background: #f2f2f2;
+}
+
+.popUp .t .close {
+  padding: 0 10px 0 0;
+  float: right;
+  cursor: pointer;
+  color: #666;
+  font-weight: normal;
+}
+
+.popUp .img {
+  padding: 20px;
+}
+
+.popUp .img img {
+  width: 100%;
+  display: block;
+}
+
+.menubtn{ display: none; width: 26px; height: 60px; position:relative; z-index: 20; float: right; cursor: pointer; transition: 0.4s; cursor: pointer;}
+.menubtn span{margin-top: 30px;display:block;width:100%;height:2px;background: #000;position:relative;vertical-align: middle;-webkit-transition-duration: .3s,.3s;-moz-transition-duration: .3s,.3s;-ms-transition-duration: .3s,.3s;-o-transition-duration: .3s,.3s;transition-duration: .3s,.3s;-webkit-transition-delay: .3s,0s;-moz-transition-delay: .3s,0s;-ms-transition-delay: .3s,0s;-o-transition-delay: .3s,0s;transition-delay: .3s,0s;transition: color 0.3s 0s;}
+.menubtn span:after,
+.menubtn span:before {
+ content: "";
+ position: absolute;
+ display: inline-block;
+ width: 100%;
+ height: 2px;
+ left: 0;
+ background-color: #000;
+ -webkit-transition-duration: .3s,.3s;
+ -moz-transition-duration: .3s,.3s;
+ -ms-transition-duration: .3s,.3s;
+ -o-transition-duration: .3s,.3s;
+ transition-duration: .3s,.3s;
+ -webkit-transition-delay: .3s,0s;
+ -moz-transition-delay: .3s,0s;
+ -ms-transition-delay: .3s,0s;
+ -o-transition-delay: .3s,0s;
+ transition-delay: .3s,0s
+ }
+.menubtn span:before {top: -10px;-webkit-transition-property: top,transform;-moz-transition-property: top,transform;-ms-transition-property: top,transform;-o-transition-property: top,transform;transition-property: top,transform;}
+.menubtn span:after {bottom: -10px;-webkit-transition-property: bottom,transform;-moz-transition-property: bottom,transform;-ms-transition-property: bottom,transform;-o-transition-property: bottom,transform;
+transition-property: bottom,transform;}
+.menubtn.active span {background-color: transparent;-webkit-transition-delay: 0s,0s;-moz-transition-delay: 0s,0s;-ms-transition-delay: 0s,0s;-o-transition-delay: 0s,0s;transition-delay: 0s,0s;}
+.menubtn.active span:after,.menubtn.active span:before { -webkit-transition-delay: 0s,.3s;-moz-transition-delay: 0s,.3s; -ms-transition-delay: 0s,.3s; -o-transition-delay: 0s,.3s; transition-delay: 0s,.3s;}
+.menubtn.active span:before {top: 0px;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg)}
+.menubtn.active span:after {bottom:0px;-webkit-transform: rotate(-45deg);-moz-transform: rotate(-45deg);-ms-transform: rotate(-45deg);-o-transform: rotate(-45deg);transform: rotate(-45deg);}

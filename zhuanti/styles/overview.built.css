@@ -1,0 +1,14 @@
+@media only screen and (max-width: 374px) {
+    .hero-headline {
+        position: relative;
+        width: 282px;
+        transform: translateX(-15px);
+    }
+}
+
+/* iphone XS start*/
+.small-caps {
+    font-feature-settings: "smcp", "c2sc";
+    font-variant-caps:all-small-caps
+}
+/* iphone XS end*/
