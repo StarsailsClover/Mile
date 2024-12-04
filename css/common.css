@@ -1,5 +1,9 @@
 ﻿@charset "utf-8";
 
+/**
+ * 定义图标字体的样式
+ * .iconfont 类用于应用图标字体，确保图标正确显示
+ */
 .iconfont {
   font-family: "iconfont" !important;
   font-size: 16px;
@@ -8,6 +12,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/**
+ * 定义图标字体文件
+ * @font-face 规则用于声明图标字体，使其可在CSS中使用
+ */
 @font-face {
   font-family: "iconfont"; 
   src: url('fonts/iconfont.woff2') format('woff2'),
@@ -15,6 +23,10 @@
        url('fonts/iconfont.ttf') format('truetype');
 }
 
+/**
+ * 定义阿里巴巴中等权重字体
+ * @font-face 规则用于声明阿里巴巴中等权重字体，优化字体显示
+ */
 @font-face {
   font-family: 'Alibaba-Medium';
   src: url('fonts/AlibabaPuHuiTi-Medium.woff2') format('woff2'),
@@ -24,6 +36,10 @@
   font-display: swap;
 }
 
+/**
+ * 定义阿里巴巴常规权重字体
+ * @font-face 规则用于声明阿里巴巴常规权重字体，优化字体显示
+ */
 @font-face {
   font-family: 'Alibaba-Regular';
   src: url('fonts/AlibabaPuHuiTi-Regular.woff2') format('woff2'),
@@ -32,6 +48,11 @@
   font-style: normal;
   font-display: swap;
 }
+
+/**
+ * 定义阿里巴巴半粗体权重字体
+ * @font-face 规则用于声明阿里巴巴半粗体权重字体，优化字体显示
+ */
 @font-face {
   font-family: 'Alibaba-SemiBold';
   src: url('fonts/AlibabaPuHuiTi_2_75_SemiBold.woff2') format('woff2'),
@@ -40,17 +61,29 @@
   font-style: normal;
   font-display: swap;
 }
+
+/**
+ * 定义思源黑体粗体字体
+ * @font-face 规则用于声明思源黑体粗体字体，适用于标题或需要强调的文本
+ */
 @font-face {
   font-family: 'SourceHanSansSC-bold';
   src: url('fonts/AlibabaPuHuiTi-2-85-Bold.otf');
 }
 
+/**
+ * 定义思源黑体特粗体字体
+ * @font-face 规则用于声明思源黑体特粗体字体，适用于需要强烈强调的文本
+ */
 @font-face {
   font-family: 'SourceHanSansSC-ExtraBold';
   src: url('fonts/AlibabaPuHuiTi-2-95-ExtraBold.otf');
 }
 
-
+/**
+ * 定义Manrope半粗体字体
+ * @font-face 规则用于声明Manrope半粗体字体，提供良好的阅读体验
+ */
 @font-face {
   font-family: 'Manrope-Semibold';
   src: url('fonts/Manrope3-Semibold.woff2') format('woff2'),
@@ -60,6 +93,10 @@
   font-display: swap;
 }
 
+/**
+ * 定义Manrope常规权重字体
+ * @font-face 规则用于声明Manrope常规权重字体，提供良好的阅读体验
+ */
 @font-face {
   font-family: 'Manrope3-Regular';
   src: url('fonts/Manrope3-Regular.woff2') format('woff2'),
@@ -69,6 +106,10 @@
   font-display: swap;
 }
 
+/**
+ * 定义Manrope中等权重字体
+ * @font-face 规则用于声明Manrope中等权重字体，提供良好的阅读体验
+ */
 @font-face {
   font-family: 'Manrope3-Medium';
   src: url('fonts/Manrope3-Medium.woff2') format('woff2'),
@@ -77,6 +118,11 @@
   font-style: normal;
   font-display: swap;
 }
+
+/**
+ * 定义Poppins半粗体字体
+ * @font-face 规则用于声明Poppins半粗体字体，适用于多种文本场景
+ */
 @font-face {
   font-family: 'Poppins';
   src: url('fonts/Poppins-SemiBold.woff2') format('woff2'),
@@ -86,11 +132,14 @@
   font-display: swap;
 }
 
+/**
+ * 定义Poppins中等权重字体
+ * @font-face 规则用于声明Poppins中等权重字体，适用于多种文本场景
+ */
 @font-face {
   font-family: 'Poppins-Medium';
   src: url('fonts/Poppins-Medium.ttf');
 }
-
 @font-face {  
     font-family: 'HarmonyOS_Sans_SC_Bold'; /* 自定义的字体名称 */  
     src: url('fonts/HarmonyOS_Sans_SC_Bold.ttf') format('truetype'); /* 字体文件的路径和格式 */  
@@ -105,6 +154,7 @@
     font-style: normal; /* 可选，定义字体的风格，因为是斜体，所以这里明确指定 */  
 } 
 
+/* 重置各种HTML元素的默认样式，以确保跨浏览器的一致性 */
 html,
 body,
 div,
@@ -193,12 +243,13 @@ video {
   outline: none;
 }
 
+/* 设置HTML元素的字体大小，并启用触摸滚动 */
 html {
   font-size: 100%;
   -webkit-overflow-scrolling:touch;
 }
 
-/* always display scrollbars */
+/* 始终显示滚动条 */
 body {
   font: 12px/1.8 "HarmonyOS_Sans_SC_Bold", "HarmonyOS_Sans_SC_Regular", "Microsoft Yahei", "微软雅黑", "Hiragino Sans GB", "冬青黑体", "Arial", "Helvetica", "SimHei", "黑体", "STXihei", "华文细黑", sans-serif;
   margin: 0 auto;
@@ -208,13 +259,13 @@ body {
   _background-image: url(about:blank);
   -webkit-text-size-adjust: 100% !important;
 }
+
+/* 当body元素应用noScroll类时隐藏滚动条 */
 body.noScroll{
   overflow: hidden;
 }
-/* video::-webkit-media-controls-play-button {
-  display: none;
-} */
 
+/* 将某些块级元素设置为块状显示 */
 article,
 aside,
 details,
@@ -229,21 +280,25 @@ section {
   display: block;
 }
 
+/* 将input和select元素垂直居中对齐 */
 input,
 select {
   vertical-align: middle;
 }
 
+/* 移除有序列表和无序列表的默认样式 */
 ol,
 ul {
   list-style: none;
 }
 
+/* 移除blockquote和q元素的默认引号 */
 blockquote,
 q {
   quotes: none;
 }
 
+/* 清除blockquote和q元素的before和after伪元素的内容属性 */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -252,19 +307,23 @@ q:after {
   content: none;
 }
 
+/* 将strong元素的字体加粗 */
 strong {
   font-weight: bold;
 }
 
+/* 移除input元素的默认轮廓和内边距 */
 input {
   outline: none;
   padding: 0;
 }
 
+/* 移除img元素的默认边框 */
 img {
   border: 0;
 }
 
+/* 移除特定类型的input元素和select元素的默认外观和圆角 */
 input[type="text"],
 input[type="button"],
 input[type="submit"],
@@ -274,6 +333,7 @@ select {
   border-radius: 0;
 }
 
+/* 移除textarea元素的默认外观、圆角、背景、轮廓、内边距、外边距和边框 */
 textarea {
   -webkit-appearance: none;
   border-radius: 0;
@@ -284,18 +344,23 @@ textarea {
   border: none;
 }
 
+/* 设置Firefox中的文本选区样式 */
 ::-moz-selection {
-  background: #f7a300;
-  color: #fff;
+  background: #000; /* 背景颜色改为黑色 */
+  color: #fff; /* 字体颜色改为白色 */
   text-shadow: none;
+  border-radius: 4px; /* 添加圆角 */
 }
 
+/* 设置其他浏览器中的文本选区样式 */
 ::selection {
-  background: #f7a300;
-  color: #fff;
+  background: #000; /* 背景颜色改为黑色 */
+  color: #fff; /* 字体颜色改为白色 */
   text-shadow: none;
+  border-radius: 4px; /* 添加圆角 */
 }
 
+/* 为锚点元素应用过渡效果，实现状态变化的平滑过渡 */
 a {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -303,65 +368,58 @@ a {
   transition: 0.3s;
 }
 
+/* 移除链接和访问过的链接的文本装饰，并继承颜色 */
 a:link,
 a:visited {
   text-decoration: none;
   color: inherit;
 }
 
+/* 移除活动和悬停状态下的链接的文本装饰，并继承颜色 */
 a:active,
 a:hover {
   text-decoration: none;
   color: inherit;
 }
 
+/* 将应用fc类的元素的文本居中对齐 */
 .fc {
   text-align: center;
 }
 
+/* 将应用fr类的元素的文本右对齐 */
 .fr {
   text-align: right;
 }
 
+/* 将应用fl类的元素浮动到右侧 */
 .fl{
   float: right;
 }
+
+/* 将应用vt类的元素的垂直对齐方式设置为顶部 */
 .vt {
   vertical-align: top;
 }
 
+/* 将应用vm类的元素的垂直对齐方式设置为中间 */
 .vm {
   vertical-align: middle;
 }
 
+/* 将应用inner类的容器居中显示，通过设置宽度和外边距 */
 .inner {
   width: 1400px;
   margin: 0px auto;
 }
 
-/* ::-webkit-scrollbar {
-  width: 6px;
-  height: 5px;
-  border-radius: 3px;
-  background-color: #fff;
-}
-
-::-webkit-scrollbar-track {
-  border-radius: 6px;
-  border-radius: 3px;
-  background-color: #fff;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 4px;
-  background-color: #ff7500;
-} */
-
+/* Slick轮播组件的样式设置 */
 .slick-list { position: relative; z-index: 0; overflow: hidden; width: 100%; height: 100%; }
 .slick-track { position: relative; left: 0; top: 0; display: block; zoom: 1;}
 .slick-track:before, .slick-track:after { content: ""; display: table; }
 .slick-track:after { clear: both;}
 
+/* 弹出层背景样式 */
 .popUpblack {
   background: #000 \9;
   filter: alpha(opacity=80);
@@ -375,6 +433,7 @@ a:hover {
   display: none;
 }
 
+/* 弹出层样式 */
 .popUp {
   width: 220px;
   border: 2px solid #E9A43F;
@@ -386,6 +445,7 @@ a:hover {
   z-index: 1004;
 }
 
+/* 弹出层标题样式 */
 .popUp .t {
   padding: 0 0 0 10px;
   height: 26px;
@@ -396,6 +456,7 @@ a:hover {
   background: #f2f2f2;
 }
 
+/* 弹出层关闭按钮样式 */
 .popUp .t .close {
   padding: 0 10px 0 0;
   float: right;
@@ -404,41 +465,86 @@ a:hover {
   font-weight: normal;
 }
 
+/* 为.popUp类中的.img类添加内边距 */
 .popUp .img {
   padding: 20px;
 }
 
+/* 设置.popUp类中.img类的图片宽度为100%，并使其为块级显示 */
 .popUp .img img {
   width: 100%;
   display: block;
 }
 
-.menubtn{ display: none; width: 26px; height: 60px; position:relative; z-index: 20; float: right; cursor: pointer; transition: 0.4s; cursor: pointer;}
-.menubtn span{margin-top: 30px;display:block;width:100%;height:2px;background: #000;position:relative;vertical-align: middle;-webkit-transition-duration: .3s,.3s;-moz-transition-duration: .3s,.3s;-ms-transition-duration: .3s,.3s;-o-transition-duration: .3s,.3s;transition-duration: .3s,.3s;-webkit-transition-delay: .3s,0s;-moz-transition-delay: .3s,0s;-ms-transition-delay: .3s,0s;-o-transition-delay: .3s,0s;transition-delay: .3s,0s;transition: color 0.3s 0s;}
+/* 隐藏menubtn元素，设置其宽度、高度、位置等属性，以及过渡效果 */
+.menubtn{
+  display: none;
+  width: 26px;
+  height: 60px;
+  position: relative;
+  z-index: 20;
+  float: right;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+/* 设置menubtn内span元素的样式，包括宽度、高度、背景色等 */
+.menubtn span{
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  position: relative;
+  vertical-align: middle;
+  transition-duration: .3s,.3s;
+  transition-delay: .3s,0s;
+}
+
+/* 设置menubtn内span元素的伪元素样式，包括宽度、高度、背景色等 */
 .menubtn span:after,
 .menubtn span:before {
- content: "";
- position: absolute;
- display: inline-block;
- width: 100%;
- height: 2px;
- left: 0;
- background-color: #000;
- -webkit-transition-duration: .3s,.3s;
- -moz-transition-duration: .3s,.3s;
- -ms-transition-duration: .3s,.3s;
- -o-transition-duration: .3s,.3s;
- transition-duration: .3s,.3s;
- -webkit-transition-delay: .3s,0s;
- -moz-transition-delay: .3s,0s;
- -ms-transition-delay: .3s,0s;
- -o-transition-delay: .3s,0s;
- transition-delay: .3s,0s
- }
-.menubtn span:before {top: -10px;-webkit-transition-property: top,transform;-moz-transition-property: top,transform;-ms-transition-property: top,transform;-o-transition-property: top,transform;transition-property: top,transform;}
-.menubtn span:after {bottom: -10px;-webkit-transition-property: bottom,transform;-moz-transition-property: bottom,transform;-ms-transition-property: bottom,transform;-o-transition-property: bottom,transform;
-transition-property: bottom,transform;}
-.menubtn.active span {background-color: transparent;-webkit-transition-delay: 0s,0s;-moz-transition-delay: 0s,0s;-ms-transition-delay: 0s,0s;-o-transition-delay: 0s,0s;transition-delay: 0s,0s;}
-.menubtn.active span:after,.menubtn.active span:before { -webkit-transition-delay: 0s,.3s;-moz-transition-delay: 0s,.3s; -ms-transition-delay: 0s,.3s; -o-transition-delay: 0s,.3s; transition-delay: 0s,.3s;}
-.menubtn.active span:before {top: 0px;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg)}
-.menubtn.active span:after {bottom:0px;-webkit-transform: rotate(-45deg);-moz-transform: rotate(-45deg);-ms-transform: rotate(-45deg);-o-transform: rotate(-45deg);transform: rotate(-45deg);}
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  background-color: #000;
+  transition-duration: .3s,.3s;
+  transition-delay: .3s,0s;
+}
+
+/* 设置span伪元素的位置和过渡属性 */
+.menubtn span:before {
+  top: -10px;
+  transition-property: top, transform;
+}
+
+.menubtn span:after {
+  bottom: -10px;
+  transition-property: bottom, transform;
+}
+
+/* 设置menubtn激活状态下的span样式，背景色变透明，并调整过渡延迟 */
+.menubtn.active span {
+  background-color: transparent;
+  transition-delay: 0s;
+}
+
+/* 调整menubtn激活状态下span伪元素的过渡延迟 */
+.menubtn.active span:after,
+.menubtn.active span:before {
+  transition-delay: 0s, .3s;
+}
+
+/* 设置menubtn激活状态下span伪元素的位置和旋转角度 */
+.menubtn.active span:before {
+  top: 0px;
+  transform: rotate(45deg);
+}
+
+.menubtn.active span:after {
+  bottom: 0px;
+  transform: rotate(-45deg);
+}

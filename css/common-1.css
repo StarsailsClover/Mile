@@ -1,110 +1,127 @@
 ﻿@charset "utf-8";
 
+/* 定义iconfont字体的基本样式 */
 .iconfont {
-  font-family: "iconfont" !important;
-  font-size: 16px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "iconfont" !important; /* 使用iconfont字体 */
+  font-size: 16px; /* 字体大小 */
+  font-style: normal; /* 正常字体样式 */
+  -webkit-font-smoothing: antialiased; /* 抗锯齿效果 */
+  -moz-osx-font-smoothing: grayscale; /* macOS上的抗锯齿效果 */
 }
 
+/* 定义iconfont字体文件 */
 @font-face {
   font-family: "iconfont"; 
-  src: url('fonts/iconfont.woff2') format('woff2'),
-       url('fonts/iconfont.woff') format('woff'),
-       url('fonts/iconfont.ttf') format('truetype');
+  src: url('fonts/iconfont.woff2') format('woff2'), /* Web Open Font Format 2 */
+       url('fonts/iconfont.woff') format('woff'), /* Web Open Font Format */
+       url('fonts/iconfont.ttf') format('truetype'); /* TrueType字体 */
 }
 
+/* 定义Alibaba-Medium字体 */
 @font-face {
   font-family: 'Alibaba-Medium';
   src: url('fonts/AlibabaPuHuiTi-Medium.woff2') format('woff2'),
       url('fonts/AlibabaPuHuiTi-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
+  font-weight: 500; /* 字体粗细 */
+  font-style: normal; /* 正常字体样式 */
+  font-display: swap; /* 字体加载策略 */
 }
 
+/* 定义Alibaba-Regular字体 */
 @font-face {
   font-family: 'Alibaba-Regular';
   src: url('fonts/AlibabaPuHuiTi-Regular.woff2') format('woff2'),
       url('fonts/AlibabaPuHuiTi-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+  font-weight: normal; /* 字体粗细 */
+  font-style: normal; /* 正常字体样式 */
+  font-display: swap; /* 字体加载策略 */
 }
+
+/* 定义Alibaba-SemiBold字体 */
 @font-face {
   font-family: 'Alibaba-SemiBold';
   src: url('fonts/AlibabaPuHuiTi_2_75_SemiBold.woff2') format('woff2'),
       url('fonts/AlibabaPuHuiTi_2_75_SemiBold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
+  font-weight: 600; /* 字体粗细 */
+  font-style: normal; /* 正常字体样式 */
+  font-display: swap; /* 字体加载策略 */
 }
+
+/* 定义SourceHanSansSC-bold字体 */
 @font-face {
   font-family: 'SourceHanSansSC-bold';
-  src: url('fonts/AlibabaPuHuiTi-2-85-Bold.otf');
+  src: url('fonts/AlibabaPuHuiTi-2-85-Bold.otf'); /* TrueType字体 */
 }
 
+/* 定义SourceHanSansSC-ExtraBold字体 */
 @font-face {
   font-family: 'SourceHanSansSC-ExtraBold';
-  src: url('fonts/AlibabaPuHuiTi-2-95-ExtraBold.otf');
+  src: url('fonts/AlibabaPuHuiTi-2-95-ExtraBold.otf'); /* TrueType字体 */
 }
 
-
+/* 定义Manrope-Semibold字体 */
 @font-face {
   font-family: 'Manrope-Semibold';
   src: url('fonts/Manrope3-Semibold.woff2') format('woff2'),
       url('fonts/Manrope3-Semibold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
+  font-weight: 600; /* 字体粗细 */
+  font-style: normal; /* 正常字体样式 */
+  font-display: swap; /* 字体加载策略 */
 }
 
+/* 定义Manrope3-Regular字体 */
 @font-face {
   font-family: 'Manrope3-Regular';
   src: url('fonts/Manrope3-Regular.woff2') format('woff2'),
       url('fonts/Manrope3-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+  font-weight: normal; /* 字体粗细 */
+  font-style: normal; /* 正常字体样式 */
+  font-display: swap; /* 字体加载策略 */
 }
 
+/* 定义Manrope3-Medium字体 */
 @font-face {
   font-family: 'Manrope3-Medium';
   src: url('fonts/Manrope3-Medium.woff2') format('woff2'),
       url('fonts/Manrope3-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
+  font-weight: 500; /* 字体粗细 */
+  font-style: normal; /* 正常字体样式 */
+  font-display: swap; /* 字体加载策略 */
 }
+
+/* 定义Poppins字体 */
 @font-face {
   font-family: 'Poppins';
   src: url('fonts/Poppins-SemiBold.woff2') format('woff2'),
       url('fonts/Poppins-SemiBold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
+  font-weight: 600; /* 字体粗细 */
+  font-style: normal; /* 正常字体样式 */
+  font-display: swap; /* 字体加载策略 */
 }
 
+/* 定义Poppins-Medium字体 */
 @font-face {
   font-family: 'Poppins-Medium';
-  src: url('fonts/Poppins-Medium.ttf');
+  src: url('fonts/Poppins-Medium.ttf'); /* TrueType字体 */
 }
 
+/* 定义HarmonyOS_Sans_SC_Bold字体 */
 @font-face {  
     font-family: 'HarmonyOS_Sans_SC_Bold'; /* 自定义的字体名称 */  
     src: url('fonts/HarmonyOS_Sans_SC_Bold.ttf') format('truetype'); /* 字体文件的路径和格式 */  
-    font-weight: 500; /* 可选，定义字体的粗细 */  
-    font-style: normal; /* 可选，定义字体的风格，因为是斜体，所以这里明确指定 */  
+    font-weight: 500; /* 字体粗细 */  
+    font-style: normal; /* 字体风格 */  
 } 
 
+/* 定义HarmonyOS_Sans_SC_Regular字体 */
 @font-face {  
     font-family: 'HarmonyOS_Sans_SC_Regular'; /* 自定义的字体名称 */  
     src: url('fonts/HarmonyOS_Sans_SC_Regular.ttf') format('truetype'); /* 字体文件的路径和格式 */  
-    font-weight: 500; /* 可选，定义字体的粗细 */  
-    font-style: normal; /* 可选，定义字体的风格，因为是斜体，所以这里明确指定 */  
+    font-weight: 500; /* 字体粗细 */  
+    font-style: normal; /* 字体风格 */  
 } 
 
+/* 重置所有HTML元素的默认样式 */
 html,
 body,
 div,
@@ -186,35 +203,36 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0px;
-  border: 0;
-  font-size: 100%;
-  outline: none;
+  margin: 0; /* 移除外边距 */
+  padding: 0px; /* 移除内边距 */
+  border: 0; /* 移除边框 */
+  font-size: 100%; /* 设置字体大小为默认大小 */
+  outline: none; /* 移除轮廓 */
 }
 
+/* 设置HTML根元素的字体大小和滚动行为 */
 html {
-  font-size: 100%;
-  -webkit-overflow-scrolling:touch;
+  font-size: 100%; /* 设置根元素的字体大小 */
+  -webkit-overflow-scrolling: touch; /* 在移动设备上启用触摸滚动 */
 }
 
-/* always display scrollbars */
+/* 设置body的基本样式 */
 body {
-  font: 12px/1.8 "HarmonyOS_Sans_SC_Bold", "HarmonyOS_Sans_SC_Regular", "Microsoft Yahei", "微软雅黑", "Hiragino Sans GB", "冬青黑体", "Arial", "Helvetica", "SimHei", "黑体", "STXihei", "华文细黑", sans-serif;
-  margin: 0 auto;
-  color: #fff;
-  background-color: #ffffff;
-  _background-attachment: fixed;
-  _background-image: url(about:blank);
-  -webkit-text-size-adjust: 100% !important;
+  font: 12px/1.8 "HarmonyOS_Sans_SC_Bold", "HarmonyOS_Sans_SC_Regular", "Microsoft Yahei", "微软雅黑", "Hiragino Sans GB", "冬青黑体", "Arial", "Helvetica", "SimHei", "黑体", "STXihei", "华文细黑", sans-serif; /* 设置字体 */
+  margin: 0 auto; /* 居中对齐 */
+  color: #fff; /* 文字颜色 */
+  background-color: #ffffff; /* 背景颜色 */
+  _background-attachment: fixed; /* IE6背景固定 */
+  _background-image: url(about:blank); /* IE6背景固定 */
+  -webkit-text-size-adjust: 100% !important; /* 禁止文本大小调整 */
 }
-body.noScroll{
+
+/* 禁用滚动条 */
+body.noScroll {
   overflow: hidden;
 }
-/* video::-webkit-media-controls-play-button {
-  display: none;
-} */
 
+/* 设置HTML5语义化元素的显示方式 */
 article,
 aside,
 details,
@@ -229,21 +247,25 @@ section {
   display: block;
 }
 
+/* 设置输入元素的垂直对齐方式 */
 input,
 select {
   vertical-align: middle;
 }
 
+/* 移除列表元素的默认样式 */
 ol,
 ul {
   list-style: none;
 }
 
+/* 移除引用和引号的默认样式 */
 blockquote,
 q {
   quotes: none;
 }
 
+/* 移除引用和引号的默认伪元素样式 */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -252,193 +274,288 @@ q:after {
   content: none;
 }
 
+/* 设置strong标签的字体加粗 */
 strong {
   font-weight: bold;
 }
 
+/* 移除输入元素的轮廓 */
 input {
   outline: none;
   padding: 0;
 }
 
+/* 移除图片的默认边框 */
 img {
   border: 0;
 }
 
+/* 移除表单元素的默认外观 */
 input[type="text"],
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
 select {
-  -webkit-appearance: none;
-  border-radius: 0;
+  -webkit-appearance: none; /* 移除默认外观 */
+  border-radius: 0; /* 移除圆角 */
 }
 
+/* 移除文本区域的默认外观 */
 textarea {
-  -webkit-appearance: none;
-  border-radius: 0;
-  background: none;
-  outline: none;
+  -webkit-appearance: none; /* 移除默认外观 */
+  border-radius: 0; /* 移除圆角 */
+  background: none; /* 移除背景 */
+  outline: none; /* 移除轮廓 */
   padding: 0;
   margin: 0;
-  border: none;
+  border: none; /* 移除边框 */
 }
 
+/* 设置文本选中的样式 */
 ::-moz-selection {
-  background: #f7a300;
-  color: #fff;
-  text-shadow: none;
+  background: #000; /* 背景颜色改为黑色 */
+  color: #fff; /* 文字颜色保持白色 */
+  text-shadow: none; /* 移除文本阴影 */
+  border-radius: 4px; /* 添加背景圆角 */
 }
 
+/* 针对WebKit内核浏览器（如Chrome和Safari） */
 ::selection {
-  background: #f7a300;
-  color: #fff;
-  text-shadow: none;
+  background: #000; /* 背景颜色改为黑色 */
+  color: #fff; /* 文字颜色保持白色 */
+  text-shadow: none; /* 移除文本阴影 */
+  border-radius: 4px; /* 添加背景圆角 */
 }
 
+/* 设置文本选中的样式 */
+::selection {
+  background: #f7a300; /* 背景颜色 */
+  color: #fff; /* 文字颜色 */
+  text-shadow: none; /* 移除文本阴影 */
+}
+
+/* 设置链接的过渡效果 */
 a {
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.3s; /* 过渡效果 */
+  -moz-transition: 0.3s; /* 过渡效果 */
+  -o-transition: 0.3s; /* 过渡效果 */
+  transition: 0.3s; /* 过渡效果 */
 }
 
+/* 设置链接的默认样式 */
 a:link,
 a:visited {
-  text-decoration: none;
-  color: inherit;
+  text-decoration: none; /* 移除下划线 */
+  color: inherit; /* 继承文字颜色 */
 }
 
+/* 设置链接的激活和悬停样式 */
 a:active,
 a:hover {
-  text-decoration: none;
-  color: inherit;
+  text-decoration: none; /* 移除下划线 */
+  color: inherit; /* 继承文字颜色 */
 }
 
+/* 设置文本居中对齐 */
 .fc {
   text-align: center;
 }
 
+/* 设置文本右对齐 */
 .fr {
   text-align: right;
 }
 
-.fl{
+/* 设置浮动到右侧 */
+.fl {
   float: right;
 }
+
+/* 设置垂直对齐到顶部 */
 .vt {
   vertical-align: top;
 }
 
+/* 设置垂直居中对齐 */
 .vm {
   vertical-align: middle;
 }
 
+/* 设置固定宽度的容器 */
 .inner {
-  width: 1400px;
-  margin: 0px auto;
+  width: 1400px; /* 宽度 */
+  margin: 0px auto; /* 居中对齐 */
 }
 
-/* ::-webkit-scrollbar {
-  width: 6px;
-  height: 5px;
-  border-radius: 3px;
-  background-color: #fff;
-}
-
-::-webkit-scrollbar-track {
-  border-radius: 6px;
-  border-radius: 3px;
-  background-color: #fff;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 4px;
-  background-color: #ff7500;
-} */
-
-.slick-list { position: relative; z-index: 0; overflow: hidden; width: 100%; height: 100%; }
-.slick-track { position: relative; left: 0; top: 0; display: block; zoom: 1;}
-.slick-track:before, .slick-track:after { content: ""; display: table; }
-.slick-track:after { clear: both;}
-
+/* 设置弹出层的黑色背景 */
 .popUpblack {
-  background: #000 \9;
-  filter: alpha(opacity=80);
-  background: rgba(0, 0, 0, 0.8);
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  z-index: 1010;
-  display: none;
+  background: #000 \9; /* IE9及以下背景颜色 */
+  filter: alpha(opacity=80); /* IE9及以下透明度 */
+  background: rgba(0, 0, 0, 0.8); /* 透明度背景 */
+  width: 100%; /* 宽度 */
+  height: 100%; /* 高度 */
+  position: fixed; /* 固定定位 */
+  left: 0px; /* 左侧位置 */
+  top: 0px; /* 顶部位置 */
+  z-index: 1010; /* 层级 */
+  display: none; /* 默认隐藏 */
 }
 
+/* 设置弹出层的基本样式 */
 .popUp {
-  width: 220px;
-  border: 2px solid #E9A43F;
-  background: #fff;
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  margin: -87px 0 0 -115px;
-  z-index: 1004;
+  width: 220px; /* 宽度 */
+  border: 2px solid #E9A43F; /* 边框 */
+  background: #fff; /* 背景颜色 */
+  position: fixed; /* 固定定位 */
+  left: 50%; /* 左侧位置 */
+  top: 50%; /* 顶部位置 */
+  margin: -87px 0 0 -115px; /* 边距 */
+  z-index: 1004; /* 层级 */
 }
 
+/* 设置弹出层标题的样式 */
 .popUp .t {
-  padding: 0 0 0 10px;
-  height: 26px;
-  line-height: 26px;
-  color: #666;
-  font-weight: bold;
-  border-bottom: 1px solid #e8e8e8;
-  background: #f2f2f2;
+  padding: 0 0 0 10px; /* 内边距 */
+  height: 26px; /* 高度 */
+  line-height: 26px; /* 行高 */
+  color: #666; /* 文字颜色 */
+  font-weight: bold; /* 字体加粗 */
+  border-bottom: 1px solid #e8e8e8; /* 底部边框 */
+  background: #f2f2f2; /* 背景颜色 */
 }
 
+/* 设置弹出层标题关闭按钮的样式 */
 .popUp .t .close {
-  padding: 0 10px 0 0;
-  float: right;
-  cursor: pointer;
-  color: #666;
-  font-weight: normal;
+  padding: 0 10px 0 0; /* 内边距 */
+  float: right; /* 浮动到右侧 */
+  cursor: pointer; /* 鼠标指针样式 */
+  color: #666; /* 文字颜色 */
+  font-weight: normal; /* 正常字体样式 */
 }
 
+/* 设置弹出层图片区域的样式 */
 .popUp .img {
-  padding: 20px;
+  padding: 20px; /* 内边距 */
 }
 
+/* 设置弹出层图片的样式 */
 .popUp .img img {
-  width: 100%;
-  display: block;
+  width: 100%; /* 宽度 */
+  display: block; /* 显示为块级元素 */
 }
 
-.menubtn{ display: none; width: 26px; height: 60px; position:relative; z-index: 20; float: right; cursor: pointer; transition: 0.4s; cursor: pointer;}
-.menubtn span{margin-top: 30px;display:block;width:100%;height:2px;background: #000;position:relative;vertical-align: middle;-webkit-transition-duration: .3s,.3s;-moz-transition-duration: .3s,.3s;-ms-transition-duration: .3s,.3s;-o-transition-duration: .3s,.3s;transition-duration: .3s,.3s;-webkit-transition-delay: .3s,0s;-moz-transition-delay: .3s,0s;-ms-transition-delay: .3s,0s;-o-transition-delay: .3s,0s;transition-delay: .3s,0s;transition: color 0.3s 0s;}
+/* 设置菜单按钮的基本样式 */
+.menubtn {
+  display: none; /* 默认隐藏 */
+  width: 26px; /* 宽度 */
+  height: 60px; /* 高度 */
+  position: relative; /* 相对定位 */
+  z-index: 20; /* 层级 */
+  float: right; /* 浮动到右侧 */
+  cursor: pointer; /* 鼠标指针样式 */
+  transition: 0.4s; /* 过渡效果 */
+}
+
+/* 设置菜单按钮中间线条的样式 */
+.menubtn span {
+  margin-top: 30px; /* 上外边距 */
+  display: block; /* 显示为块级元素 */
+  width: 100%; /* 宽度 */
+  height: 2px; /* 高度 */
+  background: #000; /* 背景颜色 */
+  position: relative; /* 相对定位 */
+  vertical-align: middle; /* 垂直居中对齐 */
+  -webkit-transition-duration: .3s, .3s; /* 过渡持续时间 */
+  -moz-transition-duration: .3s, .3s; /* 过渡持续时间 */
+  -ms-transition-duration: .3s, .3s; /* 过渡持续时间 */
+  -o-transition-duration: .3s, .3s; /* 过渡持续时间 */
+  transition-duration: .3s, .3s; /* 过渡持续时间 */
+  -webkit-transition-delay: .3s, 0s; /* 过渡延迟 */
+  -moz-transition-delay: .3s, 0s; /* 过渡延迟 */
+  -ms-transition-delay: .3s, 0s; /* 过渡延迟 */
+  -o-transition-delay: .3s, 0s; /* 过渡延迟 */
+  transition-delay: .3s, 0s; /* 过渡延迟 */
+  transition: color 0.3s 0s; /* 过渡效果 */
+}
+
+/* 设置菜单按钮中间线条上方线条的样式 */
 .menubtn span:after,
 .menubtn span:before {
- content: "";
- position: absolute;
- display: inline-block;
- width: 100%;
- height: 2px;
- left: 0;
- background-color: #000;
- -webkit-transition-duration: .3s,.3s;
- -moz-transition-duration: .3s,.3s;
- -ms-transition-duration: .3s,.3s;
- -o-transition-duration: .3s,.3s;
- transition-duration: .3s,.3s;
- -webkit-transition-delay: .3s,0s;
- -moz-transition-delay: .3s,0s;
- -ms-transition-delay: .3s,0s;
- -o-transition-delay: .3s,0s;
- transition-delay: .3s,0s
- }
-.menubtn span:before {top: -10px;-webkit-transition-property: top,transform;-moz-transition-property: top,transform;-ms-transition-property: top,transform;-o-transition-property: top,transform;transition-property: top,transform;}
-.menubtn span:after {bottom: -10px;-webkit-transition-property: bottom,transform;-moz-transition-property: bottom,transform;-ms-transition-property: bottom,transform;-o-transition-property: bottom,transform;
-transition-property: bottom,transform;}
-.menubtn.active span {background-color: transparent;-webkit-transition-delay: 0s,0s;-moz-transition-delay: 0s,0s;-ms-transition-delay: 0s,0s;-o-transition-delay: 0s,0s;transition-delay: 0s,0s;}
-.menubtn.active span:after,.menubtn.active span:before { -webkit-transition-delay: 0s,.3s;-moz-transition-delay: 0s,.3s; -ms-transition-delay: 0s,.3s; -o-transition-delay: 0s,.3s; transition-delay: 0s,.3s;}
-.menubtn.active span:before {top: 0px;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg)}
-.menubtn.active span:after {bottom:0px;-webkit-transform: rotate(-45deg);-moz-transform: rotate(-45deg);-ms-transform: rotate(-45deg);-o-transform: rotate(-45deg);transform: rotate(-45deg);}
+  content: ''; /* 无内容 */
+  position: absolute; /* 绝对定位 */
+  display: inline-block; /* 显示为内联块级元素 */
+  width: 100%; /* 宽度 */
+  height: 2px; /* 高度 */
+  left: 0; /* 左侧位置 */
+  background-color: #000; /* 背景颜色 */
+  -webkit-transition-duration: .3s, .3s; /* 过渡持续时间 */
+  -moz-transition-duration: .3s, .3s; /* 过渡持续时间 */
+  -ms-transition-duration: .3s, .3s; /* 过渡持续时间 */
+  -o-transition-duration: .3s, .3s; /* 过渡持续时间 */
+  transition-duration: .3s, .3s; /* 过渡持续时间 */
+  -webkit-transition-delay: .3s, 0s; /* 过渡延迟 */
+  -moz-transition-delay: .3s, 0s; /* 过渡延迟 */
+  -ms-transition-delay: .3s, 0s; /* 过渡延迟 */
+  -o-transition-delay: .3s, 0s; /* 过渡延迟 */
+  transition-delay: .3s, 0s; /* 过渡延迟 */
+}
+
+/* 设置菜单按钮中span元素前伪元素的位置和过渡效果 */
+.menubtn span:before {
+    top: -10px;
+    -webkit-transition-property: top, transform;
+    -moz-transition-property: top, transform;
+    -ms-transition-property: top, transform;
+    -o-transition-property: top, transform;
+    transition-property: top, transform;
+}
+
+/* 设置菜单按钮中span元素后伪元素的位置和过渡效果 */
+.menubtn span:after {
+    bottom: -10px;
+    -webkit-transition-property: bottom, transform;
+    -moz-transition-property: bottom, transform;
+    -ms-transition-property: bottom, transform;
+    -o-transition-property: bottom, transform;
+    transition-property: bottom, transform;
+}
+
+/* 设置菜单按钮激活时span元素的背景颜色和过渡延迟时间 */
+.menubtn.active span {
+    background-color: transparent;
+    -webkit-transition-delay: 0s, 0s;
+    -moz-transition-delay: 0s, 0s;
+    -ms-transition-delay: 0s, 0s;
+    -o-transition-delay: 0s, 0s;
+    transition-delay: 0s, 0s;
+}
+
+/* 设置菜单按钮激活时span元素前后伪元素的过渡延迟时间 */
+.menubtn.active span:after,
+.menubtn.active span:before {
+    -webkit-transition-delay: 0s, .3s;
+    -moz-transition-delay: 0s, .3s;
+    -ms-transition-delay: 0s, .3s;
+    -o-transition-delay: 0s, .3s;
+    transition-delay: 0s, .3s;
+}
+
+/* 设置菜单按钮激活时span元素前伪元素的新位置和旋转效果 */
+.menubtn.active span:before {
+    top: 0px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* 设置菜单按钮激活时span元素后伪元素的新位置和旋转效果 */
+.menubtn.active span:after {
+    bottom: 0px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
